@@ -1,0 +1,6 @@
+.. _zig_water_flood_devices:
+
+Water & Flood sensor devices
+---------------------------------
+.. toctree:: water_flood/smartsense_moisture_sensor.txt
+	:maxdepth: 2
