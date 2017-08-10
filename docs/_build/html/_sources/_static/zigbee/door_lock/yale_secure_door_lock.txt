@@ -1,0 +1,50 @@
+Yale Door Lock
+----------------------------------------
+Yale ZigBee Touchscreen Electronic Deadbolt, Works with Amazon Alexa via SmartThings, Oil Rubbed Bronze
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	.. image:: ../../images/door_lock/yale_security_lock.jpg
+	.. :align: left
+	
+
+Brief informaiton
+~~~~~~~~~~~~~~~~~~~~~
+	The Yale Stand-alone Digital Deadbolt Lock combines a robust lockset with a contemporary electronic aesthetic.
+	
+	Users benefit from a push button keypad that makes day-to-day access effortless. Up to ten codes can be distributed amongst users to allow a keyless solution for accessing secure doors. Yale Digital Deadbolt is engineered for quick and easy installation and fits in place of a standard deadbolt prep.
+
+
+Inclusion/Exclusion to/from a network
+~~~~~~~~~~~~~~~~~~~~~~~
+	#. Put controller to Inclusion/Exclusion mode
+	#. Touch screen with back of hand or fingers to active device
+	#. Key input: 
+		- <Master code> --> # --> 7 --> # --> 3  to exclude from network
+		- <Master code> --> # --> 7 --> # --> 1  to include to network
+
+		
+	**More setup steps in below image**
+	
+	.. image:: ../../images/door_lock/yale_door_lock_yrd220.jpg
+	.. :align: left
+
+
+Lock/Unlock with user-code
+~~~~~~~~~~~~~~~~~~~~~~~
+	#. Active device screen
+	#. Input user-code
+	#. Press * to execute command (lock/unlock command)
+
+
+Factory reset
+~~~~~~~~~~~~~~~~~~~
+	#. Remove battery and then remove the interior escutcheon to access the reset button
+	#. Reset button is located as below image
+	#. Hold down the reset button for minimum 3 seconds 
+	#. Re-install battery and then release
+
+
+Configuration description
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+	There is no configuration in this device.
+

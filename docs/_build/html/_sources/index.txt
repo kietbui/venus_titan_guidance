@@ -29,17 +29,17 @@ Z-Wave devices
 
 Zigbee devices
 ---------------
-
+	- :ref:`zig_door_window_sensor_devices`
+	- :ref:`zig_dimmable_light_devices`
+	- :ref:`zig_door_lock_devices`
+	- :ref:`zig_motion_sensor_devices`
+	- :ref:`zig_multi_sensor_devices`
+	- :ref:`zig_switch_devices`
+	- :ref:`zig_water_sensor_devices`
 
 UPnP devices
 --------------
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-* :ref:`search`
+	- :ref:`ecobee_devices`
+	- :ref:`nest_devices`
+	- :ref:`wemo_devices`
 
