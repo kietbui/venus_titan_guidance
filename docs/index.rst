@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to venus_titan_guidance's documentation!
+Welcome to Venus/Titan devices guidance!
 ================================================
 
 Contents:
@@ -11,6 +11,20 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+Introduction
+---------------
+
+Z-Wave devices
+---------------
+	- :ref:`Alarms & Sirens <alarm_siren_devices>`
+
+
+Zigbee devices
+---------------
+
+
+UPnP devices
+--------------
 
 
 Indices and tables
@@ -18,5 +32,6 @@ Indices and tables
 
 * :ref:`genindex`
 * :ref:`modindex`
+* :ref:`search`
 * :ref:`search`
 
