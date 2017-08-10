@@ -12,6 +12,7 @@ Introduction
 
 Z-Wave devices
 ---------------
+	- :ref:`alarm_siren_devices`
 	- :ref:`Alarms & Sirens <_static/alarm_siren_devices>`
 	- :ref:`Dimmable Lights <dimmable_light_devices>`
 	- :ref:`Door/Window sensors<door_window_sensor_devices>`
