@@ -1,9 +1,0 @@
-.. _zig_switch_dimmer_devices:
-
-Switch & Dimmer devices
--------------------------
-.. toctree:: switch_dimmer/smartthing_smartpower_outlet.txt
-	:maxdepth: 2
-
-.. toctree:: switch_dimmer/centralite_appliance_module.txt
-	:maxdepth: 2
