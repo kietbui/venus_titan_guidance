@@ -1,6 +1,8 @@
 AEOTEC SIREN ALARM
 -------------------------------------
 Siren Gen5, ZW080-A17, by Aeotec, Cert ID: ZC10-14090012
+**********************************************************
+Siren Gen5, ZW080-A17, by Aeotec, Cert ID: ZC10-14090012
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	.. image:: ../../images/alarm_siren/aeon_siren_5.jpg

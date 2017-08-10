@@ -1,4 +1,4 @@
-.. _door_windows_sensor_devices:
+.. _door_window_sensor_devices:
 
 Door/Window sensor devices
 --------------------
