@@ -1,0 +1,6 @@
+.. _zig_lock_devices:
+
+Security lock devices
+---------------------------------
+.. toctree:: lock/yale_secure_door_lock.txt
+	:maxdepth: 2
