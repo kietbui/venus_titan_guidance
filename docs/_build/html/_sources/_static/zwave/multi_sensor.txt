@@ -2,6 +2,6 @@
 
 Lock devices
 --------------------
-.. toctree:: multi_sensor/everspring_temp_humi_detector.txt
+.. toctree:: multi_sensor/everspring_temp_humi_detector.rst
 	:maxdepth: 2
 	

@@ -1,0 +1,84 @@
+Schlage door lock
+----------------------------------------
+Schlage Connect Camelot Touchscreen Deadbolt with Z-wave Technology and Extra Key BE468-2K (Satin Nickel)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	.. image:: ../../images/door_lock/schlage_connect_camelot_be468.jpg
+	.. :align: left
+	
+
+Brief information
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+	- Thumbturn: Used to lock and unlock manually from the inside.
+	- Schlage Button: 
+		+ Located on the outside of the door.
+		+ Press to exit programming mode immediately.
+		+ The first button you will press when entering a user and in the programming process.
+	- Touchscreen: 
+		+ Located on the outside of the door.
+		+ Used to enter codes for programming and unlocking.
+		+ Remains unlit until the Schlage button is pressed.
+	- Cylinder: Used to unlock only in emergency situations
+	- Bolt: 
+		+ Automatically extends and retracts when the touchscreen is used
+		+ Manually extends and retracts when the thumbturn is rotated
+	
+	.. image:: ../../images/door_lock/schlage_connect_camelot_be468_prg_1.jpg
+	.. :align: left
+	
+	.. image:: ../../images/door_lock/schlage_connect_camelot_be468_prg_2.jpg
+	.. :align: left
+	
+	.. image:: ../../images/door_lock/schlage_connect_camelot_be468_prg_3.jpg
+	.. :align: left
+
+Inclusion/Exclusion to/from a network
+~~~~~~~~~~~~~~~~~~~~~~~
+	#. Put controller to Inclusion/Exclusion mode
+	#. Input programing code then press '0' and wait for exclusion completes
+	#. Input programing code then press '0' again and wait for inclusion completes
+		
+	.. image:: ../../images/door_lock/schlage_connect_camelot_touchscreen_d.png
+	.. :align: left
+
+Configuration description
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+	#. Enable beeper
+		- Parameter: 3 (0x03)
+		- Size: 1 byte
+		- Value: 
+			0x00: Disable feature
+			0xFF: Enable feature
+		- Default: 0x00
+	
+	#. Enable vacation mode
+		- Parameter: 4 (0x04)
+		- Size: 1 byte
+		- Value: 
+			0x00: Disable feature
+			0xFF: Enable feature
+		- Default: 0x00
+	
+	#. Enable lock & leave
+		- Parameter: 5 (0x05)
+		- Size: 1 byte
+		- Value: 
+			0x00: Disable feature
+			0xFF: Enable feature
+		- Default: 0x00
+
+	#. Auto lock
+		- Parameter: 15 (0x0F)
+		- Size: 1 byte
+		- Value: 
+			0x00: Disable feature
+			0xFF: Enable feature
+		- Default: 0xFF
+
+	#. User pin code length
+		- Parameter: 16 (0x10)
+		- Size: 1 byte
+		- Value: 0x04 – 0x08 
+		- Default: 0x04
+

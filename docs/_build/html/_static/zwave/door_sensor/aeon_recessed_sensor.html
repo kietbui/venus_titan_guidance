@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Aeon Labs Recessed Sensor &mdash; venus_titan_guidance 1.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '1.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../underscore.js"></script>
+    <script type="text/javascript" src="../../doctools.js"></script>
+    <link rel="top" title="venus_titan_guidance 1.1 documentation" href="../../../index.html" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="aeon-labs-recessed-sensor">
+<h1>Aeon Labs Recessed Sensor<a class="headerlink" href="#aeon-labs-recessed-sensor" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="aeon-labs-recessed-door-sensor-gen5">
+<h2>Aeon Labs Recessed Door Sensor Gen5<a class="headerlink" href="#aeon-labs-recessed-door-sensor-gen5" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><img alt="../../../_images/aeon_recessed.jpg" src="../../../_images/aeon_recessed.jpg" />
+</div></blockquote>
+</div>
+<div class="section" id="specification">
+<h2>Specification<a class="headerlink" href="#specification" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Aeon Labs Recessed Door Sensor Gen5 is a door detector that can detect the state of the door&#8217;s open/close. It is a notification sensor device based on Z-wave routing slave library V6.51.01</li>
+<li>Up to 100 feeds/30 metres indoor and 300 feeds/100 metres outdoor</li>
+<li>Battery lithium CR2, 3V, 800 mAh</li>
+<li>Work in -10 ~ 60 celcius, 8 ~ 80% huminity</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="inclusion-exclusion-to-from-a-network">
+<h2>Inclusion/Exclusion to/from a network<a class="headerlink" href="#inclusion-exclusion-to-from-a-network" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Put controller into inclusion/exclusion mode</li>
+<li>Press the z-wave button which is hiden under the hole on top of device</li>
+<li>Wait for confirmation from controller</li>
+</ol>
+<img alt="../../../_images/aeon_recessed_b.jpg" src="../../../_images/aeon_recessed_b.jpg" />
+</div></blockquote>
+</div>
+<div class="section" id="button-actions">
+<h2>Button actions<a class="headerlink" href="#button-actions" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic">
+<li><dl class="first docutils">
+<dt>Short press z-wave button:</dt>
+<dd><p class="first last">Add/Remove device to/from a z-wave network</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Press and hold z-wave button for 6 seconds</dt>
+<dd><p class="first last">1, It will be wake up and send Wake Up Notification with broadcast.
+2, It will sleep after you released the z-wave button for 10 seconds, or sleep right away when received the Wake Up No More Information and then the led will turn off.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Press and hold the Z-wave Button for 20 seconds</dt>
+<dd><p class="first last">Recessed Door Sensor will be reset and send Device Reset Locally CC to controller.
+Note: This procedure should only be used when the primary controller is inoperable or missing.</p>
+</dd>
+</dl>
+</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="wake-up-information">
+<h2>Wake up information<a class="headerlink" href="#wake-up-information" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>Recessed Door Sensor will keep wake up for 10 seconds after it send wake up notification command. If it’s included into Z-wave network, the Recessed Door Sensor will wake for 10 minutes.</p>
+<dl class="docutils">
+<dt>Only 2 ways can abort this status:</dt>
+<dd><ol class="first last arabic simple">
+<li>Z-wave Button held 6 seconds, then released, after 8 seconds, sleep right now;</li>
+<li>Recessed Door Sensor received “Wake up no more information CC”, sleep immediately;</li>
+</ol>
+</dd>
+</dl>
+</div></blockquote>
+</div>
+<div class="section" id="configuration-description">
+<h2>Configuration description<a class="headerlink" href="#configuration-description" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic">
+<li><dl class="first docutils">
+<dt>Parameter 1: Which value of the Sensor Binary Report will be sent when the magnet switch to open/close.</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 1 (0x01)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ol class="first last arabic simple">
+<li>Value=0, Open=Sensor Binary Report 0xFF, Close=Sensor Binary Report 0x00.</li>
+<li>Value=1, Open= Sensor Binary Report 0x00, Close=Sensor Binary Report 0xFF.</li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Parameter 3: Which value of the Basic Set will be sent when the magnet switch to open/close.</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 3 (0x03)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ol class="first last arabic simple">
+<li>Value=0, Open= Basic Set 0xFF, Close=Basic Set 0x00.</li>
+<li>Value=1, Basic Set 0x00, Close= Basic Set 0xFF.</li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Parameter 101: Enable/disable the function of low battery checking, when the current voltage is less than the warning voltage, it will send the Battery Low Warning Report</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 101 (0x65)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ol class="first last arabic simple">
+<li>00 = Disable</li>
+<li>01 = Enable</li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Parameter 111: Low battery checking interval</dt>
+<dd><ul class="first simple">
+<li>Parameter 111 (0x6F)</li>
+<li>Size: 4 bytes</li>
+<li>Value: 0 ~ 0x7fffffff in seconds. Unit is 4 minutes.</li>
+<li>Default: 0x00015270 (24 hours)</li>
+</ul>
+<dl class="last docutils">
+<dt>Note:</dt>
+<dd><ol class="first last arabic simple">
+<li>This parameter only will be activated after the function of low battery checking (parameter 101) is enabled.</li>
+<li>Recessed Door Sensor also will check the current battery voltage when it was wake up as other ways such as zwave button trigger, magnet switch trigger...</li>
+</ol>
+</dd>
+</dl>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Parameter 121: Trigger report types</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 121 (0x79)</p>
+</li>
+<li><p class="first">Size: 4 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value: bit setting</dt>
+<dd><ol class="first last arabic simple">
+<li>Bit 8: Basic set</li>
+<li>Bit 4: Binary report</li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x00000100</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Parameter 252: Lock configuration setting</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 252 (0xFC)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ol class="first last arabic simple">
+<li>0 = Unlock</li>
+<li>1 = Lock</li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 1</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Aeon Labs Recessed Sensor</a><ul>
+<li><a class="reference internal" href="#aeon-labs-recessed-door-sensor-gen5">Aeon Labs Recessed Door Sensor Gen5</a></li>
+<li><a class="reference internal" href="#specification">Specification</a></li>
+<li><a class="reference internal" href="#inclusion-exclusion-to-from-a-network">Inclusion/Exclusion to/from a network</a></li>
+<li><a class="reference internal" href="#button-actions">Button actions</a></li>
+<li><a class="reference internal" href="#wake-up-information">Wake up information</a></li>
+<li><a class="reference internal" href="#configuration-description">Configuration description</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../_sources/_static/zwave/door_sensor/aeon_recessed_sensor.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, kb.verik.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.7</a>
+      
+      |
+      <a href="../../../_sources/_static/zwave/door_sensor/aeon_recessed_sensor.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

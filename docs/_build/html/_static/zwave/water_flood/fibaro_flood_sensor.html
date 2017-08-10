@@ -1,0 +1,599 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>FIBARO flood sensor &mdash; venus_titan_guidance 1.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '1.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../underscore.js"></script>
+    <script type="text/javascript" src="../../doctools.js"></script>
+    <link rel="top" title="venus_titan_guidance 1.1 documentation" href="../../../index.html" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="fibaro-flood-sensor">
+<h1>FIBARO flood sensor<a class="headerlink" href="#fibaro-flood-sensor" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="fibaro-857934005140-flood-sensor-white">
+<h2>Fibaro 857934005140 Flood Sensor, White<a class="headerlink" href="#fibaro-857934005140-flood-sensor-white" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><img alt="../../../_images/fibaro_flood_sensor.jpg" src="../../../_images/fibaro_flood_sensor.jpg" />
+</div></blockquote>
+</div>
+<div class="section" id="brief-information">
+<h2>Brief information<a class="headerlink" href="#brief-information" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Compatible with any Z-Wave or Z-Wave+ Controller</li>
+<li>Supports protected mode (Z-Wave network security mode) with AES-128 encryption</li>
+<li>May be connected to any alarm system (potential free output terminal)</li>
+<li>Extremely easy installation - simply put on a surface prone to flooding</li>
+<li>May be installed anywhere - flood sensor’s contacts extended with a wire</li>
+<li>Battery or VDC powered. When connected to an external, VDC power source, the battery serves as an emergency power source</li>
+<li>Theft protection - tilt is reported to the Z-Wave network or alarm system’s main controller</li>
+<li>Two operating modes - flood/temperature sensor or just a temperature sensor.</li>
+<li>Alarm is signalled by sound, visual indicator (LED diode) and Z-Wave</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="specification">
+<h2>Specification<a class="headerlink" href="#specification" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul>
+<li><p class="first">Power Supply: 12 - 24V DC</p>
+</li>
+<li><p class="first">Battery: CR123A</p>
+</li>
+<li><dl class="first docutils">
+<dt>RF range:</dt>
+<dd><ul class="first last simple">
+<li>868.4 or 869.8 MHz EU;</li>
+<li>908.4 or 916.0 MHz US;</li>
+<li>921.4 or 919.8 MHz ANZ;</li>
+<li>869.0 MHz RU;</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Operating range: up to 50m outdoors</p>
+</li>
+<li><p class="first">Operating temp: 0 - 40 oC</p>
+</li>
+<li><p class="first">Measure temp: -20 - 100°C</p>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="inclusion-exclusion-to-from-a-network">
+<h2>Inclusion/Exclusion to/from a network<a class="headerlink" href="#inclusion-exclusion-to-from-a-network" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Put controller to Inclusion/Exclusion mode</li>
+<li>Press TMP button 3 times and wait for exclusion completes</li>
+<li>Press TMP button 3 times again and wait for inclusion completes</li>
+</ol>
+<img alt="../../../_images/fibaro_flood_sensor_i.png" src="../../../_images/fibaro_flood_sensor_i.png" />
+</div></blockquote>
+</div>
+<div class="section" id="button-action-and-events">
+<h2>Button action and events<a class="headerlink" href="#button-action-and-events" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>1 press: select desired MENU option (in case MENU mode is active)</li>
+<li>3 presses: add/remove or wake up</li>
+<li>Press and holding: enter the MENU mode (confirmed by visual indicator)</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="menu-mode-visual-indicator">
+<h2>MENU mode &amp; visual indicator<a class="headerlink" href="#menu-mode-visual-indicator" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Flood alarm is signalled: white and blue light</li>
+<li>In battery mode, periodically show temperature readouts via LED color</li>
+<li>In constant powering mode, continuously show temperature readouts via LED color</li>
+<li>Chosen MENU option is signalled with an illumination color</li>
+</ul>
+<p>MENU mode LED color
+- White: enter the MENU confirmation
+- GREEN: cancel alarm for associated devices
+- VIOLET: z-wave network&#8217;s range test
+- YELLOW: sensor reset</p>
+</div></blockquote>
+</div>
+<div class="section" id="factory-reset">
+<h2>Factory reset<a class="headerlink" href="#factory-reset" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>Resetting the Flood Sensor: Reset procedure deletes EEPROM’s memory, including all information on the Z-Wave network and the main controller.</p>
+<ol class="arabic simple">
+<li>Make sure the Sensor is powered</li>
+<li>Press and hold the TMP button</li>
+<li>Wait 15-20 second for visual LED indicator to glow yellow (4th position the MENU)</li>
+<li>Release the TMP button</li>
+<li>Click the TMP button, once</li>
+<li>After few seconds the device will be restarted, which is signalled with the red visual indicator colour and acoustic signal</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="configuration-description">
+<h2>Configuration description<a class="headerlink" href="#configuration-description" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic">
+<li><dl class="first docutils">
+<dt>Alarm cancellation delay</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter 1 (0x01)</p>
+</li>
+<li><p class="first">Size: 2 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>Valid value: 0x0000 - 0x0E10</li>
+<li>Unit is second</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Acoustic and visual signals On / Off in case of flooding</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter 2 (0x02)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x00: acoustic and visual alarms inactive</li>
+<li>0x01: acoustic alarm inactive, visual alarm active</li>
+<li>0x02: acoustic alarm active, visual alarm inactive</li>
+<li>0x03: acoustic and visual alarms active</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x03</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Trigger level for associated devices</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter 7 (0x07)</p>
+</li>
+<li><p class="first">Size: 2 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x0001 ~ 0x0063: forced level</li>
+<li>0x00FF: turn device on</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x00FF</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Alarm cancellation</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter 9 (0x09)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x00: alarm (flooding) cancellation inactive</li>
+<li>0x01: alarm (flooding) cancellation active</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x01</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Temperature measurement interval</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter 10 (0x0A)</p>
+</li>
+<li><p class="first">Size: 4 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>Valid value: 0x00000001 ~ 0x0000FFFF</li>
+<li>Unit is second</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x0000012C (300 seconds)</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Temperature change level</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter 12 (0x0C)</p>
+</li>
+<li><p class="first">Size: 2 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>Valid value: 0x0001 ~ 0x2710</li>
+<li>Unit is 0.01 oC</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x0032 (0.5 oC)</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Low temperature threshold</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter 50 (0x32)</p>
+</li>
+<li><p class="first">Size: 2 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>Valid value: 0xD8F0 ~ 0x2710</li>
+<li>Unit is 0.01 oC</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x05DC (15 oC)</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>High temperature threshold</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter 51 (0x33)</p>
+</li>
+<li><p class="first">Size: 2 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>Valid value: 0xD8F0 ~ 0x2710</li>
+<li>Unit is 0.01 oC</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x0DAC (15 oC)</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Low temperature alarm indicator color</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter 61 (0x3D)</p>
+</li>
+<li><p class="first">Size: 4 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>Valid value: 0x00000000 ~ 0x00FFFFFF</li>
+<li>RGB value setting</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x000000FF</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>High temperature alarm indicator color</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter 62 (0x3E)</p>
+</li>
+<li><p class="first">Size: 4 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>Valid value: 0x00000000 ~ 0x00FFFFFF</li>
+<li>RGB value setting</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x00FF0000</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Managing a visual indicator under standard operation</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter 63 (0x3F)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x00: Visual indicator does not indicate the temperature</li>
+<li>0x01: Visual indicator indicates the temp every measurement interval or wakeup (battery mode)</li>
+<li>0x02: Visual indicator indicates the temp continuously (constant mode)</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x02</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Compensation for measured temperature</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter 73 (0x49)</p>
+</li>
+<li><p class="first">Size: 2 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>Valid value: 0xD8F0 ~ 0x2710</li>
+<li>Unit is 0.01 oC</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x0000</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Alarm frame activation</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter 74 (0x4A)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x00: Tamper alarm inactive</li>
+<li>0x01: Button tamper alarm active</li>
+<li>0x02: Movement tamper alarm active</li>
+<li>0x03: Button and movement tamper active</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x02</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Visual and audible alarms duration</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter 75 (0x4B)</p>
+</li>
+<li><p class="first">Size: 4 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x00000000: alarms active indefinitely</li>
+<li>0x00000001 ~ 0x0000FFFF: time in second</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x00000000</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Re-alarm transmission when retaining flood alarm</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter 76 (0x4C)</p>
+</li>
+<li><p class="first">Size: 4 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x00000000: retransmission inactive</li>
+<li>0x00000001 ~ 0x0000FFFF: time in second</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x00000000</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Flood sensor activation</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter 77 (0x4D)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x00: Default flood sensor operation (flood detection, reactions)</li>
+<li>0x01: Built-in flood sensor TURNED OFF (does not change its state in the main controller, does not send Alarms and Basic Set frames with flood state changes. Always visible in the main controller as turned off )</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x00</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Associations in Z-Wave network security mode</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter 78 (0x4E)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value: bit setting</dt>
+<dd><ul class="first last simple">
+<li>0x00: none of the groups sent as secure</li>
+<li>Bit 0: 2nd group ”Flood Control” sent as secure</li>
+<li>Bit 1: 3rd group ”Flood Alarm” sent as secure</li>
+<li>Bit 2: 4th group „Tamper” sent as secure</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x07 (enable 3 groups)</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">FIBARO flood sensor</a><ul>
+<li><a class="reference internal" href="#fibaro-857934005140-flood-sensor-white">Fibaro 857934005140 Flood Sensor, White</a></li>
+<li><a class="reference internal" href="#brief-information">Brief information</a></li>
+<li><a class="reference internal" href="#specification">Specification</a></li>
+<li><a class="reference internal" href="#inclusion-exclusion-to-from-a-network">Inclusion/Exclusion to/from a network</a></li>
+<li><a class="reference internal" href="#button-action-and-events">Button action and events</a></li>
+<li><a class="reference internal" href="#menu-mode-visual-indicator">MENU mode &amp; visual indicator</a></li>
+<li><a class="reference internal" href="#factory-reset">Factory reset</a></li>
+<li><a class="reference internal" href="#configuration-description">Configuration description</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../_sources/_static/zwave/water_flood/fibaro_flood_sensor.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, kb.verik.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.7</a>
+      
+      |
+      <a href="../../../_sources/_static/zwave/water_flood/fibaro_flood_sensor.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

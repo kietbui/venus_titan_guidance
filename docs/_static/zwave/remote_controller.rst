@@ -2,6 +2,6 @@
 
 Remote controller devices
 --------------------
-.. toctree:: remote_controller/remotec_tv_remote_zxt310.txt
+.. toctree:: remote_controller/remotec_tv_remote_zxt310.rst
 	:maxdepth: 2
 	

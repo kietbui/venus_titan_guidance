@@ -1,0 +1,502 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Aeon Labs Gen6 Multi-Sensor &mdash; venus_titan_guidance 1.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '1.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../underscore.js"></script>
+    <script type="text/javascript" src="../../doctools.js"></script>
+    <link rel="top" title="venus_titan_guidance 1.1 documentation" href="../../../index.html" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="aeon-labs-gen6-multi-sensor">
+<h1>Aeon Labs Gen6 Multi-Sensor<a class="headerlink" href="#aeon-labs-gen6-multi-sensor" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="aeotec-by-aeon-labs-zw100-multisensor-small-white">
+<h2>Aeotec by Aeon Labs ZW100 Multisensor, Small, White<a class="headerlink" href="#aeotec-by-aeon-labs-zw100-multisensor-small-white" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><img alt="../../../_images/aeon_gen6_motion.jpg" src="../../../_images/aeon_gen6_motion.jpg" />
+</div></blockquote>
+</div>
+<div class="section" id="specification">
+<h2>Specification<a class="headerlink" href="#specification" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Model number: ZW100</li>
+<li>Power Supply: USB DC 5V or battery power(2×CR123A batteries, 3V, 1500mAh)</li>
+<li>Operating Temperature: 0 C to 40 C .</li>
+<li>Measured Temperature Range: -10 C to 50 C . Accuracy: ±0.5 C .</li>
+<li>Humidity Range: 20%RH to 80%RH. Accuracy: ±5%RH (at 25 C ).</li>
+<li>Lighting: 0 LUX to 1000 LUX.</li>
+<li>Motion Sensitivity: 3 meters to 5 meters.</li>
+<li>Water Proofing: IP20.</li>
+<li>Wireless Range: Up to 500feet/150 metres outdoors.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="inclusion-exclusion-to-from-a-network">
+<h2>Inclusion/Exclusion to/from a network<a class="headerlink" href="#inclusion-exclusion-to-from-a-network" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Put controller to Inclusion/Exclusion mode</li>
+<li>Press program button once and wait for exclusion completes</li>
+<li>Press program button once again and wait for inclusion completes</li>
+</ol>
+<img alt="../../../_images/aeon_gen6_motion_b.png" src="../../../_images/aeon_gen6_motion_b.png" />
+</div></blockquote>
+</div>
+<div class="section" id="wake-up-information">
+<h2>Wake up information<a class="headerlink" href="#wake-up-information" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>When battery is used, to wake up device, press and hold its Z-Wave Button for 3 seconds and then release it. Your MultiSensor’s LED should now be solid to indicate that it is active.</li>
+<li>When completing configurating or communicating with device, to put device into sleep mode for battery saving, press and hold its Z-Wave Button for 3 seconds and then release it.</li>
+<li>When power-supply is used, device is in waken up state always.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="factory-reset">
+<h2>Factory reset<a class="headerlink" href="#factory-reset" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>Press and hold z-wave button for 20 seconds and then release. LED will stay in solid for 2 seconds and then turn off indicates reset successfully.</div></blockquote>
+</div>
+<div class="section" id="button-pressed-actions-and-events">
+<h2>Button pressed actions and events<a class="headerlink" href="#button-pressed-actions-and-events" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><table border="1" class="docutils">
+<colgroup>
+<col width="31%" />
+<col width="69%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Short 1 time pressed</td>
+<td><ol class="first last arabic">
+<li><dl class="first docutils">
+<dt>Send non-secure node info frame</dt>
+<dd><ol class="first last arabic simple" start="2">
+<li>Add device to z-wave network</li>
+<li>Remove device from z-wave network</li>
+</ol>
+</dd>
+</dl>
+</li>
+</ol>
+</td>
+</tr>
+<tr class="row-even"><td>Short 2 times pressed in 1 seconds</td>
+<td>Send secure node info frame</td>
+</tr>
+<tr class="row-odd"><td>Press and hold 3 seconds</td>
+<td>Enable/disable wake up for 10 minutes</td>
+</tr>
+<tr class="row-even"><td>Press and hold 20 seconds</td>
+<td>Reset device to factory setting</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="configuration-description">
+<h2>Configuration description<a class="headerlink" href="#configuration-description" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic">
+<li><dl class="first docutils">
+<dt>Enable wake-up device 10 minutes after re-power on (battery mode)</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 2 (0x02)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><p class="first last">0x00: disable
+others: enable</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x00</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Auto clear motion interval</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 3 (0x03)</p>
+</li>
+<li><p class="first">Size: 2 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value: 1 ~ 15300</dt>
+<dd><ul class="first last">
+<li><p class="first">1 ~ 255: unit is second</p>
+</li>
+<li><dl class="first docutils">
+<dt>256 ~ 15300: unit is minute with below formular</dt>
+<dd><ol class="first last loweralpha simple">
+<li>interval = value/60 (without remainder)</li>
+<li>interval = value/60 + 1 (if remainder)</li>
+</ol>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x00F0</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Motion sensity</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 4 (0x04)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x00: disable</li>
+<li>0x01: sensity minimum level</li>
+<li>0x02:</li>
+<li>0x03: sensity medium level</li>
+<li>0x04</li>
+<li>0x05: sensity maximum level</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 5</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Motion trigger command</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 5 (0x05)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x01: Basic set CC</li>
+<li>0x02: Sensor binary report</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 1</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Configure low battery value</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 39 (0x27)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>Valid value: 10 ~ 50</li>
+<li>Unit percentage</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 20</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Enable auto report when temperature and humidity change reach to threshold</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 40 (0x28)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x00: disable this feature</li>
+<li>0x01: enable this feature</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Temperature change threshold to send report</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 41 (0x29)</p>
+</li>
+<li><p class="first">Size: 2 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>Unit is Farenheit for US version and Celsius for EU/AU version</li>
+<li>High byte is threshold value. low byte is unit (0x01-celsius, 0x02=farenheit)</li>
+<li>Threshold value contains 1 decimal point, eg: threshold = 20, it means 2.0. setting value 0x1401 means that 2.0 oC</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x14xx</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Humidity change threshold to send report</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 42 (0x2A)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>Unit is percentage</li>
+<li>Valid value: 0x01 ~ 0x64</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x0A</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Luminance change threshold to send report</dt>
+<dd><ul class="first last simple">
+<li>Parameter: 43 (0x2B)</li>
+<li>Size: 2 bytes</li>
+<li>Value: in range</li>
+<li>Default: 0x0064</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Battery change</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 44 (0x2C)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>Unit is percentage</li>
+<li>Valid value: 0x01 ~ 0x64</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x0A</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Ultraviolet change</dt>
+<dd><ul class="first last simple">
+<li>Parameter: 45 (0x2D)</li>
+<li>Size: 1 byte</li>
+<li>Value: in range</li>
+<li>Default: 0x02</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Low temperature threshold report</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 46 (0x2E)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x00: disable</li>
+<li>0x01: enable</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x00</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Report items to group 1</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 101 (0x65)</p>
+</li>
+<li><p class="first">Size: 4 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value: bit setting</dt>
+<dd><ul class="first last simple">
+<li>bit 0: battery</li>
+<li>bit 4: ultra-violet</li>
+<li>bit 5: temperature</li>
+<li>bit 6: humidity</li>
+<li>bit 7: luminance</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x000000F1</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Auto report interval</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 111 (0x6F)</p>
+</li>
+<li><p class="first">Size: 4 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>Valid value:  0x05-0x28DE80</li>
+<li>USB power, unit is second</li>
+<li>Battery power: value &lt;= X*60, interval is X minutes</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x00000E10 (3600 seconds)</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Aeon Labs Gen6 Multi-Sensor</a><ul>
+<li><a class="reference internal" href="#aeotec-by-aeon-labs-zw100-multisensor-small-white">Aeotec by Aeon Labs ZW100 Multisensor, Small, White</a></li>
+<li><a class="reference internal" href="#specification">Specification</a></li>
+<li><a class="reference internal" href="#inclusion-exclusion-to-from-a-network">Inclusion/Exclusion to/from a network</a></li>
+<li><a class="reference internal" href="#wake-up-information">Wake up information</a></li>
+<li><a class="reference internal" href="#factory-reset">Factory reset</a></li>
+<li><a class="reference internal" href="#button-pressed-actions-and-events">Button pressed actions and events</a></li>
+<li><a class="reference internal" href="#configuration-description">Configuration description</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../_sources/_static/zwave/motion_sensor/aeon_gen6_multi.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, kb.verik.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.7</a>
+      
+      |
+      <a href="../../../_sources/_static/zwave/motion_sensor/aeon_gen6_multi.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

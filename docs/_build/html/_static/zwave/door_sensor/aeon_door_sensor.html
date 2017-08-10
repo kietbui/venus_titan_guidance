@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Aeotec Door Window Sensor &mdash; venus_titan_guidance 1.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '1.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../underscore.js"></script>
+    <script type="text/javascript" src="../../doctools.js"></script>
+    <link rel="top" title="venus_titan_guidance 1.1 documentation" href="../../../index.html" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="aeotec-door-window-sensor">
+<h1>Aeotec Door Window Sensor<a class="headerlink" href="#aeotec-door-window-sensor" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="aeotec-by-aeon-labs-zw120-door-window-sensor-small-white-by-aeon-labs">
+<h2>Aeotec by Aeon Labs ZW120 Door / Window Sensor, Small, White by Aeon Labs<a class="headerlink" href="#aeotec-by-aeon-labs-zw120-door-window-sensor-small-white-by-aeon-labs" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><img alt="../../../_images/aeon_door_window.jpg" src="../../../_images/aeon_door_window.jpg" />
+</div></blockquote>
+</div>
+<div class="section" id="specification">
+<h2>Specification<a class="headerlink" href="#specification" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>The Aeon Labs D/W Sensor is a battery-powered Z-Wave magnetic door/window sensor with an extremely small form factor. The D/W sensor will send radio signals up to 6 associated Z-Wave devices within its own Z-Wave network when the main unit separates from the smaller unit.</li>
+<li>Bidirectional mounting plate and push button allows for easy end-user installation. The Aeon Labs D/W Sensor also has tamper prevention capabilities and low-battery alerts.</li>
+<li>1 year battery life 2xAAA battery</li>
+<li>Up to 100 feets/30 metres indoor and 254 feeds/100 metres outdoor</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="inclusion-exclusion-to-from-a-network">
+<h2>Inclusion/Exclusion to/from a network<a class="headerlink" href="#inclusion-exclusion-to-from-a-network" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Put controller to Inclusion/Exclusion mode</li>
+<li>Press the z-wave button once</li>
+<li>Wait for controller completes inclusion/exclusion process</li>
+</ol>
+<img alt="../../../_images/aeon_door_window_d.jpg" src="../../../_images/aeon_door_window_d.jpg" />
+</div></blockquote>
+</div>
+<div class="section" id="wake-up-information">
+<h2>Wake up information<a class="headerlink" href="#wake-up-information" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul>
+<li><p class="first">D/W sensor will keep wake up for 8 seconds after it send wake up notification command.</p>
+</li>
+<li><p class="first">If it receive a command,it will keep wake up for 8 seconds to wait next command.</p>
+</li>
+<li><p class="first">Press tamper switch 3 times, then D/W sensor will wake 10 minutes.</p>
+</li>
+<li><p class="first">If configured, d/w sensor will wake 10 minutes too when power on.</p>
+</li>
+<li><dl class="first docutils">
+<dt>Only 3 ways can abort this status:</dt>
+<dd><ul class="first last simple">
+<li>Pressing tamper switch 3 times, sleep right now;</li>
+<li>D/W sensor received “Wake up no more information CC”, sleep right now;</li>
+<li>Received other command, wake 8 seconds to wait next command.</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="led-indicator">
+<h2>LED indicator<a class="headerlink" href="#led-indicator" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>ON: In network</li>
+<li>OFF: Sleeping</li>
+<li>Blink: Out of network</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="button-actions">
+<h2>Button actions<a class="headerlink" href="#button-actions" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic">
+<li><dl class="first docutils">
+<dt>Press Action button once:</dt>
+<dd><ol class="first last arabic simple">
+<li>Send node info frame without security CC in node info list.</li>
+<li>Put device to Inclusion/Exclusion mode</li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Press Action button twice with 1 second:</dt>
+<dd><ol class="first last arabic simple">
+<li>Send node info frame with security CC in node info list.</li>
+<li>Put device to Inclusion/Exclusion mode</li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Press and hold the Action Button for 3 seconds and then released</dt>
+<dd><p class="first last">Toggle on/off 10 minutes wake-up state</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Press and hold Action bitton for 20 seconds then release:</dt>
+<dd><p class="first last">Reset Door Window Sensor to Factory Default</p>
+</dd>
+</dl>
+</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="configuration-description">
+<h2>Configuration description<a class="headerlink" href="#configuration-description" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic">
+<li><dl class="first docutils">
+<dt>Parameter 1: To set which value of the Sensor Binary Report will be sent when the door is Opened/Closed.</dt>
+<dd><ul class="first last">
+<li><p class="first">Paramter: 1 (0x01)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><p class="first last">1, Value=0, Close=Sensor Binary Report 0xFF,Open=Sensor Binary Report 0x00.
+2, Value=1, Close= Sensor Binary Report 0x00, Open=Sensor Binary Report 0xFF.</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 1</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Parameter 2: Enable/disable wake-up 10 minutes when re-power on the Sensor.</dt>
+<dd><ul class="first last simple">
+<li>Paramter: 2 (0x02)</li>
+<li>Size: 1 byte</li>
+<li>Value: 0=disable, 1=enable</li>
+<li>Default: 1</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Parameter 3: To set which value of the Basic Set will be sent when the door is Opened/Closed.</dt>
+<dd><ul class="first last">
+<li><p class="first">Paramter: 3 (0x03)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><p class="first last">1, Value=0, Close= Basic Set 0xFF, Open=Basic Set 0x00.
+2, Value=1, Close=Basic Set 0x00, Open= Basic Set 0xFF.</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 1</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Parameter 39: Set the low battery value.</dt>
+<dd><ul class="first last simple">
+<li>Paramter: 39 (0x27)</li>
+<li>Size: 1 byte</li>
+<li>Value: from 10% to 50%</li>
+<li>Default: 10</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Parameter 111: Set the interval time of battery report.</dt>
+<dd><ul class="first last">
+<li><p class="first">Paramter: 111 (0x6F)</p>
+</li>
+<li><p class="first">Size: 4 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><p class="first">Value = 0: disable battery report for an interval time
+Value=1 to 0x7FFFFFFF, the interval time of battery report.
+Note:</p>
+<blockquote class="last">
+<div><p>1, if the value is less than 10, the time unit is second. If the value is more than 10, the time unit is 4 minutes, which means if the value is more than 10 and less than 240, the interval time is 4 minutes. If the value is more than 240 and less than 480, the interval is 8 minutes. 2, if the current battery report falls below the low battery value (configurable parameter 39), it will send battery report=0xFF.</p>
+</div></blockquote>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Parameter 121: To configure which sensor report will be sent when the Sensor is triggered On/Off.</dt>
+<dd><ul class="first last">
+<li><p class="first">Paramter: 121 (0x79)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value: Bit setting</dt>
+<dd><ol class="first last arabic simple">
+<li>Bit 8: Basic set</li>
+<li>Bit 4: Sensor binary report</li>
+<li>Others: reserved</li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x00000100</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Aeotec Door Window Sensor</a><ul>
+<li><a class="reference internal" href="#aeotec-by-aeon-labs-zw120-door-window-sensor-small-white-by-aeon-labs">Aeotec by Aeon Labs ZW120 Door / Window Sensor, Small, White by Aeon Labs</a></li>
+<li><a class="reference internal" href="#specification">Specification</a></li>
+<li><a class="reference internal" href="#inclusion-exclusion-to-from-a-network">Inclusion/Exclusion to/from a network</a></li>
+<li><a class="reference internal" href="#wake-up-information">Wake up information</a></li>
+<li><a class="reference internal" href="#led-indicator">LED indicator</a></li>
+<li><a class="reference internal" href="#button-actions">Button actions</a></li>
+<li><a class="reference internal" href="#configuration-description">Configuration description</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../_sources/_static/zwave/door_sensor/aeon_door_sensor.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, kb.verik.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.7</a>
+      
+      |
+      <a href="../../../_sources/_static/zwave/door_sensor/aeon_door_sensor.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

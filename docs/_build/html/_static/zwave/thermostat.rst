@@ -2,8 +2,8 @@
 
 Themostat devices
 -------------------------
-.. toctree:: thermostat/honeywell_th8320zw_themostat.txt
+.. toctree:: thermostat/honeywell_th8320zw_themostat.rst
 	:maxdepth: 2
 
-.. toctree:: thermostat/xenon_ir_for_ac_zxt120.txt
+.. toctree:: thermostat/xenon_ir_for_ac_zxt120.rst
 	:maxdepth: 2

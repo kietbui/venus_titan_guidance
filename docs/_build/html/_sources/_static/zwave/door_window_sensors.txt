@@ -1,24 +1,24 @@
-.. _door_window_sensor_devices:
+.. _door_windows_sensor_devices:
 
 Door/Window sensor devices
 --------------------
-.. toctree:: door_window/aeon_door_window.txt
+.. toctree:: door_sensor/aeon_door_sensor.rst
    :maxdepth: 2
 
-.. toctree:: door_window/aeon_recessed_sensor.txt
+.. toctree:: door_sensor/aeon_recessed_sensor.rst
    :maxdepth: 2
 
-.. toctree:: door_window/ecolink_door_window.txt
+.. toctree:: door_sensor/ecolink_door_sensor.rst
    :maxdepth: 2
 
-.. toctree:: door_window/ecolink_tilt_sensor.txt
+.. toctree:: door_sensor/ecolink_tilt_sensor.rst
    :maxdepth: 2
 
-.. toctree:: door_window/fibaro_door_window.txt
+.. toctree:: door_sensor/fibaro_door_sensor.rst
    :maxdepth: 2
 
-.. toctree:: door_window/gocontrol_door_window.txt
+.. toctree:: door_sensor/gocontrol_door_sensor.rst
    :maxdepth: 2
 
-.. toctree:: door_window/schlage_door_window.txt
+.. toctree:: door_sensor/schlage_door_sensor.rst
    :maxdepth: 2

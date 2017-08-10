@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>AEOTEC SIREN ALARM &mdash; venus_titan_guidance 1.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '1.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../underscore.js"></script>
+    <script type="text/javascript" src="../../doctools.js"></script>
+    <link rel="top" title="venus_titan_guidance 1.1 documentation" href="../../../index.html" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="aeotec-siren-alarm">
+<h1>AEOTEC SIREN ALARM<a class="headerlink" href="#aeotec-siren-alarm" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="siren-gen5-zw080-a17-by-aeotec-cert-id-zc10-14090012">
+<h2>Siren Gen5, ZW080-A17, by Aeotec, Cert ID: ZC10-14090012<a class="headerlink" href="#siren-gen5-zw080-a17-by-aeotec-cert-id-zc10-14090012" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><img alt="../../../_images/aeon_siren_5.jpg" src="../../../_images/aeon_siren_5.jpg" />
+</div></blockquote>
+</div>
+<div class="section" id="specification">
+<h2>Specification<a class="headerlink" href="#specification" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Model number:                                 ZW080</li>
+<li>Built-in Lithium Battery:     430 mAh.</li>
+<li>Alarm Power:                                  1.7W.</li>
+<li>Max Standby Power:                    0.7W.</li>
+<li>Max Volume:                                   105 dB, reduced in battery powered mode.</li>
+<li>Operating Temperature:                0 -&gt; 45°C</li>
+<li>Operating Distance:                   Up to 550 feet/170 metres outdoors.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="basic-operation">
+<h2>Basic operation<a class="headerlink" href="#basic-operation" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>When trigger, device is activated with 105 dB Speaker System and brigth LED system.</li>
+<li>With back-up battery system, it also works in case of power-down.</li>
+</ul>
+<img alt="../../../_images/aeon_siren_5_detail_1.jpg" src="../../../_images/aeon_siren_5_detail_1.jpg" />
+</div></blockquote>
+</div>
+<div class="section" id="inclusion-exclusion-to-from-a-network">
+<h2>Inclusion/Exclusion to/from a network<a class="headerlink" href="#inclusion-exclusion-to-from-a-network" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Put controller to &#8220;Inclusion/Exclusion&#8221; mode</li>
+<li>Place the siren/strobe within 3 feet of the Controller</li>
+<li>Press Action button once</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="functions-of-z-wave-button">
+<h2>Functions of z-wave button<a class="headerlink" href="#functions-of-z-wave-button" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Press once: add/remove siren to/from z-wave network</li>
+<li>Press and hold 5~8 seconds: cancel alarm status or test the sound</li>
+<li>Press and hold 20 seconds and release:  Reset siren to factory default setting</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="factory-reset">
+<h2>Factory reset<a class="headerlink" href="#factory-reset" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>Press and hold the Action Button for 20 seconds and then release it. Your Siren will now be reset to its original settings, and the speaker system will sound for 3 seconds as a confirmation.</div></blockquote>
+</div>
+<div class="section" id="configuration-description">
+<h2>Configuration description<a class="headerlink" href="#configuration-description" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic">
+<li><dl class="first docutils">
+<dt>Parameter 37: Alarm sound and volume</dt>
+<dd><p class="first">This setting adjusts type of alarm sound and volume. High byte is used for alarm type and low byte is used for volume.
+- Parameter: 37 (0x25)
+- Length: 2 Byte
+(1) The value1 (High Byte) is used to select the Siren sound :</p>
+<blockquote>
+<div><p>Value1=0, do not change the current Siren sound.
+Value1=1, Siren sound 1 is selected.
+Value1=2, Siren sound 2 is selected.
+Value1=3, Siren sound 3 is selected.
+Value1=4, Siren sound 4 is selected.
+Value1=5, Siren sound 5 is selected.
+Other values will be ignored.</p>
+</div></blockquote>
+<ol class="arabic" start="2">
+<li><dl class="first docutils">
+<dt>The value2 (Low Byte) is used to adjust the volume:</dt>
+<dd><p class="first last">Value2=0, do not change the current volume.
+Value2=1, set the volume to 88 dB.
+Value2=2, set the volume to 100 dB.
+Value2=3, set the volume to 105 dB.
+Other values will be ignored.</p>
+</dd>
+</dl>
+</li>
+</ol>
+<ul class="last simple">
+<li>Default: Value1 = 1, Value2 = 3.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Parameter 80: Enable to send notifications to associated devices (Group 1) when the state of Siren changed</dt>
+<dd><ul class="first last simple">
+<li>Parameter: 80 (0x50)</li>
+<li>Size: 1 byte</li>
+<li>Value: 0=nothing, 1=hail CC,2=basic CC report</li>
+<li>Default: 0=nothing</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Parameter 252: Enable/disable Lock Configuration</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 252 (0xFC)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><p class="first last">Value=0, the setting of configuration parameters is allowed.
+Value=1, all configuration parameters cannot be set (Locked).</p>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">AEOTEC SIREN ALARM</a><ul>
+<li><a class="reference internal" href="#siren-gen5-zw080-a17-by-aeotec-cert-id-zc10-14090012">Siren Gen5, ZW080-A17, by Aeotec, Cert ID: ZC10-14090012</a></li>
+<li><a class="reference internal" href="#specification">Specification</a></li>
+<li><a class="reference internal" href="#basic-operation">Basic operation</a></li>
+<li><a class="reference internal" href="#inclusion-exclusion-to-from-a-network">Inclusion/Exclusion to/from a network</a></li>
+<li><a class="reference internal" href="#functions-of-z-wave-button">Functions of z-wave button</a></li>
+<li><a class="reference internal" href="#factory-reset">Factory reset</a></li>
+<li><a class="reference internal" href="#configuration-description">Configuration description</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../_sources/_static/zwave/alarm_siren/aeotec_siren_alarm_gen5.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, kb.verik.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.7</a>
+      
+      |
+      <a href="../../../_sources/_static/zwave/alarm_siren/aeotec_siren_alarm_gen5.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Fortrezz Flood Detected Sensor &mdash; venus_titan_guidance 1.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '1.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../underscore.js"></script>
+    <script type="text/javascript" src="../../doctools.js"></script>
+    <link rel="top" title="venus_titan_guidance 1.1 documentation" href="../../../index.html" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="fortrezz-flood-detected-sensor">
+<h1>Fortrezz Flood Detected Sensor<a class="headerlink" href="#fortrezz-flood-detected-sensor" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="wireless-water-temperature-sensor-black-w-led-by-fortrezz">
+<h2>Wireless Water &amp; Temperature Sensor Black w/ LED by FortrezZ<a class="headerlink" href="#wireless-water-temperature-sensor-black-w-led-by-fortrezz" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><img alt="../../../_images/fortrezz_water_alarm.jpg" src="../../../_images/fortrezz_water_alarm.jpg" />
+</div></blockquote>
+</div>
+<div class="section" id="specification">
+<h2>Specification<a class="headerlink" href="#specification" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Power: Two AA alkaline batteries</li>
+<li>Battery Life: Calculated to be 1 to 2 years with no alarms and default Z-Wave TM network settings</li>
+<li>Frequency Range: 908.4MHz (US); 868.4MHz (EU)</li>
+<li>Distance Range: Max 100ft line of sight in unobstructed environment</li>
+<li>Size (LxWxD) and Weight: 3&#8221; (76 mm) x 2.1&#8221; (53mm) x 1.1&#8221; (30mm)</li>
+<li>Product Weight: 0.24 lb (109 g)</li>
+<li>Operating Temperature: -10oC (14F) to +70oC (158F)</li>
+<li>Reported Temperature: Reported temperature is at the unit and has a +/- 2 degC accuracy</li>
+<li>System Requirement: Any Z-Wave TM enabled network and controller.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="inclusion-exclusion-to-from-a-network">
+<h2>Inclusion/Exclusion to/from a network<a class="headerlink" href="#inclusion-exclusion-to-from-a-network" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Put controller to Inclusion/Exclusion mode</li>
+<li>Press and hold program button in 2 seconds and wait for exclusion completes</li>
+<li>Press program button 2 times within 1.5 seconds and wait for inclusion completes</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="led-indicator">
+<h2>LED indicator<a class="headerlink" href="#led-indicator" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>1 fast blink: Wake-up, notification sent (after quick button press and device is in z-wave network)</li>
+<li>2 fast blink: Water alarm</li>
+<li>3 fast blink: Temperature Alarm (either high or low setpoint triggered)</li>
+<li>4 fast blink: An active alarm has been cleared (when a water alarm or a temperature alarm is no longer active)</li>
+<li>5 fast blink: Low Battery (repeated every approx. 40 seconds)</li>
+<li>1 slow blink: Device in z-wave network (also, after button held while in-Network)</li>
+<li>3 slow blink: Device is removed from z-wave network (also given if adding was not completed)</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="wake-up-information">
+<h2>Wake-up information<a class="headerlink" href="#wake-up-information" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Wakeup1: Power saving design wakes up every 4 seconds to test water and freeze sensor</li>
+<li>Wakeup2: Once every 4 approx. hours (default) unit wakes up to send a notification to controller to query and update the status of the unit. A controller can change this wakeup interval. Battery life is decreased when the wakeup interval time is shorter.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="configuration-description">
+<h2>Configuration description<a class="headerlink" href="#configuration-description" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic">
+<li><dl class="first docutils">
+<dt>Low temperature threshold</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 1 (0x01)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last">
+<li><dl class="first docutils">
+<dt>Valid value:</dt>
+<dd><ol class="first last arabic simple">
+<li>0x00 ~ 0x7F (from 0 ~ 127 oC)</li>
+<li>0xFF ~ 0x81 (from -127 ~ -1 oC)</li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><p class="first">Unit is celsius</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x04</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>High temperature threshold</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 2 (0x02)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last">
+<li><dl class="first docutils">
+<dt>Valid value:</dt>
+<dd><ol class="first last arabic simple">
+<li>0x00 ~ 0x7F (from 0 ~ 127 oC)</li>
+<li>0xFF ~ 0x81 (from -127 ~ -1 oC)</li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><p class="first">Unit is celsius</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x46</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Fortrezz Flood Detected Sensor</a><ul>
+<li><a class="reference internal" href="#wireless-water-temperature-sensor-black-w-led-by-fortrezz">Wireless Water &amp; Temperature Sensor Black w/ LED by FortrezZ</a></li>
+<li><a class="reference internal" href="#specification">Specification</a></li>
+<li><a class="reference internal" href="#inclusion-exclusion-to-from-a-network">Inclusion/Exclusion to/from a network</a></li>
+<li><a class="reference internal" href="#led-indicator">LED indicator</a></li>
+<li><a class="reference internal" href="#wake-up-information">Wake-up information</a></li>
+<li><a class="reference internal" href="#configuration-description">Configuration description</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../_sources/_static/zwave/water_flood/fortrezz_water_alarm.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, kb.verik.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.7</a>
+      
+      |
+      <a href="../../../_sources/_static/zwave/water_flood/fortrezz_water_alarm.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -24,7 +24,7 @@ Z-Wave devices
 	- :ref:`smoke_co_sensor_devices`
 	- :ref:`switch_devices`
 	- :ref:`thermostat_devices`
-	- :ref:`water_sensor_devices`
+	- :ref:`water_flood_devices`
 
 
 Zigbee devices
