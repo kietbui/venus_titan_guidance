@@ -1,0 +1,747 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Fibaro Motion Sensor &mdash; venus_titan_guidance 1.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '1.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../underscore.js"></script>
+    <script type="text/javascript" src="../../doctools.js"></script>
+    <link rel="top" title="venus_titan_guidance 1.1 documentation" href="../../../index.html" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="fibaro-motion-sensor">
+<h1>Fibaro Motion Sensor<a class="headerlink" href="#fibaro-motion-sensor" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="fibaro-z-wave-motion-sensor-fgms-001">
+<h2>Fibaro Z-Wave Motion Sensor - FGMS-001<a class="headerlink" href="#fibaro-z-wave-motion-sensor-fgms-001" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><img alt="../../../_images/fibaro_home_motion.jpg" src="../../../_images/fibaro_home_motion.jpg" />
+</div></blockquote>
+</div>
+<div class="section" id="specification">
+<h2>Specification<a class="headerlink" href="#specification" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Operating frequency: 869/908/921 MHz</li>
+<li>Operating range: up to 50m outdoor and 30m indoor</li>
+<li>Operating temperature: 0-40 oC</li>
+<li>Measure temperature range: -20 ~ 100 oC</li>
+<li>Measure light range: 0 ~ 32000 LUX</li>
+<li>Detection angle: 45 degrees</li>
+<li>Battery: 3.6 VDC CR123A</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="inclusion-exclusion-to-from-a-network">
+<h2>Inclusion/Exclusion to/from a network<a class="headerlink" href="#inclusion-exclusion-to-from-a-network" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Put controller to Inclusion/Exclusion mode</li>
+<li>Press program button 3 times quickly. Device will be included/excluded to/from zwave network.</li>
+</ol>
+<img alt="../../../_images/fibaro_home_motion_b.jpg" src="../../../_images/fibaro_home_motion_b.jpg" />
+</div></blockquote>
+</div>
+<div class="section" id="link-in-amazon">
+<h2>Link in Amazon<a class="headerlink" href="#link-in-amazon" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><a class="reference external" href="https://www.amazon.com/Fibaro-Z-Wave-Motion-Sensor-FGMS-001/dp/B01615SUBI">https://www.amazon.com/Fibaro-Z-Wave-Motion-Sensor-FGMS-001/dp/B01615SUBI</a></div></blockquote>
+</div>
+<div class="section" id="configuration-description">
+<h2>Configuration description<a class="headerlink" href="#configuration-description" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic">
+<li><dl class="first docutils">
+<dt>Motion sensor&#8217;s sensity</dt>
+<dd><ul class="first last simple">
+<li>Parameter: 1 (0x01)</li>
+<li>Size: 1 byte</li>
+<li>Value: 0x08 ~ 0xFF</li>
+<li>Default: 0x01</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Motion sensor blind time</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 2 (0x02)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>valid value: 0x00 ~ 0x0F</li>
+<li>fomular: time = 0.5 * (value+1)</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x0F</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>PIR sensor &#8220;PULL COUNTER&#8221;</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 3 (0x03)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>valid value: 0x00 ~ 0x03</li>
+<li>fomular: pules = value + 1</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x01</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>PIR sensor&#8217;s &#8220;WINDOW TIME&#8221;</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 4 (0x04)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>valid value: 0x00 ~ 0x03</li>
+<li>fomular: times = 4 * (setting value + 1)</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x02</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Motion alarm cancellation delay</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 6 (0x06)</p>
+</li>
+<li><p class="first">Size: 2 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>valid value: 1 ~ 65535</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x001E</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>PIR sensor operating mode</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 8 (0x08)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x00: PIR always active</li>
+<li>0x01: PIR active during day only</li>
+<li>0x02: PIR active during night only</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x00</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Night or Day.</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 9 (0x08)</p>
+</li>
+<li><p class="first">Size: 2 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>Valid value: 1 ~ 65535</li>
+<li>Unit is LUX</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x00C8</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Trigger to associated devices</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 12 (0x0C)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x00: Basic ON and basic OFF are sent</li>
+<li>0x01: Only basic ON is sent</li>
+<li>0x02: Only basic OFF is sent</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x00</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Trigger ON command format</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 14 (0x0E)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0: Turn off associated devices</li>
+<li>1 ~ 99: Turn on associated devices (Binary devices), Turn on associated devices with dimmer value</li>
+<li>255: Turn on associated devices (Binary devices), Turn on associated devices with last memorized dimmer value</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x00</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Trigger OFF command format</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 16 (0x10)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0: Turn off associated devices</li>
+<li>1 ~ 99: Turn on associated devices (Binary devices), Turn on associated devices with dimmer value</li>
+<li>255: Turn on associated devices (Binary devices), Turn on associated devices with last memorized dimmer value</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x00</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Tamper sensity</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 20 (0x14)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>Valid value: 0 ~ 122</li>
+<li>Formula: setting val * 0,016g,</li>
+<li>Zero means disable this feature.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x0F (0,224g)</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Tamper alarm cancellation delay</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 22 (0x16)</p>
+</li>
+<li><p class="first">Size: 2 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>Valid value: 1 ~ 65535</li>
+<li>Unit is second</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x1E</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Tamper alarm broadcast mode</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 26 (0x1A)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0: Disable broadcast mode</li>
+<li>1: Enable broadcast mode</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x00</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Illumination report threshold</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 40 (0x28)</p>
+</li>
+<li><p class="first">Size: 2 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x0000: disable this feature</li>
+<li>Valid value: 0x01 ~ 0xFFFF</li>
+<li>Unit is LUX</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x00C8</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Illumination report interval</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 42 (0x2A)</p>
+</li>
+<li><p class="first">Size: 2 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x0000: disable this feature</li>
+<li>Valid value: 0x01 ~ 0xFFFF</li>
+<li>Unit is second</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x0000</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Temperature change report threshold</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 60 (0x3C)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x00: disable this feature</li>
+<li>Valid value: 0x01 ~ 0xFF</li>
+<li>Unit is celsius</li>
+<li>Setting number contains 1 decimal point. Setting value approximately 0.1 ~ 25.5 oC</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x000A</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Temperature measuring interval</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 62 (0x3E)</p>
+</li>
+<li><p class="first">Size: 2 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x00: Temperature is not measured</li>
+<li>Valid value: 0x0001 ~ 0xFFFF</li>
+<li>Unit is celsius</li>
+<li>Setting number contains 1 decimal point. Setting value approximately 0.1 ~ 25.5 oC</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x0384</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Temperature report interval</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 64 (0x40)</p>
+</li>
+<li><p class="first">Size: 2 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x00: report is not sent</li>
+<li>Valid value: 0x0001 ~ 0xFFFF</li>
+<li>Unit is second</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x0000</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Temperature offset</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 66 (0x42)</p>
+</li>
+<li><p class="first">Size: 2 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x0000 ~ 0x0064: appropriated to 0oC to 100oC</li>
+<li>0x0000 ~ 0xFFFF: appropriated to 0oC to 100oC</li>
+<li>Valid value: 0x0001 ~ 0xFFFF</li>
+<li>Unit is second</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x0000</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>LED indicator setting</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 80 (0x50)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0: LED inactive.</li>
+<li>1: LED colour depends on the temperature. Set by #86 and #87.</li>
+<li>2: Flashlight mode - LED glows in white for 10 seconds.</li>
+<li>3: White.</li>
+<li>4: Red.</li>
+<li>5: Green.</li>
+<li>6: Blue.</li>
+<li>7: Yellow.</li>
+<li>8: Cyan.</li>
+<li>9: Magenta.</li>
+<li>10: LED colour depends on the temperature. Set by parameters #86 and #87.</li>
+<li>11: Flashlight mode - LED glows in white through 10 seconds. Each next detected motion extends the glowing by next 10 seconds.</li>
+<li>12: White.</li>
+<li>13: Red.</li>
+<li>14: Green.</li>
+<li>15: Blue.</li>
+<li>16: Yellow.</li>
+<li>17: Cyan</li>
+<li>18: Magenta</li>
+<li>19: LED colour depends on the temperature. Set by parameters #86 and #87.</li>
+<li>20: White</li>
+<li>21: Red</li>
+<li>22: Green</li>
+<li>23: Blue</li>
+<li>24: Yellow</li>
+<li>25: Cyan</li>
+<li>26: Magenta</li>
+<li>Values from 1 to 9 = single long blink at the moment of reporting motion. No other motion will be indicated until alarm is cancelled.</li>
+<li>Values from 10 to 18 = single long blink at the moment of reporting motion and one short blink each time the motion is detected again.</li>
+<li>Values from 19 to 26 = single long blink at the moment of reporting motion and two short blinks each time the motion is detected again.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x0A</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>LED brightness</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 81 (0x51)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x00: brightness detemined by parameter #82,#83</li>
+<li>0x01 ~ 0x63: percentage</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x32</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Ambient illumination level below  which LED brightness is set to 1% (#82)</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 82 (0x52)</p>
+</li>
+<li><p class="first">Size: 2 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>Valid value: 0x00 ~ value setting #83</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x64</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Ambient illumination level below  which LED brightness is set to 100% (#83)</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 83 (0x53)</p>
+</li>
+<li><p class="first">Size: 2 bytes</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>Valid value: value in #82 setting ~ 0xFFFF</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x03E8</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Minimum temperature resulting in BLUE led illumination (#86)</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 86 (0x56)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>Valid value: 0 ~ value in #87</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x12</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Maximum temperature resulting in RED led illumination (#87)</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 87 (0x57)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>Valid value: value in #86 ~ 0xFF</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x1C</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>LED indicating tamper alarm</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 89 (0x59)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x00 - LED does not indicate tamper alarm.</li>
+<li>0x01 - LED indicates tamper alarm</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x01</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Fibaro Motion Sensor</a><ul>
+<li><a class="reference internal" href="#fibaro-z-wave-motion-sensor-fgms-001">Fibaro Z-Wave Motion Sensor - FGMS-001</a></li>
+<li><a class="reference internal" href="#specification">Specification</a></li>
+<li><a class="reference internal" href="#inclusion-exclusion-to-from-a-network">Inclusion/Exclusion to/from a network</a></li>
+<li><a class="reference internal" href="#link-in-amazon">Link in Amazon</a></li>
+<li><a class="reference internal" href="#configuration-description">Configuration description</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../_sources/_static/src/motion_sensor/fibaro_home_motion.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, kb.verik.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.7</a>
+      
+      |
+      <a href="../../../_sources/_static/src/motion_sensor/fibaro_home_motion.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

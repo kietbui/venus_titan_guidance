@@ -1,0 +1,319 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Xenon IR extender for air conditioners &mdash; venus_titan_guidance 1.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '1.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../underscore.js"></script>
+    <script type="text/javascript" src="../../doctools.js"></script>
+    <link rel="top" title="venus_titan_guidance 1.1 documentation" href="../../../index.html" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="xenon-ir-extender-for-air-conditioners">
+<h1>Xenon IR extender for air conditioners<a class="headerlink" href="#xenon-ir-extender-for-air-conditioners" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="remotec-z-wave-zxt-120-ir-extender-for-air-conditioners">
+<h2>Remotec Z-Wave ZXT-120 IR Extender for Air Conditioners<a class="headerlink" href="#remotec-z-wave-zxt-120-ir-extender-for-air-conditioners" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><img alt="../../../_images/xenon_ir_for_ac_zxt120.jpg" src="../../../_images/xenon_ir_for_ac_zxt120.jpg" />
+</div></blockquote>
+</div>
+<div class="section" id="operation">
+<h2>Operation<a class="headerlink" href="#operation" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul>
+<li><p class="first">Plug-in 5Vdc power into the USB socket if operated at Always Listening mode</p>
+</li>
+<li><p class="first">Install 3xAAA batteries if operated at FLiRS mode</p>
+</li>
+<li><dl class="first docutils">
+<dt>To switch from FLiRS mode to Always listening mode, below steps are required:</dt>
+<dd><ol class="first last arabic simple">
+<li>Press and hold the PROG button on the ZXT-120 for around 5 seconds. LED turns ON after PROG key hold for 5seconds</li>
+<li>Release the button and then press the PROG button 3 times within 2 seconds. LED flashes four times then stay off</li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>To switch from Always listening mode to FLiRS mode, below steps are required:</dt>
+<dd><ol class="first last arabic simple">
+<li>Press and hold the PROG button on the ZXT-120 for around 5 seconds. LED turns ON after PROG key hold for 5seconds</li>
+<li>Release the button and then press the PROG button 3 times within 2 seconds. LED flashes twice then stay off</li>
+</ol>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="specification">
+<h2>Specification<a class="headerlink" href="#specification" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>RF operating range: up to 80 feet line of sign</li>
+<li>IR operating range: up to 25 feet line of sign</li>
+<li>Measure temperature range: 32 ~ 104 oF (0 ~ 40 oC)</li>
+<li>Operating temperature range: 32 ~ 104 oF (0 ~ 40 oC)</li>
+<li>Usb power: 5V DC - 100mA</li>
+<li>Battery: 3x1.5V AAA</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="inclusion-exclusion-to-from-a-network">
+<h2>Inclusion/Exclusion to/from a network<a class="headerlink" href="#inclusion-exclusion-to-from-a-network" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Put controller to Inclusion/Exclusion mode</li>
+<li>Press program button once. Device will be included/excluded to zwave network.</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="link-in-amazon">
+<h2>Link in Amazon<a class="headerlink" href="#link-in-amazon" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><a class="reference external" href="https://www.amazon.com/Remotec-Z-Wave-ZXT-120-Extender-Conditioners/dp/B00Q6SXTPS">https://www.amazon.com/Remotec-Z-Wave-ZXT-120-Extender-Conditioners/dp/B00Q6SXTPS</a></div></blockquote>
+</div>
+<div class="section" id="configuration-description">
+<h2>Configuration description<a class="headerlink" href="#configuration-description" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic">
+<li><dl class="first docutils">
+<dt>Location for IR code learning and start learning</dt>
+<dd><ul class="first last simple">
+<li>Parameter: 25 (0x19)</li>
+<li>Size: 1 byte</li>
+<li>Value: 0x00 ~ 0x16</li>
+<li>Default: N/A</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Learning status</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 26 (0x1A)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x00: idle, target channel is idle</li>
+<li>0x01: OK, the latest learning process successful and completed</li>
+<li>0x02: learning, ZXT-120 is busy</li>
+<li>0x04: failed, the latest learning request failed</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x00</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>IR code number for built-in code lib</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 27 (0x1B)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><p class="first last">Refer to &#8220;Code list&#8221; for setting value</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: N/A</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>External IR emitter power level</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 28 (0x1C)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x00: normal power mode</li>
+<li>0xFF: high power mode</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0xFF</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Surround IR control</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 32 (0x20)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x00: disable surround IR emitters</li>
+<li>0xFF: enable surround IR emitters</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0xFF</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>AC function swing control</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 33 (0x21)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x00: swing OFF</li>
+<li>0xFF: swing auto</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0xFF</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Sensor temperature compensation</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 37 (0x25)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ul class="first last simple">
+<li>0x00 ~ 0x7F: compensation temperature from 0 ~ 127 oC</li>
+<li>0x80 ~ 0xFF: compensation temperature from -127 ~ -1 oC</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0x00</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Xenon IR extender for air conditioners</a><ul>
+<li><a class="reference internal" href="#remotec-z-wave-zxt-120-ir-extender-for-air-conditioners">Remotec Z-Wave ZXT-120 IR Extender for Air Conditioners</a></li>
+<li><a class="reference internal" href="#operation">Operation</a></li>
+<li><a class="reference internal" href="#specification">Specification</a></li>
+<li><a class="reference internal" href="#inclusion-exclusion-to-from-a-network">Inclusion/Exclusion to/from a network</a></li>
+<li><a class="reference internal" href="#link-in-amazon">Link in Amazon</a></li>
+<li><a class="reference internal" href="#configuration-description">Configuration description</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../_sources/_static/src/infrared/xenon_ir_for_ac_zxt120.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, kb.verik.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.7</a>
+      
+      |
+      <a href="../../../_sources/_static/src/infrared/xenon_ir_for_ac_zxt120.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

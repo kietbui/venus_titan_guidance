@@ -1,0 +1,373 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Honeywell Thermostat &mdash; venus_titan_guidance 1.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '1.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../underscore.js"></script>
+    <script type="text/javascript" src="../../doctools.js"></script>
+    <link rel="top" title="venus_titan_guidance 1.1 documentation" href="../../../index.html" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="honeywell-thermostat">
+<h1>Honeywell Thermostat<a class="headerlink" href="#honeywell-thermostat" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="honeywell-yth8320zw1007-u-z-wave-enabled-programmable-thermostat">
+<h2>Honeywell YTH8320ZW1007/U Z-Wave Enabled Programmable Thermostat<a class="headerlink" href="#honeywell-yth8320zw1007-u-z-wave-enabled-programmable-thermostat" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><img alt="../../../_images/honeywell_programmable.jpg" src="../../../_images/honeywell_programmable.jpg" />
+</div></blockquote>
+</div>
+<div class="section" id="brief-information">
+<h2>Brief information<a class="headerlink" href="#brief-information" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>One-touch temp control overrides program schedule at any time.</li>
+<li>Precise comfort control keeps temperature within 1°F of the level you set.</li>
+<li>Change/check reminders let you know when to service or replace filters and other critical components.</li>
+<li>Large touchscreen display with backlight is easy to read—even in the dark.</li>
+<li>Z-Wave wireless control lets you connect the thermostat to a Z-Wave network.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="how-to-add-to-venus-app">
+<h2>How to add to VENUS app<a class="headerlink" href="#how-to-add-to-venus-app" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic">
+<li><p class="first">Put controller to inclusion/exclusion mode</p>
+</li>
+<li><dl class="first docutils">
+<dt>Press and hold blank center key until the display changes</dt>
+<dd><ul class="first last">
+<li><dl class="first docutils">
+<dt>Change the setting:</dt>
+<dd><ul class="first last simple">
+<li>Function: RF10</li>
+<li>Setting: 0 &#8211;&gt; Exclude device from zwave network</li>
+<li>Setting: 1 &#8211;&gt; Include device to zwave network</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Press DONE to exit and save changes</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+<img alt="../../../_images/honeywell_programmable_adv_setting.png" src="../../../_images/honeywell_programmable_adv_setting.png" />
+</div></blockquote>
+</div>
+<div class="section" id="reference-to-control">
+<h2>Reference to control<a class="headerlink" href="#reference-to-control" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><img alt="../../../_images/honeywell_programmable_d1.png" src="../../../_images/honeywell_programmable_d1.png" />
+</div></blockquote>
+</div>
+<div class="section" id="reference-to-status-display">
+<h2>Reference to status display<a class="headerlink" href="#reference-to-status-display" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><img alt="../../../_images/honeywell_programmable_d2.png" src="../../../_images/honeywell_programmable_d2.png" />
+</div></blockquote>
+</div>
+<div class="section" id="basic-setting">
+<h2>Basic setting<a class="headerlink" href="#basic-setting" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic">
+<li><p class="first">Clock setting</p>
+<blockquote>
+<div><ul class="simple">
+<li>Press CLOCK button</li>
+<li>Press up/down button to adjust time (press and hold to advance the time more quickly)</li>
+<li>Press DONE to save and exit</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Fan setting</p>
+<blockquote>
+<div><ul>
+<li><p class="first">Press FAN to select fan operation</p>
+</li>
+<li><dl class="first docutils">
+<dt>Select:</dt>
+<dd><ul class="first last simple">
+<li>ON: fan is always on</li>
+<li>Auto: fan run only when the heating or cooling systems is on</li>
+<li>Circ: fan runs randomly about 35% of the time</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Press DONE to save and exit</p>
+</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">System setting</p>
+<blockquote>
+<div><ul>
+<li><p class="first">Press SYSTEM button</p>
+</li>
+<li><dl class="first docutils">
+<dt>Select:</dt>
+<dd><ul class="first last simple">
+<li>Heat: thermostat controls only the heating system</li>
+<li>Cool: thermostat controls only the cooling system</li>
+<li>Off: heating and cooling systems are off</li>
+<li>Auto: thermostat automatically selects heating or cooling depending on the indoor temperature</li>
+<li>Em heat: thermostat controls emergency and auxiliary heat</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Press DONE to save and exit</p>
+</li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="advance-setting">
+<h2>Advance setting<a class="headerlink" href="#advance-setting" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic">
+<li><p class="first">Common setting steps</p>
+<blockquote>
+<div><ul class="simple">
+<li>Press SYSTEM button</li>
+<li>Press and hold center blank button until display change</li>
+<li>Change Function and Setting</li>
+<li>Press DONE to save and exit</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Function and setting list</p>
+<blockquote>
+<div><table border="1" class="docutils">
+<colgroup>
+<col width="26%" />
+<col width="20%" />
+<col width="54%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Year setting</td>
+<td>Function: 0120</td>
+<td>20, 21 - Year 20xx, 21xx</td>
+</tr>
+<tr class="row-even"><td>Year setting</td>
+<td>Function: 0130</td>
+<td>01 ~ 99 - ie: 2001, 2199</td>
+</tr>
+<tr class="row-odd"><td>Month setting</td>
+<td>Function: 0140</td>
+<td>1 ~ 12 - From Jan to Dec</td>
+</tr>
+<tr class="row-even"><td>Date setting</td>
+<td>Function: 0150</td>
+<td>1 ~ 31 - Date in month</td>
+</tr>
+<tr class="row-odd"><td>Schedule on/off</td>
+<td>Function: 0160</td>
+<td>0/4 - None programmable/Programmable</td>
+</tr>
+<tr class="row-even"><td>Restore energy saving schedule</td>
+<td>Function: 0165</td>
+<td>0/1 - No restore/Restore</td>
+</tr>
+<tr class="row-odd"><td>Continuous backlight</td>
+<td>Function: 0280</td>
+<td>0/1 - Not set/Set continuous backlight</td>
+</tr>
+<tr class="row-even"><td>Temperature format</td>
+<td>Function: 0320</td>
+<td>0/1 - Farenheit/Celcius</td>
+</tr>
+<tr class="row-odd"><td>Enable daylight saving time</td>
+<td>Function: 0330</td>
+<td>0/1 - Disable/Enable</td>
+</tr>
+<tr class="row-even"><td>Furnace filter change reminder</td>
+<td>Function: 0500</td>
+<td><p class="first">0 - off</p>
+<p>1 - 10 days run time (about 1 month)</p>
+<p>2 - 30 days run time (about 3 month)</p>
+<p>3 - 60 days run time (about 6 month)</p>
+<p>4 - 90 days run time (about 9 month)</p>
+<p>5 - 120 days run time (about 1 year)</p>
+<p>6 - 180 days run time (about 1.5 years)</p>
+<p>7 - 270 days run time (about 2 years)</p>
+<p>8 - 365 days run time (about 3 years)</p>
+<p>9 - 30 calendar days</p>
+<p>10 - 60 calendar days</p>
+<p>11 - 90 calendar days</p>
+<p>12 - 120 calendar days</p>
+<p>13 - 180 calendar days</p>
+<p class="last">14 - 365 calendar days</p>
+</td>
+</tr>
+<tr class="row-odd"><td>UV lamp replacement reminder</td>
+<td>Function: 0520</td>
+<td><p class="first">0 - off</p>
+<p>1 - 365 days</p>
+<p class="last">2 - 720 days</p>
+</td>
+</tr>
+<tr class="row-even"><td>Adaptive interlligent recovery</td>
+<td>Function: 0530</td>
+<td>0/1 - On/Off function</td>
+</tr>
+<tr class="row-odd"><td>Program schedule periods</td>
+<td>Function: 0540</td>
+<td><p class="first">2 - 2 program periods (Wake, Sleep)</p>
+<p class="last">4 - 4 program periods (Wake, Leave, Return, Sleep)</p>
+</td>
+</tr>
+<tr class="row-even"><td>Heat energy saving setpoint</td>
+<td>Function: 0615</td>
+<td><p class="first">65 - 40~90 oF</p>
+<p class="last">18.5 - 4.5~32 oC</p>
+</td>
+</tr>
+<tr class="row-odd"><td>Cool energy saving setpoint</td>
+<td>Function: 0615</td>
+<td><p class="first">78 - 50~99 oF</p>
+<p class="last">25.5 - 10~37 oC</p>
+</td>
+</tr>
+<tr class="row-even"><td>Clock format</td>
+<td>Function: 0640</td>
+<td><p class="first">12 - 12 hours format</p>
+<p class="last">24 - 24 hours format</p>
+</td>
+</tr>
+<tr class="row-odd"><td>Screen lock</td>
+<td>Function: 0670</td>
+<td><p class="first">0 - Screen is unlocked</p>
+<p>1 - All functions locked except temperature controls and CANCEL key</p>
+<p class="last">2 - Screen is fully locked</p>
+</td>
+</tr>
+<tr class="row-even"><td>Z-Wave inclusion/exclusion</td>
+<td>Function: RF10</td>
+<td>0/1 - Exclude/Include</td>
+</tr>
+<tr class="row-odd"><td>Share Z-Wave node information</td>
+<td>Function: RF20</td>
+<td>0/1 - Idle/Send node</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="link-in-amazon">
+<h2>Link in Amazon<a class="headerlink" href="#link-in-amazon" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><a class="reference external" href="https://www.amazon.com/Honeywell-YTH8320ZW1007-Enabled-Programmable-Thermostat/dp/B005EJ7YO2">https://www.amazon.com/Honeywell-YTH8320ZW1007-Enabled-Programmable-Thermostat/dp/B005EJ7YO2</a></div></blockquote>
+</div>
+<div class="section" id="configuration-description">
+<h2>Configuration description<a class="headerlink" href="#configuration-description" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>There is no configuration in this device.</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Honeywell Thermostat</a><ul>
+<li><a class="reference internal" href="#honeywell-yth8320zw1007-u-z-wave-enabled-programmable-thermostat">Honeywell YTH8320ZW1007/U Z-Wave Enabled Programmable Thermostat</a></li>
+<li><a class="reference internal" href="#brief-information">Brief information</a></li>
+<li><a class="reference internal" href="#how-to-add-to-venus-app">How to add to VENUS app</a></li>
+<li><a class="reference internal" href="#reference-to-control">Reference to control</a></li>
+<li><a class="reference internal" href="#reference-to-status-display">Reference to status display</a></li>
+<li><a class="reference internal" href="#basic-setting">Basic setting</a></li>
+<li><a class="reference internal" href="#advance-setting">Advance setting</a></li>
+<li><a class="reference internal" href="#link-in-amazon">Link in Amazon</a></li>
+<li><a class="reference internal" href="#configuration-description">Configuration description</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../_sources/_static/src/thermostat/honeywell_th8320zw_themostat.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, kb.verik.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.7</a>
+      
+      |
+      <a href="../../../_sources/_static/src/thermostat/honeywell_th8320zw_themostat.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

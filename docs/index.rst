@@ -7,39 +7,34 @@ Welcome to Venus/Titan devices guidance!
 ================================================
 
 
-Introduction
+Contents
 ---------------
+	# Device's overview
+	# Method to reset device to include/exclude to/from network
+	# LED/Sound indicator description
+	# Specific configurations
 
-Z-Wave devices
----------------
+Supported devices list
+-----------------------
 	- :ref:`alarm_siren_devices`
+	- :ref:`dimmable_inwall_switch_devices`
 	- :ref:`dimmable_light_devices`
-	- :ref:`door_window_sensor_devices`
-	- :ref:`garage_controller_devices`
+	- :ref:`dimmable_module_switch_devices`
 	- :ref:`door_lock_devices`
-	- :ref:`meter_devices`
+	- :ref:`door_sensor_devices`
+	- :ref:`energy_meter_devices`
+	- :ref:`fan_control_devices`
+	- :ref:`garage_controller_devices`
+	- :ref:`infrared_devices`
 	- :ref:`motion_sensor_devices`
 	- :ref:`multi_sensor_devices`
-	- :ref:`remote_controller_devices`
+	- :ref:`onoff_inwall_outlet_devices`
+	- :ref:`onoff_inwall_switch_devices`
+	- :ref:`onoff_module_switch_devices`
+	- :ref:`relay_switch_devices`
+	- :ref:`repeater_devices`
 	- :ref:`smoke_co_sensor_devices`
-	- :ref:`switch_devices`
 	- :ref:`thermostat_devices`
 	- :ref:`water_flood_devices`
 
-
-Zigbee devices
----------------
-	- :ref:`zig_door_window_sensor_devices`
-	- :ref:`zig_dimmable_light_devices`
-	- :ref:`zig_door_lock_devices`
-	- :ref:`zig_motion_sensor_devices`
-	- :ref:`zig_multi_sensor_devices`
-	- :ref:`zig_switch_devices`
-	- :ref:`zig_water_sensor_devices`
-
-UPnP devices
---------------
-	- :ref:`ecobee_devices`
-	- :ref:`nest_devices`
-	- :ref:`wemo_devices`
 

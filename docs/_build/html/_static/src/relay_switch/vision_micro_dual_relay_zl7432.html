@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Vision In-Wall Micro Dual Relay Switch &mdash; venus_titan_guidance 1.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '1.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../underscore.js"></script>
+    <script type="text/javascript" src="../../doctools.js"></script>
+    <link rel="top" title="venus_titan_guidance 1.1 documentation" href="../../../index.html" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="vision-in-wall-micro-dual-relay-switch">
+<h1>Vision In-Wall Micro Dual Relay Switch<a class="headerlink" href="#vision-in-wall-micro-dual-relay-switch" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="vision-in-wall-z-wave-micro-switch-2-relay">
+<h2>Vision In Wall Z-Wave Micro Switch, 2 relay<a class="headerlink" href="#vision-in-wall-z-wave-micro-switch-2-relay" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><img alt="../../../_images/vision_inwall_micro_2relay_zl7432.jpg" src="../../../_images/vision_inwall_micro_2relay_zl7432.jpg" />
+</div></blockquote>
+</div>
+<div class="section" id="operation">
+<h2>Operation<a class="headerlink" href="#operation" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Turn on or turn off the appliances that attached to Controller, or manually turn on/off the light switch.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="specification">
+<h2>Specification<a class="headerlink" href="#specification" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul>
+<li><p class="first">Protocol: Z-Wave™ (ZM3102N)</p>
+</li>
+<li><dl class="first docutils">
+<dt>Frequency Range:</dt>
+<dd><p class="first last">865.22MHz (ZL7432IN)
+868.42MHz (ZL7432EU)
+869.00MHz (ZL7432RU)
+908.42MHz (ZL7432US)
+916.00MHz (ZL7432IS)
+920.00MHz (ZL7432JP)
+921.42MHz (ZL7432BR)</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">Operating Range: Up to 100 feet line of sight</p>
+</li>
+<li><p class="first">Operating Temp.: -15°C~ 60°C (5°F~140°F)</p>
+</li>
+<li><p class="first">Operating Voltage: 100VAC~240VAC</p>
+</li>
+<li><dl class="first docutils">
+<dt>Resistive Load:</dt>
+<dd><p class="first last">800W for 110VAC
+1300W for 220VAC</p>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="inclusion-exclusion-to-from-a-network">
+<h2>Inclusion/Exclusion to/from a network<a class="headerlink" href="#inclusion-exclusion-to-from-a-network" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Put controller to Inclusion/Exclusion mode</li>
+<li>Turn on and turn off switch that connects with ZL7432 module 4 times. Device will be included/excluded to/from zwave network.</li>
+</ol>
+<img alt="../../../_images/vision_inwall_micro_2relay_zl7432_d.png" src="../../../_images/vision_inwall_micro_2relay_zl7432_d.png" />
+</div></blockquote>
+</div>
+<div class="section" id="link-in-amazon">
+<h2>Link in Amazon<a class="headerlink" href="#link-in-amazon" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><a class="reference external" href="https://www.amazon.com/Vision-Z-Wave-Micro-Switch-relay/dp/B00R883YKU">https://www.amazon.com/Vision-Z-Wave-Micro-Switch-relay/dp/B00R883YKU</a></div></blockquote>
+</div>
+<div class="section" id="configuration-description">
+<h2>Configuration description<a class="headerlink" href="#configuration-description" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic">
+<li><dl class="first docutils">
+<dt>Light control</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 1 (0x01)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><p class="first last">1 = To Control Light with 1 Wall Switch &amp; to Control Light With 2 Wall Switches.
+2 = To Control Light with 1 Wall Switch That Has Light Indicator</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 2</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Light control</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 2 (0x02)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><p class="first last">1 = With common on/off type switch button used
+2 = With momentary type switch button used.</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 1</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Vision In-Wall Micro Dual Relay Switch</a><ul>
+<li><a class="reference internal" href="#vision-in-wall-z-wave-micro-switch-2-relay">Vision In Wall Z-Wave Micro Switch, 2 relay</a></li>
+<li><a class="reference internal" href="#operation">Operation</a></li>
+<li><a class="reference internal" href="#specification">Specification</a></li>
+<li><a class="reference internal" href="#inclusion-exclusion-to-from-a-network">Inclusion/Exclusion to/from a network</a></li>
+<li><a class="reference internal" href="#link-in-amazon">Link in Amazon</a></li>
+<li><a class="reference internal" href="#configuration-description">Configuration description</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../_sources/_static/src/relay_switch/vision_micro_dual_relay_zl7432.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, kb.verik.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.7</a>
+      
+      |
+      <a href="../../../_sources/_static/src/relay_switch/vision_micro_dual_relay_zl7432.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

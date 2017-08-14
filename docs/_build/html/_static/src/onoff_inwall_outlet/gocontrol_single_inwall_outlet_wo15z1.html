@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>GoControl single inwall outlet &mdash; venus_titan_guidance 1.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '1.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../underscore.js"></script>
+    <script type="text/javascript" src="../../doctools.js"></script>
+    <link rel="top" title="venus_titan_guidance 1.1 documentation" href="../../../index.html" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="gocontrol-single-inwall-outlet">
+<h1>GoControl single inwall outlet<a class="headerlink" href="#gocontrol-single-inwall-outlet" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="gocontrol-wo15z-1-z-wave-single-wall-outlet-white">
+<h2>GoControl WO15Z-1 Z-Wave Single Wall Outlet, White<a class="headerlink" href="#gocontrol-wo15z-1-z-wave-single-wall-outlet-white" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><img alt="../../../_images/gocontrol_single_inwall_outlet_wo15z1.jpg" src="../../../_images/gocontrol_single_inwall_outlet_wo15z1.jpg" />
+</div></blockquote>
+</div>
+<div class="section" id="basic-control">
+<h2>Basic control<a class="headerlink" href="#basic-control" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul>
+<li><dl class="first docutils">
+<dt>Button (Local Control): The button on the WO15Z-1 allows the user to turn the load attached to the controlled outlet ON or OFF.</dt>
+<dd><ul class="first simple">
+<li>Tapping button toggles the load attached ON or OFF.</li>
+<li>Include or exclude the module from the Z-Wave system.</li>
+</ul>
+<p class="last">When a Controller prompts to “Send Node ID” or to “Press Button on Unit”, quickly tap the button once to satisfy those instructions. (Tapping the button also toggles the load attached ON or OFF).</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">Remote Control: The WO15Z-1 will respond to BASIC and BINARY commands that are part of the Z-Wave system. Refer to your Controller’s instructions as to whether your Controller can transmit those commands.</p>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="specification">
+<h2>Specification<a class="headerlink" href="#specification" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Power 120VAC, 60Hz</li>
+<li>Signal (Frequency) 908.42 MHz</li>
+<li>Max load: Resistive: 15 amps (1800 watts) maximum, 120 VAC</li>
+<li>Range: Up to 100 feet line of sight between the Controller and or closest Z-Wave Receiver module.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="inclusion-exclusion-to-from-a-network">
+<h2>Inclusion/Exclusion to/from a network<a class="headerlink" href="#inclusion-exclusion-to-from-a-network" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Put controller to Inclusion/Exclusion mode</li>
+<li>Press program button once. Device will be included/excluded to/from zwave network.</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="link-in-amazon">
+<h2>Link in Amazon<a class="headerlink" href="#link-in-amazon" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><a class="reference external" href="https://www.amazon.com/GoControl-WO15Z-1-Z-Wave-Single-Outlet/dp/B00JFK1YRE">https://www.amazon.com/GoControl-WO15Z-1-Z-Wave-Single-Outlet/dp/B00JFK1YRE</a></div></blockquote>
+</div>
+<div class="section" id="configuration-description">
+<h2>Configuration description<a class="headerlink" href="#configuration-description" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic">
+<li><dl class="first docutils">
+<dt>LED indicator</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 3 (0x03)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ol class="first last arabic simple">
+<li>0 = LED ON when turn ON</li>
+<li>1 = LED OFF when turn ON</li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">GoControl single inwall outlet</a><ul>
+<li><a class="reference internal" href="#gocontrol-wo15z-1-z-wave-single-wall-outlet-white">GoControl WO15Z-1 Z-Wave Single Wall Outlet, White</a></li>
+<li><a class="reference internal" href="#basic-control">Basic control</a></li>
+<li><a class="reference internal" href="#specification">Specification</a></li>
+<li><a class="reference internal" href="#inclusion-exclusion-to-from-a-network">Inclusion/Exclusion to/from a network</a></li>
+<li><a class="reference internal" href="#link-in-amazon">Link in Amazon</a></li>
+<li><a class="reference internal" href="#configuration-description">Configuration description</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../_sources/_static/src/onoff_inwall_outlet/gocontrol_single_inwall_outlet_wo15z1.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, kb.verik.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.7</a>
+      
+      |
+      <a href="../../../_sources/_static/src/onoff_inwall_outlet/gocontrol_single_inwall_outlet_wo15z1.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

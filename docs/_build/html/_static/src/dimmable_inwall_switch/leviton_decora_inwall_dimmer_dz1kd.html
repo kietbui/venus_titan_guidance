@@ -1,0 +1,311 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Leviton Decora In-Wall Smart Dimmer &mdash; venus_titan_guidance 1.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '1.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../underscore.js"></script>
+    <script type="text/javascript" src="../../doctools.js"></script>
+    <link rel="top" title="venus_titan_guidance 1.1 documentation" href="../../../index.html" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="leviton-decora-in-wall-smart-dimmer">
+<h1>Leviton Decora In-Wall Smart Dimmer<a class="headerlink" href="#leviton-decora-in-wall-smart-dimmer" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="leviton-dz1kd-1bz-decora-smart-1000w-dimmer-with-z-wave-plus-technology-white-light-almond">
+<h2>Leviton DZ1KD-1BZ Decora Smart 1000W Dimmer with Z-Wave Plus Technology, White/Light Almond<a class="headerlink" href="#leviton-dz1kd-1bz-decora-smart-1000w-dimmer-with-z-wave-plus-technology-white-light-almond" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><img alt="../../../_images/leviton_decora_inwall_dimmer_dz1kd.jpg" src="../../../_images/leviton_decora_inwall_dimmer_dz1kd.jpg" />
+</div></blockquote>
+</div>
+<div class="section" id="operation">
+<h2>Operation<a class="headerlink" href="#operation" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>At default the locator light will illuminate when the load is in the OFF position to facilitate access in the dark.</li>
+<li>If using the dimmer in a 3-way application, the lights will turn ON at brightness set on dimmer’s DIM/BRIGHT bar. The lighting can be controlled from either the dimmer, the remote location or a Z-Wave® enabled controller.</li>
+<li>By default setting, top rocker is ON and bottom is OFF</li>
+<li>Tap the TOP half of the DIM/BRIGHT Bar – Lights will jump to the next brightness setting. Hold the TOP half of the DIM/BRIGHT Bar – Lights will brighten</li>
+<li>Tap the BOTTOM half of the DIM/BRIGHT Bar – Lights will jump to the next dim setting. Hold the BOTTOM half of the DIM/BRIGHT Bar – Lights will dim.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="specification">
+<h2>Specification<a class="headerlink" href="#specification" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Power: 120 VAC, 60 Hz.</li>
+<li>Incandescent: 1000W</li>
+<li>LED/CFL: 450W</li>
+<li>Signal (Frequency): 908.42 MHz.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="inclusion-exclusion-to-from-a-network">
+<h2>Inclusion/Exclusion to/from a network<a class="headerlink" href="#inclusion-exclusion-to-from-a-network" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Put controller to Inclusion/Exclusion mode</li>
+<li>Press and hold top paddle until LED changes to orange, release then press top paddle once to reset device.</li>
+<li>LED will flash orange then change to flash green indicate inclusion/exclusion process completes.</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="link-in-amazon">
+<h2>Link in Amazon<a class="headerlink" href="#link-in-amazon" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><a class="reference external" href="https://www.amazon.com/Leviton-DZ1KD-1BZ-Decora-Dimmer-Technology/dp/B01MQX5L8P/ref=sr_1_2?s=hi&amp;ie=UTF8&amp;qid=1502426812&amp;sr=1-2&amp;keywords=Leviton+DZMX1">https://www.amazon.com/Leviton-DZ1KD-1BZ-Decora-Dimmer-Technology/dp/B01MQX5L8P/ref=sr_1_2?s=hi&amp;ie=UTF8&amp;qid=1502426812&amp;sr=1-2&amp;keywords=Leviton+DZMX1</a></div></blockquote>
+</div>
+<div class="section" id="configuration-description">
+<h2>Configuration description<a class="headerlink" href="#configuration-description" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic">
+<li><dl class="first docutils">
+<dt>Fade On time</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 1 (0x01)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ol class="first last arabic simple">
+<li>0 = Instant On</li>
+<li>1 - 127 = Seconds: 1 - 127 seconds</li>
+<li>128 - 253 (0x80 - 0xFD) = Minutes: 1 - 126 minutes</li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 2</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Fade Off time</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 2 (0x02)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><ol class="first last arabic simple">
+<li>0 = Instant Off</li>
+<li>1 - 127 = Seconds: 1 - 127 seconds</li>
+<li>128 - 253 (0x80 - 0xFD) = Minutes: 1 - 126 minutes</li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 2</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Minimum light level</dt>
+<dd><ul class="first last simple">
+<li>Parameter: 3 (0x03)</li>
+<li>Size: 1 byte</li>
+<li>Value: 0 ~ 100</li>
+<li>Default: 10</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Maximum light level</dt>
+<dd><ul class="first last simple">
+<li>Parameter: 4 (0x04)</li>
+<li>Size: 1 byte</li>
+<li>Value: 0 ~ 100</li>
+<li>Default: 100</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Preset light level</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 5 (0x05)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><p class="first last">0: Last memorized dim level
+1 ~ 100: dim level</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>LED Dim Level Indicator Timeout</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 6 (0x06)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><p class="first last">0 = Level Indicators Off
+1 - 254 (0x01 - 0xFE) = Level Indicator Timeout (seconds)
+255 (0xFF) = Levels Always On</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 3</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Locator LED Status</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 7 (0x07)</p>
+</li>
+<li><p class="first">Size: 1 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><p class="first last">0 = LED Off
+254 (0xFE) = Status Mode
+255 (0xFF) = Locator Mode</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 255</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Load type</dt>
+<dd><ul class="first last">
+<li><p class="first">Parameter: 12 (0x0C)</p>
+</li>
+<li><p class="first">Size: 2 byte</p>
+</li>
+<li><dl class="first docutils">
+<dt>Value:</dt>
+<dd><p class="first last">0 = Incandescent
+1 = LED
+2 = CFL
+3 = Mark 10</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">Default: 0</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Leviton Decora In-Wall Smart Dimmer</a><ul>
+<li><a class="reference internal" href="#leviton-dz1kd-1bz-decora-smart-1000w-dimmer-with-z-wave-plus-technology-white-light-almond">Leviton DZ1KD-1BZ Decora Smart 1000W Dimmer with Z-Wave Plus Technology, White/Light Almond</a></li>
+<li><a class="reference internal" href="#operation">Operation</a></li>
+<li><a class="reference internal" href="#specification">Specification</a></li>
+<li><a class="reference internal" href="#inclusion-exclusion-to-from-a-network">Inclusion/Exclusion to/from a network</a></li>
+<li><a class="reference internal" href="#link-in-amazon">Link in Amazon</a></li>
+<li><a class="reference internal" href="#configuration-description">Configuration description</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../_sources/_static/src/dimmable_inwall_switch/leviton_decora_inwall_dimmer_dz1kd.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, kb.verik.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.7</a>
+      
+      |
+      <a href="../../../_sources/_static/src/dimmable_inwall_switch/leviton_decora_inwall_dimmer_dz1kd.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
