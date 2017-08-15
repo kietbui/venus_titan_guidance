@@ -36,5 +36,6 @@ Supported devices list
 	- :ref:`smoke_co_sensor_devices`
 	- :ref:`thermostat_devices`
 	- :ref:`water_flood_devices`
+	- :ref:`wemo_upnp_devices`
 
 
