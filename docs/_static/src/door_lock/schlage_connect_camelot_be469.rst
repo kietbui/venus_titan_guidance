@@ -1,4 +1,4 @@
-Schlage door lock
+Schlage door lock BE469
 ----------------------------------------
 Schlage Connect BE469NX CAM 619 Touchscreen Deadbolt with alarm with Camelot Trim, Satin Nickel
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -27,7 +27,7 @@ Inclusion/Exclusion to/from a network
 	#. Put controller to Inclusion/Exclusion mode
 	#. Remove battery then re-install battery to reset. Device will be included/excluded to/from zwave network.
 	
-	.. image:: ../../images/door_sensor/ecolink_tilt_sensor_i.png
+	.. image:: ../../images/door_sensor/ecolink_tilt_sensor_i.jpg
 	.. :align: left
 	
 Link in Amazon

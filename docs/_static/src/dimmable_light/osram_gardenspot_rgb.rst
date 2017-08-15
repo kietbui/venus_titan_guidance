@@ -1,4 +1,4 @@
-Osram Lightify Flex RGBW
+Osram GardenSpot RGB
 --------------------------------
 SYLVANIA Smart+ LED Landscape Lighting Set, Gardenspots - Works with Amazon Alexa
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

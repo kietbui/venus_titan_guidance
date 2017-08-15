@@ -87,5 +87,5 @@ Configuration description
 		- Value:
 			0 = Disable feature
 			1 = Enable feature
-		- Default: 3
+		- Default: 0
 		

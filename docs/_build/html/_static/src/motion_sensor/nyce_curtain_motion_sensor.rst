@@ -1,4 +1,4 @@
-NYCE Motion Sensor
+NYCE Curtain Motion Sensor
 -----------------------------------------
 NYCE NCZ-HA Zigbee Curtain Motion Sensor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,4 +1,4 @@
-NYCE NCZ-HA Zigbee Motion Sensor
+NYCE Motion Sensor
 -------------------------------------
 NYCE NCZ-3041-HA ZigBee Motion Sensor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
