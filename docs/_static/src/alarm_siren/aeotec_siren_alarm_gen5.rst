@@ -18,8 +18,8 @@ Working with PhD
 
 
 ..Add Aeotec Siren to PhD's network
-..~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	..[TBD]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	[TBD]
 Specification
 ~~~~~~~~~~~~~~~~~~~~~~
 	- Model number: 				ZW080-A17
