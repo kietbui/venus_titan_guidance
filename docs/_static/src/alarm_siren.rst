@@ -8,3 +8,6 @@ Alarms & Sirens devices
 .. toctree:: alarm_siren/item2_gocontrol_siren.rst
 	:maxdepth: 2
 	
+.. toctree:: alarm_siren/Item138_ZooZ_Siren.rst
+	:maxdepth: 2
+	
