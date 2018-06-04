@@ -25,6 +25,7 @@ Specification
 	- Protocol:					Z-Wave
 	- Dimension:					5.4 x 4.7 x 3.4 inches
 	- Weight:					11.2 ounces
+	- Installation and Use: 			Indoor only
 	
 .. Specification
 .. ~~~~~~~~~~~~~~~~~~~~~~
