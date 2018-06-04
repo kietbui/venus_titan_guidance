@@ -17,7 +17,7 @@ Working with PhD
 	#. Associate Aeotec Siren with other smart devices in Zinno App, such as door/window sensor or motion sensor... Then set the Siren on when doors or windows are opened unexpectedly, when there’s movement in your home...
 
 
-..Add Aeotec Siren to PhD's network
+Add Aeotec Siren to PhD's network
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	[TBD]
 Specification
