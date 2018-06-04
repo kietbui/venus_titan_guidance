@@ -31,3 +31,4 @@ Specification
 	- Battery type: 				Built-in Lithium Battery 430 mAh
 	- Dimension:					2.2 x 1.8 x 3.3 inches
 	- Weight:					2.88 ounces
+	- Installation and Use: 			Indoor only
