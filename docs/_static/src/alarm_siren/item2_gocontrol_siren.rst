@@ -23,6 +23,7 @@ Specification
 	- Audible Alarm: 				105 dB
 	- Protocol: 					Z-Wave
 	- Battery type: 				6V NiMH, 150 mAH
+	- Protocol:					Z-Wave
 	- Dimension:					5.4 x 4.7 x 3.4 inches
 	- Weight:					11.2 ounces
 	
