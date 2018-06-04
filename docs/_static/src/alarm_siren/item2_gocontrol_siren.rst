@@ -21,7 +21,6 @@ Specification
 	- Model number: 				WA105DBZ-1
 	- Power source: 				Battery, 100 - 240 VAC (50/60 Hz)
 	- Audible Alarm: 				105 dB
-	- Protocol: 					Z-Wave
 	- Battery type: 				6V NiMH, 150 mAH
 	- Protocol:					Z-Wave
 	- Dimension:					5.4 x 4.7 x 3.4 inches
