@@ -9,7 +9,7 @@ Product Description
 	#. Aeotec Siren Gen5 is for a smart, secure and safe home
 	#. 105 dB Speaker Systems is always heard, with 5 different audio alerts
 	#. Super-bright LED lights the path when it's dark
-	#. Back-up battery for the Siren keep working even when the power is out
+	#. Back-up battery for the Siren keep working even when the power is out (up to 3 hours)
 	
 Working with PhD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -25,7 +25,9 @@ Specification
 	- Model number: 				ZW080-A17
 	- Power source: 				Battery, Wall-Powered
 	- Alarm Power: 					1.7W.
-	- Max Standby Power: 			0.7W.
+	- Max Standby Power: 				0.7W.
 	- Max Volume: 					105 dB, reduced in battery powered mode.
 	- Protocol: 					Z-Wave Plus
 	- Battery type: 				Built-in Lithium Battery 430 mAh
+	- Dimension:					2.2 x 1.8 x 3.3 inches
+	- Weight:					2.88 ounces
