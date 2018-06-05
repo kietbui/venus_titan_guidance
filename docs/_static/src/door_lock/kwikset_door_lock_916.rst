@@ -1,21 +1,43 @@
-Kwikset door lock
-----------------------------------------
-Kwikset SmartCode 916 Z-Wave Touchscreen Electronic Deadbolt with Home Connect Technology, Polished Brass
+Kwilkset Z-Wave 99160 Touchscreen Deadbolt Smart Lock
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	.. image:: ../../images/door_lock/kwikset_smartcode_916_touchscreen.jpg
 	.. :align: left
 	
 
-Brief information
+Product Description
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-	- SecureScreen™ security feature - ON/OFF
-	- Auto re-lock 30-seconds after unlocking - ON/OFF
-	- Interior LED locked/unlocked status - ON/OFF
-	- Audible feedback - ON/OFF
+	#. SmartCode 916 is a one-touch locking motorized deadbolt that allows you to enter your home with the convenience of keyless entry and the back-lit keypad provides increased visibility
+	#. Requires 4 AA batteries, purchased separately
+	#. Easily installs in minutes with just a screwdriver  
+	#. Available in a range of colors.
+
+Working with PhD
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#. Control your Kwilkset Smart Lock and other connected devices with the Zinno app available on iOS&Android
+	#. With PhD, you could automatically set it open when you arrive home or close when you leave
+	#. Associate Kwilkset Smart Lock with other smart devices in Zinno App, and set them to turn on or off when you lock or unlock your Kwilkset Smart Lock
+
+Add Kwilkset Smart Lock to PhD's network
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#. On Zinno App, go to Menu → Devices → "+" button to put PhD to inclusion mode
+	#. Press button A once and wait for inclusion completes
+	
+	.. image:: ../../images/door_lock/kwikset_smartcode_916_touchscreen_d1.jpg
+	.. :align: left
 
 Specification
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+	- Model number: 				99160
+	- Power source: 				Battery, Wall-Powered
+	- Protocol: 					Z-Wave
+	- Battery type: 				4xAA 
+	- Dimension:					3.5 x 5.4 x 9.9 inches
+	- Weight:					3.2 pounds
+	- Installation and Use: 			Indoor only
+
+.. Specification
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
 	- Input Power: 		6V (4 x AA alkaline batteries)
 	- Door Prep:  		2 1⁄8" diameter face hole & 1" diameter latch hole
 	- Backset:  		Adjustable 2 3⁄8" or 2 3⁄4"
@@ -28,8 +50,8 @@ Specification
 	- Cylinder: 		SmartKey® Keyway
 
 
-Inclusion/Exclusion to/from a network
-~~~~~~~~~~~~~~~~~~~~~~~
+.. Inclusion/Exclusion to/from a network
+.. ~~~~~~~~~~~~~~~~~~~~~~~
 	#. Put controller to Inclusion/Exclusion mode
 	#. Press button A once and wait for exclusion completes
 	#. Press button A once again and wait for inclusion completes
@@ -37,7 +59,7 @@ Inclusion/Exclusion to/from a network
 	.. image:: ../../images/door_lock/kwikset_smartcode_916_touchscreen_d1.jpg
 	.. :align: left
 
-Configuration description
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-	There is no configuration in this device.
+.. Configuration description
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. 	There is no configuration in this device.
 
