@@ -3,7 +3,7 @@
 Door Lock devices
 --------------------
 
-.. toctree:: door_lock/kwikset_door_lock_916.rst
+.. toctree:: door_lock/item35_kwikset_door_lock_916.rst
 	:maxdepth: 2
 	
 .. toctree:: door_lock/schlage_connect_camelot_be468.rst
