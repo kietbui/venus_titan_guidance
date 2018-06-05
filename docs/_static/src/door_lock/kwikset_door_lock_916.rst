@@ -34,7 +34,7 @@ Specification
 	- Battery type: 				4xAA 
 	- Dimension:					3.5 x 5.4 x 9.9 inches
 	- Weight:					3.2 pounds
-	- Installation and Use: 			Indoor only
+	- Color: 			Polished Brass, Satin Nickel, Venetian Bronze 
 
 .. Specification
 .. ~~~~~~~~~~~~~~~~~~~~~~~~~~
