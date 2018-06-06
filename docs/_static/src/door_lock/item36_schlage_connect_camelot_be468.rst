@@ -1,5 +1,5 @@
 Schlage Z-Wave BE468CAM619 Touchscreen Deadbolt Smart Lock
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------
 
 	.. image:: ../../images/door_lock/schlage_connect_camelot_be468.jpg
 	.. :align: left
