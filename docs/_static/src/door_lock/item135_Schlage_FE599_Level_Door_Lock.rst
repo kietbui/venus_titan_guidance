@@ -21,20 +21,26 @@ Working with PhD
 Add Schlage Smart Lock to PhD's network
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. On Zinno App, go to Menu → Devices → Tap "+" button to put PhD to inclusion mode
-	#. Press the Schlage button on the lock, then enter 6-digit programing code then press '0' and wait for inclusion completes
-	
-	.. image:: ../../images/door_lock/schlage_connect_camelot_touchscreen_d.png
+	#. While the PhD in searching mode, bring the lock close, then:
+		- Enter your 6-digit programming code
+		- Wait for the device to beep three times
+		- Press the Schlage button
+		- Press 0
+		- The Schlage button will blink three times to confirm
+		
+	.. image:: ../../images/door_lock/item135_Schlage_FE599_Level_Door_Lock_detail.jpg
 	.. :align: left
 
 Specification
 ~~~~~~~~~~~~~~~~~~~~~~
-	- Model number: 				BE469NX
+	- Model number: 				FE599NX CAM 619
 	- Power source: 				Battery
 	- Protocol: 					Z-Wave
 	- Battery type: 				4xAA 
-	- Dimension:					4.5 x 5.1 x 9.2 inches
-	- Weight:					3.8 pounds
-	- Color: 			Aged Bronze, Bright Chrome, Bright Brass, Mattle Black, Satin Chrome, Satin Nickel
+	- Dimension:					2.8 x 3 x 6.8 inches
+	- Weight:					5.75 pounds
+	- Color: 			Bright Brass, Satin Nickel, Aged Bronze
+	
 Others
 ~~~~~~~~~~~~~~~~~~~~~~~
 	.. image:: ../../images/door_lock/schlage_connect_camelot_be469_d.jpg
