@@ -9,7 +9,7 @@ Door Lock devices
 .. toctree:: door_lock/item36_schlage_connect_camelot_be468.rst
 	:maxdepth: 2
 	
-.. toctree:: door_lock/schlage_connect_camelot_be469.rst
+.. toctree:: door_lock/item37_schlage_connect_camelot_be469.rst
 	:maxdepth: 2
 	
 .. toctree:: door_lock/yale_secure_door_lock_yrd220.rst
