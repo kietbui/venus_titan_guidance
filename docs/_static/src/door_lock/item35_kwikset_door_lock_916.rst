@@ -1,5 +1,5 @@
 Kwikset Z-Wave 99160 Touchscreen Deadbolt Smart Lock
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------
 
 	.. image:: ../../images/door_lock/kwikset_smartcode_916_touchscreen.jpg
 	.. :align: left
@@ -14,13 +14,13 @@ Product Description
 
 Working with PhD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	#. Control your Kwilkset Smart Lock and other connected devices with the Zinno app available on iOS&Android
+	#. Control your Kwikset Smart Lock and other connected devices with the Zinno app available on iOS&Android
 	#. With PhD, you could automatically set it open when you arrive home or close when you leave
-	#. Associate Kwilkset Smart Lock with other smart devices in Zinno App, and set them to turn on or off when you lock or unlock your Kwilkset Smart Lock
+	#. Associate Kwikset Smart Lock with other smart devices in Zinno App, and set them to turn on or off when you lock or unlock your Kwikset Smart Lock
 
-Add Kwilkset Smart Lock to PhD's network
+Add Kwikset Smart Lock to PhD's network
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	#. On Zinno App, go to Menu → Devices → "+" button to put PhD to inclusion mode
+	#. On Zinno App, go to Menu → Devices → Tap "+" button to put PhD to inclusion mode
 	#. Press button A once and wait for inclusion completes
 	
 	.. image:: ../../images/door_lock/kwikset_smartcode_916_touchscreen_d1.jpg
@@ -29,7 +29,7 @@ Add Kwilkset Smart Lock to PhD's network
 Specification
 ~~~~~~~~~~~~~~~~~~~~~~
 	- Model number: 				99160
-	- Power source: 				Battery, Wall-Powered
+	- Power source: 				Battery
 	- Protocol: 					Z-Wave
 	- Battery type: 				4xAA 
 	- Dimension:					3.5 x 5.4 x 9.9 inches
