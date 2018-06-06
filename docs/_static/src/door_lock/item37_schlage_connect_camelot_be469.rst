@@ -34,7 +34,7 @@ Specification
 	- Battery type: 				4xAA 
 	- Dimension:					4.5 x 5.1 x 9.2 inches
 	- Weight:					3.8 pounds
-	- Color: 			Aged Bronze, Bright Chrome, Bright Brass, Mattle Black, Satin Chrome, Satin Nikel
+	- Color: 			Aged Bronze, Bright Chrome, Bright Brass, Mattle Black, Satin Chrome, Satin Nickel
 Others
 ~~~~~~~~~~~~~~~~~~~~~~~
 	.. image:: ../../images/door_lock/schlage_connect_camelot_be469_d.jpg
