@@ -1,14 +1,56 @@
-Schlage door lock BE469
-----------------------------------------
-Schlage Connect BE469NX CAM 619 Touchscreen Deadbolt with alarm with Camelot Trim, Satin Nickel
+Schlage Z-Wave BE469NX Touchscreen Deadbolt Smart Lock
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	.. image:: ../../images/door_lock/schlage_connect_camelot_be469.jpg
 	.. :align: left
 	
-
-Brief information
+Product Description
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#. Touch Screen keypad and lock cylinder on exterior and thumb turn interior
+	#. Stores up to 30 personalized user codes at a time
+	#. Built-in alarm with 3 alert settings
+	#. Battery operated and fit standard door prep
+	#. Available in a range of colors.
+
+Working with PhD
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#. Control your Schlage BE469NX Smart Lock and other connected devices with the Zinno app available on iOS&Android
+	#. With PhD, you could automatically set it open when you arrive home or close when you leave
+	#. Associate Schlage BE469NX Smart Lock with other smart devices in Zinno App, and set them to turn on or off when you lock or unlock your Schlage Smart Lock
+
+Add Schlage Smart Lock to PhD's network
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#. On Zinno App, go to Menu → Devices → Tap "+" button to put PhD to inclusion mode
+	#. Input programing code then press '0' and wait for inclusion completes
+	
+	.. image:: ../../images/door_lock/schlage_connect_camelot_touchscreen_d.png
+	.. :align: left
+
+Specification
+~~~~~~~~~~~~~~~~~~~~~~
+	- Model number: 				BE469NX
+	- Power source: 				Battery
+	- Protocol: 					Z-Wave
+	- Battery type: 				4xAA 
+	- Dimension:					4.5 x 5.1 x 9.2 inches
+	- Weight:					3.8 pounds
+	- Color: 			Aged Bronze, Bright Chrome, Bright Brass, Mattle Black, Satin Chrome, Satin Nikel
+Others
+~~~~~~~~~~~~~~~~~~~~~~~
+	.. image:: ../../images/door_lock/schlage_connect_camelot_be469_d.jpg
+	.. :align: left
+	
+	.. image:: ../../images/door_lock/schlage_connect_camelot_be468_prg_1.jpg
+	.. :align: left
+	
+	.. image:: ../../images/door_lock/schlage_connect_camelot_be468_prg_2.jpg
+	.. :align: left
+	
+	.. image:: ../../images/door_lock/schlage_connect_camelot_be468_prg_3.jpg
+	.. :align: left
+
+.. Brief information
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
 	- Thumbturn: Used to lock and unlock manually from the inside.
 	- Schlage Button: 
 		+ Located on the outside of the door.
@@ -35,8 +77,8 @@ Brief information
 	.. image:: ../../images/door_lock/schlage_connect_camelot_be468_prg_3.jpg
 	.. :align: left
 
-Inclusion/Exclusion to/from a network
-~~~~~~~~~~~~~~~~~~~~~~~
+.. Inclusion/Exclusion to/from a network
+.. ~~~~~~~~~~~~~~~~~~~~~~~
 	#. Put controller to Inclusion/Exclusion mode
 	#. Input programing code then press '0' and wait for exclusion completes
 	#. Input programing code then press '0' again and wait for inclusion completes
@@ -44,8 +86,8 @@ Inclusion/Exclusion to/from a network
 	.. image:: ../../images/door_lock/schlage_connect_camelot_touchscreen_d.png
 	.. :align: left
 
-Configuration description
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Configuration description
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
 	
 	#. Enable beeper
 		- Parameter: 3 (0x03)
