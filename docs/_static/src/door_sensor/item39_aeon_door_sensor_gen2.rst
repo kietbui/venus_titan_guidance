@@ -1,29 +1,44 @@
-Aeotec Door Window Sensor
+Aeon Labs  Z-Wave DSB29-ZWUS Door/Window Sensor, 2nd Edition
 --------------------------------
-Aeotec by Aeon Labs ZW120 Door / Window Sensor, Small, White by Aeon Labs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	.. image:: ../../images/door_sensor/aeon_door_window.jpg
 	.. :align: left
 
-Specification
+Product Description
 ~~~~~~~~~~~~~~~~~~~
-	- The Aeon Labs D/W Sensor is a battery-powered Z-Wave magnetic door/window sensor with an extremely small form factor. The D/W sensor will send radio signals up to 6 associated Z-Wave devices within its own Z-Wave network when the main unit separates from the smaller unit.
-	- Bidirectional mounting plate and push button allows for easy end-user installation. The Aeon Labs D/W Sensor also has tamper prevention capabilities and low-battery alerts. 
-	- 1 year battery life 2xAAA battery
-	- Up to 100 feets/30 metres indoor and 254 feeds/100 metres outdoor
+	#. Signal up to 6 associated Z-Wave devices when contact is broken
+	#. 300 foot communicating Z-Wave RF range
+	#. Long 2 year battery life
+	#. Tamper prevention security trigger
+	#. DIY installation with double stick tape or screws
 
-Inclusion/Exclusion to/from a network
+Working with PhD
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#. Be monitored by PhD via the Zinno app available on iOS&Android
+	#. The Speaker on Phd will annouce when receive the alert from the Aeon Door/Window Sensor
+	#. Associate Aeon Door/Window Sensor with other smart devices in Zinno App, and set them turn on or off if the sensor detects doors or windows have been open
+
+Add Aeon Door/Window Sensor to PhD's network
 ~~~~~~~~~~~~~~~~~~~~~~~
-	#. Put controller to Inclusion/Exclusion mode
-	#. Press the z-wave button once
-	#. Wait for controller completes inclusion/exclusion process
+	#. On Zinno App, go to Menu → Devices → Tap "+" button to put PhD to inclusion mode
+	#. Press the Action button once
+	#. Wait for PhD completes inclusion/exclusion process
 	
 	.. image:: ../../images/door_sensor/aeon_door_window_d.jpg
 	.. :align: left
+
+Specification
+~~~~~~~~~~~~~~~~~~~~~~
+	- Model number: 				DSB29-ZWUS
+	- Power source: 				Battery
+	- Protocol: 					Z-Wave
+	- Battery type: 				2xAAA 
+	- Dimension:					2.9 x 0.8 x 1.1 inches
+	- Weight:						0.13 lb
+	- Color: 						White
 	
-Wake up information
-~~~~~~~~~~~~~~~~~~~~~
+.. Wake up information
+.. ~~~~~~~~~~~~~~~~~~~~~
 	- D/W sensor will keep wake up for 8 seconds after it send wake up notification command. 
 	- If it receive a command,it will keep wake up for 8 seconds to wait next command.
 	- Press tamper switch 3 times, then D/W sensor will wake 10 minutes.
@@ -33,14 +48,14 @@ Wake up information
 		- D/W sensor received “Wake up no more information CC”, sleep right now;
 		- Received other command, wake 8 seconds to wait next command.
 
-LED indicator
-~~~~~~~~~~~~~~~~~~
+.. LED indicator
+.. ~~~~~~~~~~~~~~~~~~
 	- ON: In network
 	- OFF: Sleeping
 	- Blink: Out of network
 
-Button actions
-~~~~~~~~~~~~~~~~~~
+.. Button actions
+.. ~~~~~~~~~~~~~~~~~~
 	#. Press Action button once: 
 		1. Send node info frame without security CC in node info list.
 		2. Put device to Inclusion/Exclusion mode
@@ -52,12 +67,9 @@ Button actions
 	#. Press and hold Action bitton for 20 seconds then release:
 		Reset Door Window Sensor to Factory Default
 		
-Link in Amazon
-~~~~~~~~~~~~~~~
-	https://www.amazon.com/Aeotec-Aeon-Labs-ZW120-Window/dp/B01GK5D1PE/
 
-Configuration description
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Configuration description
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	#. Parameter 1: To set which value of the Sensor Binary Report will be sent when the door is Opened/Closed.
 		- Paramter: 1 (0x01)

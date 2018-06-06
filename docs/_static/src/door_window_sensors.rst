@@ -2,7 +2,7 @@
 
 Door/Window sensor devices
 ------------------------------
-.. toctree:: door_sensor/aeon_door_sensor.rst
+.. toctree:: door_sensor/item39_aeon_door_sensor_gen2.rst
    :maxdepth: 2
 
 .. toctree:: door_sensor/aeon_recessed_sensor.rst
