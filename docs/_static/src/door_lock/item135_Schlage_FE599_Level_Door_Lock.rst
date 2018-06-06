@@ -43,14 +43,9 @@ Specification
 	
 Others
 ~~~~~~~~~~~~~~~~~~~~~~~
-	.. image:: ../../images/door_lock/schlage_connect_camelot_be469_d.jpg
+	.. image:: ../../images/door_lock/item135_Schlage_FE599_Level_Door_Lock_Legend.jpg
 	.. :align: left
 	
-	.. image:: ../../images/door_lock/schlage_connect_camelot_be468_prg_1.jpg
+	.. image:: ../../images/door_lock/item135_Schlage_FE599_Level_Door_Lock_Program.jpg
 	.. :align: left
-	
-	.. image:: ../../images/door_lock/schlage_connect_camelot_be468_prg_2.jpg
-	.. :align: left
-	
-	.. image:: ../../images/door_lock/schlage_connect_camelot_be468_prg_3.jpg
-	.. :align: left
+
