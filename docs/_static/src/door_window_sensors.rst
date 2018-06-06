@@ -8,7 +8,7 @@ Door/Window sensor devices
 .. toctree:: door_sensor/item40_aeon_recessed_sensor.rst
    :maxdepth: 2
 
-.. toctree:: door_sensor/ecolink_door_sensor.rst
+.. toctree:: door_sensor/item41_ecolink_door_sensor.rst
    :maxdepth: 2
 
 .. toctree:: door_sensor/ecolink_tilt_sensor.rst
