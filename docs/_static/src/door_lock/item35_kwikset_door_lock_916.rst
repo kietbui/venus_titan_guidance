@@ -21,7 +21,7 @@ Working with PhD
 Add Kwikset Smart Lock to PhD's network
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. On Zinno App, go to Menu → Devices → Tap "+" button to put PhD to inclusion mode
-	#. Press button A once and wait for inclusion completes
+	#. While PhD is in searching mode, bring the lock close, then press button A once and wait for inclusion completes
 	
 	.. image:: ../../images/door_lock/kwikset_smartcode_916_touchscreen_d1.jpg
 	.. :align: left

@@ -21,7 +21,7 @@ Working with PhD
 Add Schlage Smart Lock to PhD's network
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. On Zinno App, go to Menu → Devices → Tap "+" button to put PhD to inclusion mode
-	#. Input programing code then press '0' and wait for inclusion completes
+	#. While PhD is in searching mode, bring the lock close, then enter 6-digit programing code then press '0' and wait for inclusion completes
 	
 	.. image:: ../../images/door_lock/schlage_connect_camelot_touchscreen_d.png
 	.. :align: left
