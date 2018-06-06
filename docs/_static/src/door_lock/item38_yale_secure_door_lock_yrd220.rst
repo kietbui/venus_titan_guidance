@@ -22,7 +22,7 @@ Add Yale Zigbee to PhD's network
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. On Zinno App, go to Menu → Devices → Tap "+" button to put PhD to inclusion mode
 	#. Touch screen with back of hand or fingers to active device
-	#. Key input: 
+	#. Key input:
 		- <Master code> --> # --> 7 --> # --> 1  to include to network
 		.. - <Master code> --> # --> 7 --> # --> 3  to exclude from network
 Specification
