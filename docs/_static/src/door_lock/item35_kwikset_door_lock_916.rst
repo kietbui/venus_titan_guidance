@@ -1,4 +1,4 @@
-Kwilkset Z-Wave 99160 Touchscreen Deadbolt Smart Lock
+Kwikset Z-Wave 99160 Touchscreen Deadbolt Smart Lock
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	.. image:: ../../images/door_lock/kwikset_smartcode_916_touchscreen.jpg
