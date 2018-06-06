@@ -1,6 +1,5 @@
 Aeotec Z-Wave Plus ZW089 Recessed Door/Window Sensor, 2nd Edition
 --------------------------------
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	.. image:: ../../images/door_sensor/aeon_recessed.jpg
 	.. :align: left
