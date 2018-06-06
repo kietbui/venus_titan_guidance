@@ -1,5 +1,5 @@
 Schlage Z-Wave BE469NX Touchscreen Deadbolt Smart Lock
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------
 
 	.. image:: ../../images/door_lock/schlage_connect_camelot_be469.jpg
 	.. :align: left
