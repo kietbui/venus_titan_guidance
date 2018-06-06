@@ -15,10 +15,10 @@ Product Description
 Working with PhD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. Be monitored by PhD via the Zinno app available on iOS&Android
-	#. The Speaker on Phd will annouce when receive the alert from the Aeon Door/Window Sensor
-	#. Associate Aeon Door/Window Sensor with other smart devices in Zinno App, and set them turn on or off if the sensor detects doors or windows have been open
+	#. The Speaker on Phd will annouce when receive the alert from the Aeon Labs Door/Window Sensor
+	#. Associate Aeon Labs Door/Window Sensor with other smart devices in Zinno App, and set them turn on or off if the sensor detects doors or windows have been open
 
-Add Aeon Door/Window Sensor to PhD's network
+Add Aeon Labs Door/Window Sensor to PhD's network
 ~~~~~~~~~~~~~~~~~~~~~~~
 	#. On Zinno App, go to Menu → Devices → Tap "+" button to put PhD to inclusion mode
 	#. Press the Action button once
