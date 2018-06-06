@@ -26,8 +26,8 @@ Add Aeotec Recessed Door/Window Sensor to PhD's network
 	.. image:: ../../images/door_sensor/aeon_recessed_b.jpg
 	.. :align: left
 	
-Button actions
-~~~~~~~~~~~~~~~~~~~
+.. Button actions
+.. ~~~~~~~~~~~~~~~~~~~
 	#. Short press z-wave button: 
 		Add/Remove device to/from a z-wave network
 	#. Press and hold z-wave button for 6 seconds
