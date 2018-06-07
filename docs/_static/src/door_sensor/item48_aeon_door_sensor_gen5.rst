@@ -1,4 +1,4 @@
-Aeon Labs Z-Wave ZW120 Door/Window Sensor, Gen5
+Aeon Labs Z-Wave Plus ZW120 Door/Window Sensor, Gen5
 --------------------------------
 
 	.. image:: ../../images/door_sensor/aeon_door_window.jpg
