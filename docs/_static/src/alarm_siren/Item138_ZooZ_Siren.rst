@@ -1,7 +1,7 @@
 Zooz Z-Wave Plus ZSE01 Indoor Siren
 -----------------------------------
 
-	.. image:: ../../images/alarm_siren/item138_ZooZ_Siren.jpg
+	.. image:: ../../images/alarm_siren/item138_ZooZ_Siren.JPG
 	.. :align: left
 	
 Product Description
