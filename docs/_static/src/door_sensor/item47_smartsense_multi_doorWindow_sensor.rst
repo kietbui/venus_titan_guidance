@@ -1,6 +1,5 @@
 Smartthings Zigbee STSS-MULT-001 Door/Window Sensor
 ---------------------------------------
-
 	.. image:: ../../images/door_sensor/smartsense_multi_sensor.jpg
 	.. :align: left
 
@@ -49,10 +48,10 @@ Specification
 	.. :align: left
 	
 .. Ref-link
-~~~~~~~~~~~~~~~~
+.. ~~~~~~~~~~~~~~~~
 	https://www.smarthomedb.com/product/smartthings-smartsense-multi-sensor/p386
 	
-Configuration description
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Configuration description
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
 	There is no configuration for this device.
 	
