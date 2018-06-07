@@ -33,6 +33,8 @@ Door/Window sensor devices
 .. toctree:: door_sensor/item48_aeon_door_sensor_gen5.rst
    :maxdepth: 2
  
+.. toctree:: door_sensor/item49_ecolink_door_sensor_Z-WavePlus.rst
+   :maxdepth: 2
  
 .. toctree:: door_sensor/sensative_strips_door_sensor.rst
    :maxdepth: 2

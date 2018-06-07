@@ -29,7 +29,7 @@ Specification
 ~~~~~~~~~~~~~~~~~~~~~~
 	- Model number: 				ZW120
 	- Power source: 				Battery
-	- Protocol: 					Z-Wave
+	- Protocol: 					Z-Wave Plus
 	- Battery type: 				2xAAA 
 	- Dimension:					2.9 x 0.8 x 1.1 inches
 	- Weight:						0.13 lb
