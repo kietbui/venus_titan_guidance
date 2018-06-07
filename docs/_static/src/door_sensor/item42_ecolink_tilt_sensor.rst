@@ -1,8 +1,5 @@
-Ecolink Tilt Sensor
+Ecolink Z-Wave TILTZWAVE2-ECO Garage Door Tilt Sensor
 --------------------------------
-Ecolink Intelligent Technology Z-Wave Garage Door Tilt Sensor, White (TILT-ZWAVE2-ECO)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 	.. image:: ../../images/door_sensor/ecolink_tilt_sensor.jpg
 	.. :align: left
