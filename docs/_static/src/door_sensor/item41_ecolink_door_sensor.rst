@@ -16,7 +16,7 @@ Working with PhD
 	#. The Speaker on Phd will annouce when receive the alert from the Ecolink Door/Window Sensor
 	#. Associate Ecolink Door/Window Sensor with other smart devices in Zinno App, and set them turn on or off if the sensor detects doors or windows have been open	
 
-Add Aeotec Recessed Door/Window Sensor to PhD's network
+Add Ecolink Door/Window Sensor to PhD's network
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. On Zinno App, go to Menu → Devices → Tap "+" button to put PhD to inclusion mode
 	#. Remove battery then re-install battery to reset. Device will be included/excluded to/from zwave network.
