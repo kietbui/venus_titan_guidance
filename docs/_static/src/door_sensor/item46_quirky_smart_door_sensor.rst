@@ -32,7 +32,7 @@ Specification
 ~~~~~~~~~~~~~~~~~~~~~
 	- Model number: 				PTRPP-WH02
 	- Power source: 				Battery
-	- Protocol: 					Z-Wave
+	- Protocol: 					Zigbee
 	- Battery type: 				CR2032
 	- Dimension:					2.13 x 1.70 x 2.20 inches
 	- Weight:						0.1 lbs
