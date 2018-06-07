@@ -17,7 +17,7 @@ Door/Window sensor devices
 .. toctree:: door_sensor/item43_fibaro_door_sensor.rst
    :maxdepth: 2
 
-.. toctree:: door_sensor/gocontrol_door_sensor.rst
+.. toctree:: door_sensor/item44_gocontrol_door_sensor.rst
    :maxdepth: 2
    
 .. toctree:: door_sensor/quirky_smart_door_sensor.rst
