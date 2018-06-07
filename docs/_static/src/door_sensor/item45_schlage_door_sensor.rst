@@ -1,17 +1,30 @@
-Schlage Home Door Window Sensor
---------------------------------
-Z-Wave Door and Window Sensor with Nexia, RS 100, Both White and Brown Cases Included
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Schlage Z-Wave RS100HC Door/Window Sensor
+----------------------------------------
 
 	.. image:: ../../images/door_sensor/schlage_door_window.jpg
 	.. :align: left
 
-Overvirew
-~~~~~~~~~~~~~~~~~~~~~
-- Z-Wave enabled device which provides open/closed position status
-	- Transmits open/closed status
-	- Report tamper when cover is open
+Product Description
+~~~~~~~~~~~~~~~~~~~~~~
+	#. Simple installation and set up–just stick on
+	#. Incorporate into automations so the lights turn on where there is activity
+	#. Check in to see if the doors and windows are closed at night
+	#. Chose white or brown covers included in each package
 
+Working with PhD
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#. Be monitored by PhD via the Zinno app available on iOS&Android
+	#. The Speaker on Phd will annouce when receive the alert from the Schlage Door/Window Sensor
+	#. Associate Schlage Door/Window Sensor with other smart devices in Zinno App, and set them turn on or off if the sensor detects doors or windows have been open	
+
+Add GoControl Door/Window Sensor to PhD's network
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#. On Zinno App, go to Menu → Devices → Tap "+" button to put PhD to inclusion mode
+	#. Remove battery then re-install battery to reset. Device will be included/excluded to/from zwave network.
+		
+	.. image:: ../../images/door_sensor/ecolink_door_window_i.jpg
+	.. :align: left
+	
 Specification
 ~~~~~~~~~~~~~~~~~~~~~
 	- For indoor use only

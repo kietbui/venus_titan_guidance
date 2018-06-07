@@ -20,10 +20,10 @@ Door/Window sensor devices
 .. toctree:: door_sensor/item44_gocontrol_door_sensor.rst
    :maxdepth: 2
    
-.. toctree:: door_sensor/quirky_smart_door_sensor.rst
+.. toctree:: door_sensor/item46_quirky_smart_door_sensor.rst
    :maxdepth: 2
 
-.. toctree:: door_sensor/schlage_door_sensor.rst
+.. toctree:: door_sensor/item45_schlage_door_sensor.rst
    :maxdepth: 2
    
 .. toctree:: door_sensor/sensative_strips_door_sensor.rst

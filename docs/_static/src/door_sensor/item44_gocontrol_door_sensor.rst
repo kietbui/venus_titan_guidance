@@ -4,7 +4,7 @@ GoControl Z-Wave WADWAZ-1 Door/Window Sensor
 	.. image:: ../../images/door_sensor/gocontrol_door_window.jpg
 	.. :align: left
 
-Overview
+Product Description
 ~~~~~~~~~~~~~~~~~~~~~~
 	#. Wireless Z-wave(r) Door Or Window Sensor 
 	#. Internal Magnetic Switch Contact & Magnet 
