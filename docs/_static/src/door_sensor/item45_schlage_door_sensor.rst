@@ -22,38 +22,39 @@ Add GoControl Door/Window Sensor to PhD's network
 	#. On Zinno App, go to Menu → Devices → Tap "+" button to put PhD to inclusion mode
 	#. Remove battery then re-install battery to reset. Device will be included/excluded to/from zwave network.
 		
-	.. image:: ../../images/door_sensor/ecolink_door_window_i.jpg
+	.. image:: ../../images/door_sensor/schlage_door_window_detail1.jpg
 	.. :align: left
 	
 Specification
 ~~~~~~~~~~~~~~~~~~~~~
-	- For indoor use only
-	- Operating frequency: 908.42 MHz
-	- Operation range: Up to 100 feet (30.5 meters) line-of-sight
-	- Operating temperature: 0° – 49°C, 32° – 120°F (ambient temperature)
-	- Battery type required: 3V Lithium CR123A
-	- Battery life approximately 3 years
+	- Model number: 				RS100HC
+	- Power source: 				Battery
+	- Protocol: 					Z-Wave
+	- Battery type: 				CR123A
+	- Dimension:					3.5 x 1.75 x 1 inches
+	- Weight:						0.2 lbs
+	- Color: 						White
 	
-Inclusion/Exclusion to/from a network
-~~~~~~~~~~~~~~~~~~~~~~~
+.. Inclusion/Exclusion to/from a network
+.. ~~~~~~~~~~~~~~~~~~~~~~~
 	#. Put controller to Inclusion/Exclusion mode
 	#. Remove battery then re-install battery to reset. Device will be included/excluded to/from zwave network.
 		
 	.. image:: ../../images/door_sensor/schlage_door_window_detail1.jpg
 	.. :align: left
 	
-LED indicator
-~~~~~~~~~~~~~~~~~~~
+.. LED indicator
+.. ~~~~~~~~~~~~~~~~~~~
 	- Continuously blinking: device is not in any z-wave network
 	- Solid light: device is in a z-wave network or tamper
 	- Single blink: Open/Close detected
 	
-Link in Amazon
-~~~~~~~~~~~~~~~~~
+.. Link in Amazon
+.. ~~~~~~~~~~~~~~~~~
 	https://www.amazon.com/Z-Wave-Window-Sensor-Nexia-Included/dp/B008Q5CTBE
 
-Configuration description
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Configuration description
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. Parameter 99: Send basic set 0x00 to associated devices when door sensor door is closed
 		- Parameter: 99 (0x63)
 		- Size: 1 byte
