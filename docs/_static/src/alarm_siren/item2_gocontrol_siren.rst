@@ -21,6 +21,7 @@ Add GoControl Siren to PhD's network
 	#. On Zinno App, go to Menu → Devices → "+" button to put PhD to inclusion mode
 	#. Place the siren within 3 feet of the PhD 
 	#. Press Program/Tamper switch for 1 second then release. The LED will blink to indicate include/exclude process completes
+	
 	.. image:: ../../images/alarm_siren/gocontrol_siren_detail_1.jpg
 	.. :align: left	
 	

@@ -21,6 +21,7 @@ Add Zooz Indoor Siren to PhD's network
 	#. On Zinno App, go to Menu → Devices → "+" button to put PhD to inclusion mode
 	#. Place the siren within 3 feet of the PhD 
 	#. Press and release the Z-Wave button quickly several times
+	
 	.. image:: ../../images/alarm_siren/item138_ZooZ_Siren_Detail1.JPG
 	.. :align: left	
 	
