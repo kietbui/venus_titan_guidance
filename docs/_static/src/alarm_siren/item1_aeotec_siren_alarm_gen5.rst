@@ -1,5 +1,5 @@
 Aeotec Z-Wave Plus ZW080-A17 Siren Gen5
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------
 
 	.. image:: ../../images/alarm_siren/item1_aeon_siren_5.jpg
 	.. :align: left

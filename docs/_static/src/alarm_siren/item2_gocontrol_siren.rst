@@ -1,5 +1,5 @@
 GoControl Z-Wave WA105DBZ-1 Siren and Strobe
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------------
 
 	.. image:: ../../images/alarm_siren/item2_gocontrol_siren.jpg
 	.. :align: left
@@ -13,8 +13,16 @@ Product Description
 
 Working with PhD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	#. Control your GoControl Z-Wave WA105DBZ-1 Siren and other connected devices with the Zinno app available on iOS&Android
-	#. Associate GoControl Z-Wave WA105DBZ-1 Siren with other smart devices in Zinno App, such as door/window sensor or motion sensor... Then set the Siren on when doors or windows are opened unexpectedly, when there’s movement in your home...
+	#. Control your GoControl Siren and other connected devices with the Zinno app available on iOS&Android
+	#. Associate GoControl Siren with other smart devices in Zinno App, such as door/window sensor or motion sensor... Then set the Siren on when doors or windows are opened unexpectedly, when there’s movement in your home...
+
+Add GoControl Siren to PhD's network
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#. On Zinno App, go to Menu → Devices → "+" button to put PhD to inclusion mode
+	#. Place the siren within 3 feet of the PhD 
+	#. Press Program/Tamper switch for 1 second then release. The LED will blink to indicate include/exclude process completes
+	.. image:: ../../images/alarm_siren/gocontrol_siren_detail_1.jpg
+	.. :align: left	
 	
 Specification
 ~~~~~~~~~~~~~~~~~~~~~~
