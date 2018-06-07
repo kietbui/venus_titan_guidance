@@ -25,12 +25,13 @@ Door/Window sensor devices
 
 .. toctree:: door_sensor/item45_schlage_door_sensor.rst
    :maxdepth: 2
-   
+ 
+.. toctree:: door_sensor/item47_smartsense_multi_doorWindow_sensor
+   :maxdepth: 2
+ 
 .. toctree:: door_sensor/sensative_strips_door_sensor.rst
    :maxdepth: 2
    
-.. toctree:: door_sensor/smartsense_multi.rst
-   :maxdepth: 2
-   
-.. toctree:: door_sensor/item47_smartsense_open_close.rst
+  
+.. toctree:: door_sensor/smartsense_open_close.rst
    :maxdepth: 2
