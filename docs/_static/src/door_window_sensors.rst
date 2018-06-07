@@ -30,6 +30,10 @@ Door/Window sensor devices
 .. toctree:: door_sensor/item47_smartsense_multi_doorWindow_sensor
    :maxdepth: 2
  
+.. toctree:: door_sensor/item48_aeon_door_sensor_gen5.rst
+   :maxdepth: 2
+ 
+ 
 .. toctree:: door_sensor/sensative_strips_door_sensor.rst
    :maxdepth: 2
    
