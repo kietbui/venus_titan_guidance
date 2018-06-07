@@ -1,42 +1,55 @@
-FIBARO Z-Wave Door/Window Sensor
+Fibaro Z-Wave FGK-10x Door/Window Sensor
 --------------------------------
-Fibaro 857934005119 Modern Door/Window Sensor
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 	.. image:: ../../images/door_sensor/fibaro_door_window.jpg
 	.. :align: left
 
-Overview
+Product Description
 ~~~~~~~~~~~~~~~~~~~~~~
 	- Door sensor can detect closing and opening of any door/window or garage door openings. Door Sensor can also be paired with DS18B20 to input temperature sensor.
 	- The Door / Window Sensor has a unique feature in which it can automatically trigger pre-programmed scenes. (may require compatible controller)
 	- The Door/Window Sensor is extremely compact and is the smallest unit of this type available on the market. Its extremely lightweight and thin design makes it almost invisible on any door/window.
 	- The Fibaro Door / Window Sensor is available in seven colors. Select the best color match to your home interior designs and enjoy the undisturbed beauty, security and comfort.
-	- Z-Wave Certifed Sensor: Cert ID: ZC08-14070006/ Frequency Region: U.S./Canada/Mexico, Z-Wave Library Version: 4.55.06
+	
+Working with PhD
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#. Be monitored by PhD via the Zinno app available on iOS&Android
+	#. The Speaker on Phd will annouce when receive the alert from the Fibaro Door/Window Sensor
+	#. Associate Fibaro Door/Window Sensor with other smart devices in Zinno App, and set them turn on or off if the sensor detects doors or windows have been open	
 
+Add Fibaro Door/Window Sensor to PhD's network
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#. On Zinno App, go to Menu → Devices → Tap "+" button to put PhD to inclusion mode
+	#. Tripple press TMP button. Device will be included/excluded to/from zwave network.
+	
+	.. image:: ../../images/door_sensor/fibaro_door_window_b.png
+	.. :align: left
+	
 Specification
-~~~~~~~~~~~~~~~~~~~~~~~~
-	- Battery: single ER14250 (1/2 AA), 3.6V
-	- Supported temoerature sensor: single, DS18B20
-	- Operating temperature: 0-40 Celcius
-	- Z-wave frequency: 868,4 MHz EU; 908,4 MHz US; 921,4 MHz AU/NZ; 869,2 MHz RU
-	- Range: Up to 30m indoor
-
-Inclusion/Exclusion to/from a network
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+	- Model number: 				FGK101, FGK102, FGK103, FGK104, FGK105, FGK106, FGK107
+	- Power source: 				Battery
+	- Protocol: 					Z-Wave
+	- Battery type: 				1/2AA 3.6v
+	- Dimension:					3.0 x 0.67 x 0.75 inches
+	- Weight:						0.11 lb
+	- Color: 						White, Silver, Black, Sand, Carmel, Brick, Brown
+	
+	
+.. Inclusion/Exclusion to/from a network
+.. ~~~~~~~~~~~~~~~~~~~~~~~
 	#. Put controller to Inclusion/Exclusion mode
 	#. Tripple press TMP button. Device will be included/excluded to/from zwave network.
 	
 	.. image:: ../../images/door_sensor/fibaro_door_window_b.png
 	.. :align: left
 	
-Link in Amazon
-~~~~~~~~~~~~~~~~~
+.. Link in Amazon
+.. ~~~~~~~~~~~~~~~~~
 	https://www.amazon.com/Fibaro-857934005119-Modern-Window-Miniature/dp/B00P2QAR8C
 	
-Configuration description
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Configuration description
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. Alarm cancellation delay
 		- Paramter: 1 (0x01)
 		- Size: 2 bytes

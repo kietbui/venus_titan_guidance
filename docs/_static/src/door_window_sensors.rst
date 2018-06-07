@@ -14,7 +14,7 @@ Door/Window sensor devices
 .. toctree:: door_sensor/item42_ecolink_tilt_sensor.rst
    :maxdepth: 2
 
-.. toctree:: door_sensor/fibaro_door_sensor.rst
+.. toctree:: door_sensor/item43_fibaro_door_sensor.rst
    :maxdepth: 2
 
 .. toctree:: door_sensor/gocontrol_door_sensor.rst
