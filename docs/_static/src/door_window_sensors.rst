@@ -25,7 +25,6 @@ Door/Window sensor devices
    
 .. toctree:: door_sensor/item46_quirky_smart_door_sensor.rst
    :maxdepth: 2
-
  
 .. toctree:: door_sensor/item47_smartsense_multi_doorWindow_sensor
    :maxdepth: 2
@@ -45,4 +44,8 @@ Door/Window sensor devices
 
      
 .. toctree:: door_sensor/item114_aeotec_zw112_doorsensor.rst
+   :maxdepth: 2
+
+       
+.. toctree:: door_sensor/item137_Coolcam_doorsensor.rst
    :maxdepth: 2
