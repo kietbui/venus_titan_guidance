@@ -1,5 +1,6 @@
 Smartthings Zigbee STSS-MULT-001 Door/Window Multipurpose Sensor
 ---------------------------------------
+
 	.. image:: ../../images/door_sensor/smartsense_multi_sensor.jpg
 	.. :align: left
 
