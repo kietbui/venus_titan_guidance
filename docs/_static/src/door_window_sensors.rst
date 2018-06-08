@@ -44,5 +44,5 @@ Door/Window sensor devices
    :maxdepth: 2
 
      
-.. toctree:: door_sensor/item137_aeotec_zw112_doorsensor.rst
+.. toctree:: door_sensor/item114_aeotec_zw112_doorsensor.rst
    :maxdepth: 2
