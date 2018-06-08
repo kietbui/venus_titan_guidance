@@ -1,4 +1,4 @@
-Smartthings Zigbee STSS-MULT-001 Door/Window Sensor
+Smartthings Zigbee STSS-MULT-001 Door/Window Multipurpose Sensor
 ---------------------------------------
 	.. image:: ../../images/door_sensor/smartsense_multi_sensor.jpg
 	.. :align: left
@@ -16,7 +16,7 @@ Working with PhD
 	#. The Speaker on Phd will annouce when receive the alert from the Smartthings Door/Window Multi-Sensor
 	#. Associate Smartthings Door/Window Multi-Sensor with other smart devices in Zinno App, and set them turn on or off if the sensor detects doors or windows have been open
 
-Add Quirky+GE Door/Window Sensor to PhD's network
+Add Smartthings Door/Window Sensor to PhD's network
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. On Zinno App, go to Menu → Devices → Tap "+" button to put PhD to inclusion mode
 	#. Press and hold Connect button for 6 seconds

@@ -40,5 +40,5 @@ Door/Window sensor devices
    :maxdepth: 2
    
   
-.. toctree:: door_sensor/smartsense_open_close.rst
+.. toctree:: door_sensor/item51_smartsense_open_close_multipurpose.rst
    :maxdepth: 2
