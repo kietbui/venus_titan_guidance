@@ -42,3 +42,7 @@ Door/Window sensor devices
   
 .. toctree:: door_sensor/item51_smartsense_open_close_multipurpose.rst
    :maxdepth: 2
+
+     
+.. toctree:: door_sensor/item137_aeotec_zw112_doorsensor.rst
+   :maxdepth: 2
