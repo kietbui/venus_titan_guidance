@@ -1,6 +1,6 @@
 Smartthings Zigbee F-MLT-US-2 Door/Window Multipurpose Sensor
 ----------------------------------
-	.. image:: ../../images/door_sensor/Item51_smartsense_multi_window-door.jpg
+	.. image:: ../../images/door_sensor/item51_smartsense_multi_window-door.jpg
 	.. :align: left
 
 Product Description
