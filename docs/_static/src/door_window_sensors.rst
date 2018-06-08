@@ -36,7 +36,7 @@ Door/Window sensor devices
 .. toctree:: door_sensor/item49_ecolink_door_sensor_Z-WavePlus.rst
    :maxdepth: 2
  
-.. toctree:: door_sensor/sensative_strips_door_sensor.rst
+.. toctree:: door_sensor/item50_sensative_strips_door_sensor.rst
    :maxdepth: 2
    
   
