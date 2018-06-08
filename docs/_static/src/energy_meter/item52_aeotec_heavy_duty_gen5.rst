@@ -1,47 +1,50 @@
-Heavy Duty Smart Switch Gen5
+Aeon Labs Z-Wave Plus ZW078-A Heavy Duty Smart Switch Gen5
 ------------------------------------------------------------------------
-Aeon Labs ZW078-A,White,V3.26,US,AL001 Zw078-A Z-Wave Heavy Duty Smart Energy Appliance Switch, Small, White
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	.. image:: ../../images/energy_meter/aeotec_heavy_duty_gen5.jpg
 	.. :align: left
 	
-
-Brief information
-~~~~~~~~~~~~~~~~~~~~~~~~~
-	- Heavy Duty Smart Switch Gen5 is an on/off switch module that also provides energy metering.
-	- Z-Wave Certification ID: ZC10-14090014
-	- Frequency Region: U.S./Canada/Mexico, Z-Wave Library Version: 6.51.01
-	- Device Categories: All Lighting Devices,On/Off Switches/Devices
-
-Specification
+Product Description
 ~~~~~~~~~~~~~~~~~~~~~~
-	- Input: 220V~240, 60Hz. (USA Version)
-             220V~240, 50Hz. (EU, AU Version)
-	- Output: 220V~240, 60Hz, Max 40A Resistor load. (USA Version）
-			  220V~240, 50Hz, Max 40A Resistor load. (EU Version）
-			  220V~240, 50Hz, Max 40A Resistor load. (AU Version）
-	- Operating temp: 5℃ - 40℃
-	- Relative humidity: 8 ‐ 80%
-	- Operating distance: Up to 600 feet/150 meters outdoors.
+	#. Control your heavy duty appliances, turning them on/off remotely
+	#. Real-time energy monitoring and reporting
+	#. Works with 40 amp appliances
 
-Inclusion/Exclusion to/from a network
-~~~~~~~~~~~~~~~~~~~~~~~
-	#. Put controller to Inclusion/Exclusion mode
+Working with PhD
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#. Monitor and Control Aeon Labs Heavy Duty Switch Gen5 by PhD via the Zinno app available on iOS&Android
+	#. Automate and schedule the operation of the high-power devices wired into the switch 
+	#. Calculate and report your spend in watts and kilowatt hours in real-time
+	#. In the event of an emergency, PhD can be used to turn off the electronics that Heavy Duty Smart Switch are connected to
+
+Add Smartthings Door/Window Sensor to PhD's network
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#. On Zinno App, go to Menu → Devices → Tap "+" button to put PhD to inclusion mode
 	#. Press z-wave button once. Device will be included/excluded to/from zwave network.
 	
-		
 	.. image:: ../../images/energy_meter/aeotec_heavy_duty_gen5_i.jpg
-	.. :align: left
+	.. :align: left	
 	
-Factory reset
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Specification
+~~~~~~~~~~~~~~~~~~~~~
+	- Model number: 				ZW078-A
+	- Power rating: 				240VAC, 50/60Hz (2Phases L1,L2)
+	- Current Output:				40A
+	- Protocol:						Z-Wave Plus
+	- Dimension:					5.9 x 4.7 x 1.6 inches
+	- Weight:						1.05 pounds
+	- Color: 						White
+
+
+	
+.. Factory reset
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
 	- Power-up device
 	- Press and hold z-wave button for 20 seconds
 	*Note: when hold more than 1 second, LED blinks faster and faster. When holding more than 20 seconds, LED is on in 2 seconds.*
 	
-Link in Amazon
-~~~~~~~~~~~~~~~
+.. Link in Amazon
+.. ~~~~~~~~~~~~~~~
 	https://www.amazon.com/Aeon-Labs-White-V3-26-AL001/dp/B00MBIRF5W
 
 Configuration description

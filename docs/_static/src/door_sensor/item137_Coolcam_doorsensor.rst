@@ -4,7 +4,6 @@ Coolcam Z-Wave Plus NAS-DS01Z Door/Window Sensor
 	.. image:: ../../images/door_sensor/item137_Coolcam_doorsensor.jpg
 	.. :align: left
 
-Product Description
 ~~~~~~~~~~~~~~~~~~~
 	#. Discreet compact design
 	#. Safeguard your home with reliable open/close detection for doors, windows, cabinets, and drawers
