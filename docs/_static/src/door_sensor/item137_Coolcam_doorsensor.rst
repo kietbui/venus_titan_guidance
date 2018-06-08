@@ -1,7 +1,7 @@
 Aeotec Z-Wave Plus ZW112 Door/Window Sensor
 --------------------------------
 
-	.. image:: ../../images/door_sensor/item114_aeon-labs-doorwindow-sensor.jpg
+	.. image:: ../../images/door_sensor/item137_aeon-labs-doorwindow-sensor.jpg
 	.. :align: left
 
 Product Description
@@ -21,7 +21,7 @@ Add Aeotec Door/Window Sensor to PhD's network
 	#. On Zinno App, go to Menu → Devices → Tap "+" button to put PhD to inclusion mode
 	#. Press the Sensor’s Action Button 2 times within 1 second . Device will be included/excluded to/from zwave network.
 
-	.. image:: ../../images/door_sensor/item114_aeon-labs-doorwindow-sensor-detail.jpg
+	.. image:: ../../images/door_sensor/item137_aeon-labs-doorwindow-sensor-detail.jpg
 	.. :align: left
 	
 
