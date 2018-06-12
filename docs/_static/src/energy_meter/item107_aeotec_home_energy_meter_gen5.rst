@@ -9,8 +9,9 @@ Product Description
 	#. Keep track of electricity use that reports energy spend in real time via Z-Wave Plus to Z-Wave devices up to 300 feet away
 	#. Easiest way to access electricity spend data with 99% accuracy; reports watts and kilowatt-hours use in real time
 	#. Connects to mains power in the electricity box, as such a professional electrician is required for a safe installation
-
-	Working with PhD
+	
+	
+Working with PhD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. Monitor Aeotec Home Energy Meter Gen5 by PhD via the Zinno app available on iOS&Android
 	#. Calculate and report your spend in watts and kilowatt hours in real-time
