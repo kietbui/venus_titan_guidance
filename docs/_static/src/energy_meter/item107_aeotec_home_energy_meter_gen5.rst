@@ -1,5 +1,5 @@
 Aeotec Z-Wave Plus ZW095 Home Energy Meter Gen5
-------------------------------------------------------------------------
+-------------------------------------
 
 	.. image:: ../../images/energy_meter/item107_aeotec_home_energy_meter_gen5.jpg
 	.. :align: left
@@ -34,7 +34,6 @@ Specification
 	- Dimension:					2.5 x 1.5 x 5.7 inches 
 	- Weight:						1.3 pounds
 	- Color: 						White
-
 
 	
 
