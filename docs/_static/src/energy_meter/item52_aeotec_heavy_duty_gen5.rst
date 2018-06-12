@@ -28,8 +28,7 @@ Add Aeon Labs Heavy Duty Switch to PhD's network
 Specification
 ~~~~~~~~~~~~~~~~~~~~~
 	- Model number: 				ZW078-A
-	- Power rating: 				240VAC, 50/60Hz (2Phases L1,L2)
-	- Current Output:				40A
+	- Power rating: 				240VAC, 50/60Hz, Max. 9600 Watts; 40A Resistor; 240VAC 5HP AC Motor
 	- Protocol:						Z-Wave Plus
 	- Dimension:					5.9 x 4.7 x 1.6 inches
 	- Weight:						1.05 pounds
