@@ -17,10 +17,10 @@ Working with PhD
 	#. Calculate and report your spend in watts and kilowatt hours in real-time
 	#. In the event of an emergency, PhD can be used to turn off the electronics that Heavy Duty Smart Switch are connected to
 
-Add Smartthings Door/Window Sensor to PhD's network
+Add Aeon Labs Heavy Duty Switch to PhD's network
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. On Zinno App, go to Menu → Devices → Tap "+" button to put PhD to inclusion mode
-	#. Press z-wave button once. Device will be included/excluded to/from zwave network.
+	#. Press Action button once. Device will be included/excluded to/from zwave network.
 	
 	.. image:: ../../images/energy_meter/aeotec_heavy_duty_gen5_i.jpg
 	.. :align: left	
@@ -47,8 +47,8 @@ Specification
 .. ~~~~~~~~~~~~~~~
 	https://www.amazon.com/Aeon-Labs-White-V3-26-AL001/dp/B00MBIRF5W
 
-Configuration description
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Configuration description
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. Enable overload protection: When enable this function, load will be closed when the current more than 39.5A and the time more than 5 seconds. 
 		- Parameter: 3 (0x03)
 		- Size: 1 byte
