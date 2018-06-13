@@ -1,7 +1,8 @@
 GE Z-Wave 12730 In-Wall Fan Speed Control Switch
 --------------------------------
 
-	.. image:: ../../images/fan_control/ge_fan_control_12730.jpg ../../images/fan_control/item54_ge_fan_control_12730_2.jpg
+	.. image:: ../../images/fan_control/ge_fan_control_12730.jpg 
+	.. image:: ../../images/fan_control/item54_ge_fan_control_12730_2.jpg
 	.. :align: left
 
 Operation
