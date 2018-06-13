@@ -1,10 +1,7 @@
-GE In-Wall Fan Speed Control 12730
+GE Z-Wave 12730 In-Wall Fan Speed Control Switch
 --------------------------------
-GE Z-Wave Wireless Smart Fan Speed Control, 3-Speed, In-Wall, Includes White & Light Almond Paddles, Works with Amazon Alexa, 12730
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-	.. image:: ../../images/fan_control/ge_fan_control_12730.jpg
+	.. image:: ../../images/fan_control/ge_fan_control_12730.jpg ../../images/fan_control/item54_ge_fan_control_12730_2.jpg
 	.. :align: left
 
 Operation
