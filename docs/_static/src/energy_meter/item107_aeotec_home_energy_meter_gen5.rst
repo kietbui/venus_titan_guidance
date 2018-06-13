@@ -10,7 +10,6 @@ Product Description
 	#. Easiest way to access electricity spend data with 99% accuracy; reports watts and kilowatt-hours use in real time
 	#. Connects to mains power in the electricity box, as such a professional electrician is required for a safe installation
 	
-	
 Working with PhD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. Monitor Aeotec Home Energy Meter Gen5 by PhD via the Zinno app available on iOS&Android
