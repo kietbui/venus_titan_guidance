@@ -21,7 +21,7 @@ Working with PhD
 Add Remotec Z-Wave IR Extender to PhD's network
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. On Zinno App, go to Menu → Devices → Tap "+" button to put PhD to inclusion mode
-	#. Make sure ZXT-310 switched to Channel 1 (EP1)
+	#. Make sure Remotec Z-Wave IR Extender switched to Channel 1 (EP1)
 	#. Press program button once. Device will be included/excluded to/from zwave network.
 	
 	.. image:: ../../images/infrared/remotec_tv_remote_zxt310_d.jpg
