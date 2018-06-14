@@ -11,7 +11,7 @@ Product Description
 	
 Working with PhD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	#. Monitor your GoControl Motion Sensor sensor and other connected devices with the Zinno app available on iOS&Android
+	#. Monitor your GoControl Motion Sensor and other connected devices with the Zinno app available on iOS&Android
 	#. Receive alerts from PhD if the GoControl Motion Sensor movement
 	#. Associate GoControl Motion Sensor with other smart devices in Zinno App, and set them to turn on or off when sensor detects movement, or a change in temperature
 	
