@@ -50,7 +50,7 @@ Specification
 	#. Put controller to Inclusion/Exclusion mode
 	#. Press program button 3 times quickly. Device will be included/excluded to/from zwave network.
 	
-	.. image:: ../../images/motion_sensor/fibaro_home_motion_b.jpg
+	.. image:: ../../images/motion_sensor/item59_fibaro_home_motion_b.jpg
 	.. :align: left
 	
 .. Link in Amazon
