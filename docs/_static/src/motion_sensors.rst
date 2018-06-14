@@ -2,13 +2,14 @@
 
 Motion Sensors devices
 -------------------------------
+
+.. toctree:: motion_sensor/item58_ecolink_home_motion.rst
+   :maxdepth: 2
+
 .. toctree:: motion_sensor/aeon_gen5_multi.rst
    :maxdepth: 2
    
 .. toctree:: motion_sensor/aeon_gen6_multi.rst
-   :maxdepth: 2
-
-.. toctree:: motion_sensor/ecolink_home_motion.rst
    :maxdepth: 2
 
 .. toctree:: motion_sensor/fibaro_home_motion.rst
