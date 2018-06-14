@@ -17,7 +17,7 @@ Working with PhD
 	#. Receive alerts from PhD if the Ecolink Motion Sensor movement
 	#. Associate Ecolink Motion Sensor with other smart devices in Zinno App, and set them to turn on or off when sensor detects movement
 	
-Add NuTone Garage Controller to PhD's network
+Add Ecolink Motion Sensor to PhD's network
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. On Zinno App, go to Menu → Devices → Tap "+" button to put PhD to inclusion mode
 	#. Press program button once. Device will be included/excluded to/from zwave network.

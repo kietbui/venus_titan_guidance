@@ -1,14 +1,42 @@
-Fibaro Motion Sensor
+Fibaro Z-Wave FGMS-001 Motion Sensor
 --------------------------------
-Fibaro Z-Wave Motion Sensor - FGMS-001
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	.. image:: ../../images/motion_sensor/fibaro_home_motion.jpg
 	.. :align: left
 
+Product Description
+~~~~~~~~~~~~~~~~~~~~~~~~~~	
+	#. World’s smallest z-wave Multi-sensor detects motion, temperature, light and vibrations due to built-in accelerometer. Only 1 ¾” in diameter
+	#. Intelligent Object recognition- Can distinguish between a small pets or person. Adjustable sensitivity and indicator LED to persons liking
+	#. Multi Color LED eye visually display’s motion and temperature per user configuration settings
+	#. Built-in tamper protection alerts user if sensor has been moved and can even be used for Earthquake detection
+	
+Working with PhD
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#. Monitor your Fibaro Motion Sensor sensor and other connected devices with the Zinno app available on iOS&Android
+	#. Receive alerts from PhD if the Fibaro Motion Sensor movement
+	#. Associate Fibaro Motion Sensor with other smart devices in Zinno App, and set them to turn on or off when sensor detects movement, or a change in temperature, light, or humidity
+	
+Add Fibaro Motion Sensor to PhD's network
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#. On Zinno App, go to Menu → Devices → Tap "+" button to put PhD to inclusion mode
+	#. Press program button 3 times quickly. Device will be included/excluded to/from zwave network.
+	
+	.. image:: ../../images/motion_sensor/fibaro_home_motion_b.jpg
+	.. :align: left
 
 Specification
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+	- Model number: 				FGMS-001
+	- Power source: 				Battery
+	- Battery type:					CR123A
+	- Protocol: 					Z-Wave
+	- Dimension:					1.7 x 1.7 x 1.7 inches
+	- Weight:						0.16 pounds
+	- Color: 						White
+
+.. Specification
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~
 	- Operating frequency: 869/908/921 MHz
 	- Operating range: up to 50m outdoor and 30m indoor
 	- Operating temperature: 0-40 oC
@@ -17,20 +45,20 @@ Specification
 	- Detection angle: 45 degrees
 	- Battery: 3.6 VDC CR123A
 
-Inclusion/Exclusion to/from a network
-~~~~~~~~~~~~~~~~~~~~~~~
+.. Inclusion/Exclusion to/from a network
+.. ~~~~~~~~~~~~~~~~~~~~~~~
 	#. Put controller to Inclusion/Exclusion mode
 	#. Press program button 3 times quickly. Device will be included/excluded to/from zwave network.
 	
 	.. image:: ../../images/motion_sensor/fibaro_home_motion_b.jpg
 	.. :align: left
 	
-Link in Amazon
-~~~~~~~~~~~~~~~~~
+.. Link in Amazon
+.. ~~~~~~~~~~~~~~~~~
 	https://www.amazon.com/Fibaro-Z-Wave-Motion-Sensor-FGMS-001/dp/B01615SUBI
 	
-Configuration description
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Configuration description
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. Motion sensor's sensity
 		- Parameter: 1 (0x01)
 		- Size: 1 byte
