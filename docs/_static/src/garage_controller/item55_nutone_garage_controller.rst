@@ -67,10 +67,10 @@ Specification
 	.. image:: ../../images/garage_controller/nutone_garage_controller_d.jpg
 	.. :align: left
 
-Link in Amazon
-~~~~~~~~~~~~~~~~
+.. Link in Amazon
+.. ~~~~~~~~~~~~~~~~
 	https://www.amazon.com/NuTone-NGD00Z-Z-Wave-Enabled-Controller/dp/B00WXLQY5Y
 
-Configuration description
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Configuration description
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
 	There is no configuration for this device.
