@@ -6,10 +6,10 @@ Remotec Z-Wave BW8371US IR Extender
 
 Product Description
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-	#. Manage your AV IR-controlled appliances through a single mobile device.
-	#. Supports 3 Z-Wave command classes: Configuration, Simple AV and Multi-Channel.
-	#. Built-in AV IR code library for easy configuration. 
-	#. Best-in-class learning capability.
+	#. Manage your AV IR-controlled appliances through a single mobile device
+	#. Supports 3 Z-Wave command classes: Configuration, Simple AV and Multi-Channel
+	#. Built-in AV IR code library for easy configuration
+	#. Best-in-class learning capability
 	#. Compact, minimal design
 
 Working with PhD
@@ -22,7 +22,7 @@ Add Remotec Z-Wave IR Extender to PhD's network
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. On Zinno App, go to Menu → Devices → Tap "+" button to put PhD to inclusion mode
 	#. Make sure Remotec Z-Wave IR Extender switched to Channel 1 (EP1)
-	#. Press program button once. Device will be included/excluded to/from zwave network.
+	#. Press "PROG" button once. Device will be included/excluded to/from zwave network.
 	
 	.. image:: ../../images/infrared/remotec_tv_remote_zxt310_d.jpg
 	.. :align: left
