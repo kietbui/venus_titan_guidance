@@ -16,6 +16,7 @@ Working with PhD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. Control Remotec Z-Wave IR Extender and other connected devices with the Zinno app available on iOS&Android
 	#. Associate Remotec Z-Wave IR Extender with other smart devices in Zinno App
+	#. Automate the Remotec Z-Wave IR Extender with PhD Scence routes, like Good Morning, Goodnight...
 ..	#. Control Remotec Z-Wave IR Extender with voice commands using PhD and the Google Assistant or Amazon Alexa
 	
 Add Remotec Z-Wave IR Extender to PhD's network
