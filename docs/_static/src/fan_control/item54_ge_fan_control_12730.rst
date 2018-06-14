@@ -30,7 +30,7 @@ Add GE Fan Speed Controller to PhD's network
 Specification
 ~~~~~~~~~~~~~~~~~~~~~~	
 	- Model number: 				12730
-	- Power source: 				Wall-Powered, 120VDC
+	- Power source: 				Wall-Powered, 120VAC
 	- Protocol: 					Z-Wave
 	- Dimension:					1.8 x 2.2 x 4.2 inches
 	- Weight:						1 pound
