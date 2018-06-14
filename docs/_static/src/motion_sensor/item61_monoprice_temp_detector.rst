@@ -15,7 +15,7 @@ Product Description
 Working with PhD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. Monitor your Monoprice Motion Sensor and other connected devices with the Zinno app available on iOS&Android
-	#. Receive alerts from PhD if the Monoprice Motion Sensor movement
+	#. Receive alerts from PhD if the Monoprice Motion Sensor detects movement
 	#. Associate Monoprice Motion Sensor with other smart devices in Zinno App, and set them to turn on or off when sensor detects movement, or a change in temperature
 	
 Add Monoprice Motion Sensor to PhD's network

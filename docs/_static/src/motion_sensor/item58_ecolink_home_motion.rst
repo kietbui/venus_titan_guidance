@@ -14,7 +14,7 @@ Product Description
 Working with PhD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. Monitor your Ecolink Motion Sensor and other connected devices with the Zinno app available on iOS&Android
-	#. Receive alerts from PhD if the Ecolink Motion Sensor movement
+	#. Receive alerts from PhD if the Ecolink Motion Sensor detects movement
 	#. Associate Ecolink Motion Sensor with other smart devices in Zinno App, and set them to turn on or off when sensor detects movement
 	
 Add Ecolink Motion Sensor to PhD's network
