@@ -24,6 +24,9 @@ Motion Sensors devices
 .. toctree:: motion_sensor/item64_schlage_home_motion.rst
    :maxdepth: 2
      
+.. toctree:: motion_sensor/item65_smartsense_motion_sensor.rst
+   :maxdepth: 2
+   
 .. toctree:: motion_sensor/aeon_gen5_multi.rst
    :maxdepth: 2
    
@@ -33,8 +36,5 @@ Motion Sensors devices
 .. toctree:: motion_sensor/smartenit_motion_sensor_zbms3.rst
    :maxdepth: 2
    
-.. toctree:: motion_sensor/smartsense_motion_sensor.rst
-   :maxdepth: 2
-
 .. toctree:: motion_sensor/zooz_plus_moiton.rst
    :maxdepth: 2

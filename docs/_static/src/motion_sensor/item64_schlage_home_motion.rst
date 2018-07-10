@@ -21,7 +21,7 @@ Working with PhD
 Add NYCE Curtain Motion Sensor to PhD's network
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. On the Zinno app, press Left Menu Bar, then select “Devices”
-	#. Select “+” button to put the PhD in inclusion mode
+	#. Select “+” button to put the PhD in inclusion mode, keep the sensor close to PhD within 6 feet (1.8 meters)
 	#. Use a pin or paper clip to press the program button on the back of the Sensor case
 	#. If detecting a new device successfully, PhD will announce “Found Device”, and Zinno app will display the dialog box, asking user to interact with device one more time
 	#. Repeat step #3, PhD will announce “The device is being added”
