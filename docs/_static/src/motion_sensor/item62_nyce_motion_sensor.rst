@@ -8,7 +8,7 @@ Product Description
 ~~~~~~~~~~~~~~~~~~~~~~~~~~	
 	#. Compact Size
 	#. Three color LED event indication/confirmation
-..	#. Long Battery Life (up to 5 years)
+	#. Long Battery Life (up to 5 years)
 	#. Easy Battery Replacement
 	#. ZigBee wireless Low Power Communication
 	#. Easy Device Association with ZigBee Network
