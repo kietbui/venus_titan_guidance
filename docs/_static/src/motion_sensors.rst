@@ -17,17 +17,15 @@ Motion Sensors devices
        
 .. toctree:: motion_sensor/item62_nyce_motion_sensor.rst
    :maxdepth: 2  
+
+.. toctree:: motion_sensor/item63_nyce_curtain_motion_sensor.rst
+   :maxdepth: 2
    
 .. toctree:: motion_sensor/aeon_gen5_multi.rst
    :maxdepth: 2
    
 .. toctree:: motion_sensor/aeon_gen6_multi.rst
    :maxdepth: 2
-
-.. toctree:: motion_sensor/nyce_curtain_motion_sensor.rst
-   :maxdepth: 2
-   
-
    
 .. toctree:: motion_sensor/schlage_home_motion.rst
    :maxdepth: 2
