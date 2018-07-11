@@ -25,6 +25,10 @@ Add Aeotec Multisensor Gen5 to PhD's network
 	#. Repeat step #3, PhD will announce “The device is being added”
 	#. If adding the sensor successfully, PhD will announce “Adding Aeotec Multisensor Gen5 success” and on Zinno app will display the dialog boxes that indicate user has added device successfully
 
+	
+	.. image:: ../../images/motion_sensor/aeon_gen5_motion_b.jpg
+	.. :align: center	
+	
 Specification
 ~~~~~~~~~~~~~~~~~~~~~~
 	- Model number: 				ZW074-A
@@ -35,8 +39,8 @@ Specification
 ..	- Weight:						0.13 pounds
 	- Color: 						White
 	
-Specification
-~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Specification
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~
 	- Power Supply: USB DC 5V or battery power(4×AAA batteries)
 	- Operating Temperature: -10 oC to 60 oC .
 	- Measured Temperature Range: -10 C to 50 C . Accuracy: ±1 oC .
@@ -46,8 +50,8 @@ Specification
 	- Water Proofing: IP42
 	- Wireless Range: Up to 600feet/150 metres outdoors.
 
-Inclusion/Exclusion to/from a network
-~~~~~~~~~~~~~~~~~~~~~~~
+.. Inclusion/Exclusion to/from a network
+.. ~~~~~~~~~~~~~~~~~~~~~~~
 	#. Put controller to Inclusion/Exclusion mode
 	#. Press program button once. Device will be included/excluded to/from zwave network.
 	
@@ -55,18 +59,18 @@ Inclusion/Exclusion to/from a network
 	.. image:: ../../images/motion_sensor/aeon_gen5_motion_b.jpg
 	.. :align: center
 	
-Wake up information
-~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Wake up information
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~
 	- When battery is used, to wake up device, press and hold its Z-Wave Button for 3 seconds and then release it. Your MultiSensor’s LED should now be solid to indicate that it is active.
 	- When completing configurating or communicating with device, to put device into sleep mode for battery saving, press and hold its Z-Wave Button for 3 seconds and then release it.
 	- When power-supply is used, device is in waken up state always.
 	
-Factory reset
-~~~~~~~~~~~~~~~~~
+.. Factory reset
+.. ~~~~~~~~~~~~~~~~~
 	Press and hold z-wave button for 20 seconds and then release. LED will stay in solid for 2 seconds and then turn off indicates reset successfully.
 	
-Button pressed actions and events
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Button pressed actions and events
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	====================================	===============================================================================
 	Short 1 time pressed					Add device to z-wave network
 											Remove device from z-wave network
@@ -74,12 +78,12 @@ Button pressed actions and events
 	Press and hold 20 seconds				Reset device to factory setting
 	====================================	===============================================================================
 	
-Link in Amazon
-~~~~~~~~~~~~~~~~~~~~~~~
+.. Link in Amazon
+.. ~~~~~~~~~~~~~~~~~~~~~~~
 	https://www.amazon.com/Aeotec-Multi-Sensor-ZW074-C-Z-Wave-Plus/dp/B01HR4NCYW
 
-Configuration description
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Configuration description
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. Enable wake-up device 10 minutes after re-power on (battery mode)
 		- Parameter: 2 (0x02)
 		- Size: 1 byte
