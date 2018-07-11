@@ -36,7 +36,7 @@ Specification
 ~~~~~~~~~~~~~~~~~~~~~~
 	- Model number: 				ZSE02
 	- Power source: 				Mini USB cable (DC 5V / 1A), Battery
-	- Battery type:					4 AAA batteries
+	- Battery type:					x4 AAA batteries
 	- Protocol: 					Z-Wave Plus
 	- Dimension:					3 x 2 x 3 inches
 	- Weight:						0.9 pounds

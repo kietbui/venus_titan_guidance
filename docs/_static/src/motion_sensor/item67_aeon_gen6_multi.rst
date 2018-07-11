@@ -32,7 +32,7 @@ Specification
 ~~~~~~~~~~~~~~~~~~~~~~
 	- Model number: 				ZW100
 	- Power source: 				USB DC 5V, Battery
-	- Battery type:					2 CR123A batteries
+	- Battery type:					x2 CR123A batteries
 	- Protocol: 					Z-Wave Plus
 	- Dimension:					1.8 x 2.5 x 1.8 inches
 	- Weight:						0.13 pounds
