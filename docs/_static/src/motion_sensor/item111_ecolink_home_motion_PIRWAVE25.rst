@@ -1,4 +1,4 @@
-Ecolink Z-Wave PIRZWAVE1 Motion Sensor
+Ecolink Z-Wave Plus PIRWAVE2.5-ECO Motion Sensor
 --------------------------------
 
 	.. image:: ../../images/motion_sensor/ecolink_home_motion.jpg
@@ -6,10 +6,9 @@ Ecolink Z-Wave PIRZWAVE1 Motion Sensor
 
 Product Description
 ~~~~~~~~~~~~~~~~~~~~~~~~~~	
-	#. 33 or 55 lb. pet immune 
-	#. 90-degree look down 
-	#. Tamper protected
-..	#. 5-8 year battery life on 1 CR123A lithium battery
+	#. Z-Wave PlusTM enabled device which transmits upon detection of movement
+	#. Configurable to be less sensitive to the movement of small and medium size household pets
+	#. Reports tamper condition if cover is removed
 	
 Working with PhD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -31,10 +30,10 @@ Add Ecolink Motion Sensor to PhD's network
 
 Specification
 ~~~~~~~~~~~~~~~~~~~~~~
-	- Model number: 				PIRZWAVE1
+	- Model number: 				PIRWAVE2.5-ECO
 	- Power source: 				Battery
 	- Battery type:					x1 CR123A Lithium
-	- Protocol: 					Z-Wave
+	- Protocol: 					Z-Wave Plus
 	- Dimension:					1.8 x 2.3 x 3.5 inches
 	- Weight:						0.15 pounds
 	- Color: 						White

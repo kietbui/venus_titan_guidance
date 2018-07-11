@@ -39,5 +39,6 @@ Motion Sensors devices
 .. toctree:: motion_sensor/item69_aeon_gen5_multi.rst
    :maxdepth: 2
    
-
+.. toctree:: motion_sensor/item111_ecolink_home_motion_PIRWAVE25.rst
+   :maxdepth: 2
 
