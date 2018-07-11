@@ -25,7 +25,7 @@ Add Aeotec 6-in-1 Motion Sensor to PhD's network
 	#. Repeat step #3, PhD will announce “The device is being added”
 	#. If adding the sensor successfully, PhD will announce “Adding Aeotec Sensor Multilevel 6 success” and on Zinno app will display the dialog boxes that indicate user has added device successfully	
 
-	.. image:: ../../images/motion_sensor/aeon_gen6_motion_b.png
+	.. image:: ../../images/motion_sensor/aeon_gen6_motion_detail.png
 	.. :align: center	
 	
 Specification
