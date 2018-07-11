@@ -1,13 +1,46 @@
-Aeon Labs Gen6 Multi-Sensor
+Aeotec Z-Wave Plus ZW100 6-in-1 Motion Sensor
 --------------------------------
-Aeotec by Aeon Labs ZW100 Multisensor, Small, White
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	.. image:: ../../images/motion_sensor/aeon_gen6_motion.jpg
 	.. :align: left
 
+Product Description
+~~~~~~~~~~~~~~~~~~~~~~~~~~	
+	#. 6-in-1 Z-Wave Plus MultiSensor: motion, humidity, temperature, light lux, UV, vibration sensor.
+	#. 2 year battery life
+	#. Super-small at 1.8 inches. Can be installed in corner, in-wall, on shelf or in downlight.
+
+Working with PhD
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#. Monitor Aeotec 6-in-1 Motion Sensor and other connected devices with the Zinno app available on iOS&Android
+	#. Receive alerts from PhD if the Aeotec 6-in-1 Motion Sensor detects movement
+	#. Associate Aeotec 6-in-1 Motion Sensor with other smart devices in Zinno App, and set them to turn on or off when sensor detects movement	
+
+Add Aeotec 6-in-1 Motion Sensor to PhD's network
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#. On the Zinno app, press Left Menu Bar, then select “Devices”
+	#. Select “+” button to put the PhD in inclusion mode, keep the sensor close to PhD within 10 feet (3 meters)
+	#. Press the Action Button on Aeotec 6-in-1 Motion Sensor
+	#. If detecting a new device successfully, PhD will announce “Found Device”, and Zinno app will display the dialog box, asking user to interact with device one more time
+	#. Repeat step #3, PhD will announce “The device is being added”
+	#. If adding the sensor successfully, PhD will announce “Adding Aeotec Sensor Multilevel 6 success” and on Zinno app will display the dialog boxes that indicate user has added device successfully	
+
+	.. image:: ../../images/motion_sensor/aeon_gen6_motion_b.png
+	.. :align: center	
+	
 Specification
 ~~~~~~~~~~~~~~~~~~~~~~
+	- Model number: 				ZW100
+	- Power source: 				USB DC 5V, Battery
+	- Battery type:					2 CR123A batteries
+	- Protocol: 					Z-Wave Plus
+	- Dimension:					1.8 x 2.5 x 1.8 inches
+	- Weight:						0.13 pounds
+	- Color: 						White
+
+	
+.. Specification
+.. ~~~~~~~~~~~~~~~~~~~~~~
 	- Model number: ZW100
 	- Power Supply: USB DC 5V or battery power(2×CR123A batteries, 3V, 1500mAh)
 	- Operating Temperature: 0 C to 40 C .
@@ -18,27 +51,27 @@ Specification
 	- Water Proofing: IP20.
 	- Wireless Range: Up to 500feet/150 metres outdoors.
 
-Inclusion/Exclusion to/from a network
-~~~~~~~~~~~~~~~~~~~~~~~
+.. Inclusion/Exclusion to/from a network
+.. ~~~~~~~~~~~~~~~~~~~~~~~
 	#. Put controller to Inclusion/Exclusion mode
 	#. Press program button once. Device will be included/excluded to/from zwave network.
 	
 	.. image:: ../../images/motion_sensor/aeon_gen6_motion_b.png
 	.. :align: center
 	
-Wake up information
-~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Wake up information
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~
 	- When battery is used, to wake up device, press and hold its Z-Wave Button for 3 seconds and then release it. Your MultiSensor’s LED should now be solid to indicate that it is active.
 	- When completing configurating or communicating with device, to put device into sleep mode for battery saving, press and hold its Z-Wave Button for 3 seconds and then release it.
 	- When power-supply is used, device is in waken up state always.
 
-Factory reset
-~~~~~~~~~~~~~~~~~
+.. Factory reset
+.. ~~~~~~~~~~~~~~~~~
 	Press and hold z-wave button for 20 seconds and then release. LED will stay in solid for 2 seconds and then turn off indicates reset successfully.
 	
 	
-Button pressed actions and events
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Button pressed actions and events
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	====================================	===============================================================================
 	Short 1 time pressed					1. Send non-secure node info frame
 											2. Add device to z-wave network
@@ -48,12 +81,12 @@ Button pressed actions and events
 	Press and hold 20 seconds				Reset device to factory setting
 	====================================	===============================================================================
 	
-Link in Amazon
-~~~~~~~~~~~~~~~~~~
+.. Link in Amazon
+.. ~~~~~~~~~~~~~~~~~~
 	https://www.amazon.com/Aeotec-Multisensor-temperature-humidity-vibration/dp/B0151Z8ZQY
 	
-Configuration description
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Configuration description
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. Enable wake-up device 10 minutes after re-power on (battery mode)
 		- Parameter: 2 (0x02)
 		- Size: 1 byte

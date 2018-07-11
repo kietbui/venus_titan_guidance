@@ -38,8 +38,8 @@ Specification
 	- Power source: 				Mini USB cable (DC 5V / 1A), Battery
 	- Battery type:					4 AAA batteries
 	- Protocol: 					Z-Wave Plus
-	- Dimension:					3.5 x 2.5 x 2 inches
-	- Weight:						0.21 pounds
+	- Dimension:					3 x 2 x 3 inches
+	- Weight:						0.9 pounds
 	- Color: 						White	
 	
 	
