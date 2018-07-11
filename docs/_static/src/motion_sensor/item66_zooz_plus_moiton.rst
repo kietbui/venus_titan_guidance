@@ -29,32 +29,32 @@ Add ZooZ Motion Sensor to PhD's network
 	#. Repeat step #3, PhD will announce “The device is being added”
 	#. If adding the sensor successfully, PhD will announce “Adding ZooZ Motion Sensor success” and on Zinno app will display the dialog boxes that indicate user has added device successfully	
 	
+	.. image:: ../../images/motion_sensor/zooz_plus_motion_zse02_d.png
+	.. :align: left
+	
 Specification
-~~~~~~~~~~~~~~~~~~~~~~~
-	- Model Number: ZSE02
-	- Z-Wave Signal Frequency: 908.42 MHz
-	- Detection Radius: 110° / 16-23 feet
-	- Power: DC 5V/1A or 4 AAA (1.2V) batteries
-	- Power Consumption: < 15mA when idle / < 38mA when active
-	- Range: Up to 100 feet line of sight
-	- Operating Temperature: 14 °F to 122 °F
-	- Operating Humidity: ≤ 80%
-	- Installation and Use: Indoor only
+~~~~~~~~~~~~~~~~~~~~~~
+	- Model number: 				ZSE02
+	- Power source: 				Mini USB cable (DC 5V / 1A), Battery
+	- Battery type:					4 AAA batteries
+	- Protocol: 					Z-Wave Plus
+	- Dimension:					3.5 x 2.5 x 2 inches
+	- Weight:						0.21 pounds
+	- Color: 						White	
 	
 	
-Inclusion/Exclusion to/from a network
-~~~~~~~~~~~~~~~~~~~~~~~
+.. Inclusion/Exclusion to/from a network
+.. ~~~~~~~~~~~~~~~~~~~~~~~
 	#. Put controller to Inclusion/Exclusion mode
 	#. Press program button then release once. Device will be included/excluded to/from zwave network.
 		
 		
-	.. image:: ../../images/motion_sensor/zooz_plus_motion_zse02_d.png
-	.. :align: left
 
-Link in Amazon
-~~~~~~~~~~~~~~~~~~~
+
+.. Link in Amazon
+.. ~~~~~~~~~~~~~~~~~~~
 	https://www.amazon.com/ZOOZ-Z-Wave-Motion-Sensor-ZSE02/dp/B01AKJC6WK
 	
-Configuration description
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Configuration description
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
 	There is no configuration for this device.
