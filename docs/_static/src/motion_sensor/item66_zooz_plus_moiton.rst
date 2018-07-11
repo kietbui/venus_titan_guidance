@@ -4,7 +4,6 @@ ZooZ Z-Wave Plus ZSE02 Motion Sensor
 	.. image:: ../../images/motion_sensor/zooz_plus_motion_sensor.jpg
 	.. :align: left
 	
-
 Product Description
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. Motion detection and wireless notifications (when included to a Z-Wave gateway controller)

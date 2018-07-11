@@ -1,11 +1,40 @@
-Aeon Labs Gen5 Multi-Sensor
+Aeotec Z-Wave Plus ZW074-A MultiSensor Gen5
 --------------------------------
-Aeotec Multi-Sensor 5 ZW074-C - Z-Wave Plus by Aeon Labs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	.. image:: ../../images/motion_sensor/aeon_gen5_motion.jpg
 	.. :align: left
 
+Product Description
+~~~~~~~~~~~~~~~~~~~~~~~~~~	
+	#. 4-in-1 Indoor/Outdoor Z-Wave Multisensor.
+	#. Detects motion, light sensitivity, temperature and humidity.
+	#. Sends signals to as many as 6 associated Z-Wave devices.
+
+Working with PhD
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#. Monitor Aeotec Multisensor Gen5 and other connected devices with the Zinno app available on iOS&Android
+	#. Receive alerts from PhD if the Aeotec Multisensor Gen5 detects movement
+	#. Associate Aeotec Multisensor Gen5 with other smart devices in Zinno App, and set them to turn on or off when sensor detects movement
+
+Add Aeotec Multisensor Gen5 to PhD's network
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#. On the Zinno app, press Left Menu Bar, then select “Devices”
+	#. Select “+” button to put the PhD in inclusion mode, keep the sensor close to PhD within 10 feet (3 meters)
+	#. Press the Action Button on Aeotec Multisensor Gen5
+	#. If detecting a new device successfully, PhD will announce “Found Device”, and Zinno app will display the dialog box, asking user to interact with device one more time
+	#. Repeat step #3, PhD will announce “The device is being added”
+	#. If adding the sensor successfully, PhD will announce “Adding Aeotec Multisensor Gen5 success” and on Zinno app will display the dialog boxes that indicate user has added device successfully
+
+Specification
+~~~~~~~~~~~~~~~~~~~~~~
+	- Model number: 				ZW074-A
+	- Power source: 				USB DC 5V, Battery
+	- Battery type:					x2 CR123A batteries
+	- Protocol: 					Z-Wave Plus
+..	- Dimension:					1.8 x 2.5 x 1.8 inches
+..	- Weight:						0.13 pounds
+	- Color: 						White
+	
 Specification
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 	- Power Supply: USB DC 5V or battery power(4×AAA batteries)

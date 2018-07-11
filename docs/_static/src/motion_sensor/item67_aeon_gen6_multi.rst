@@ -1,4 +1,4 @@
-Aeotec Z-Wave Plus ZW100 6-in-1 Motion Sensor
+Aeotec Z-Wave Plus ZW100-A Multisensor 6
 --------------------------------
 
 	.. image:: ../../images/motion_sensor/aeon_gen6_motion.jpg
@@ -6,31 +6,31 @@ Aeotec Z-Wave Plus ZW100 6-in-1 Motion Sensor
 
 Product Description
 ~~~~~~~~~~~~~~~~~~~~~~~~~~	
-	#. 6-in-1 Z-Wave Plus MultiSensor: motion, humidity, temperature, light lux, UV, vibration sensor.
+	#. 6-in-1 Z-Wave Plus MultiSensor: motion, humidity, temperature, light lux, UV, vibration sensor
 	#. 2 year battery life
-	#. Super-small at 1.8 inches. Can be installed in corner, in-wall, on shelf or in downlight.
+	#. Super-small at 1.8 inches. Can be installed in corner, in-wall, on shelf or in downlight
 
 Working with PhD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	#. Monitor Aeotec 6-in-1 Motion Sensor and other connected devices with the Zinno app available on iOS&Android
-	#. Receive alerts from PhD if the Aeotec 6-in-1 Motion Sensor detects movement
-	#. Associate Aeotec 6-in-1 Motion Sensor with other smart devices in Zinno App, and set them to turn on or off when sensor detects movement	
+	#. Monitor Aeotec Multisensor 6 and other connected devices with the Zinno app available on iOS&Android
+	#. Receive alerts from PhD if the Aeotec Multisensor 6 detects movement
+	#. Associate Aeotec Multisensor 6 with other smart devices in Zinno App, and set them to turn on or off when sensor detects movement	
 
-Add Aeotec 6-in-1 Motion Sensor to PhD's network
+Add Aeotec Multisensor 6 to PhD's network
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. On the Zinno app, press Left Menu Bar, then select “Devices”
 	#. Select “+” button to put the PhD in inclusion mode, keep the sensor close to PhD within 10 feet (3 meters)
-	#. Press the Action Button on Aeotec 6-in-1 Motion Sensor
+	#. Press the Action Button on Aeotec Multisensor 6
 	#. If detecting a new device successfully, PhD will announce “Found Device”, and Zinno app will display the dialog box, asking user to interact with device one more time
 	#. Repeat step #3, PhD will announce “The device is being added”
-	#. If adding the sensor successfully, PhD will announce “Adding Aeotec Sensor Multilevel 6 success” and on Zinno app will display the dialog boxes that indicate user has added device successfully	
+	#. If adding the sensor successfully, PhD will announce “Adding Aeotec Multisensor 6 success” and on Zinno app will display the dialog boxes that indicate user has added device successfully	
 
 	.. image:: ../../images/motion_sensor/aeon_gen6_motion_detail.png
 	.. :align: center	
 	
 Specification
 ~~~~~~~~~~~~~~~~~~~~~~
-	- Model number: 				ZW100
+	- Model number: 				ZW100-A
 	- Power source: 				USB DC 5V, Battery
 	- Battery type:					x2 CR123A batteries
 	- Protocol: 					Z-Wave Plus
