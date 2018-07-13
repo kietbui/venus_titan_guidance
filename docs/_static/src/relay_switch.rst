@@ -2,6 +2,10 @@
 
 Relay switch devices
 --------------------
+
+.. toctree:: relay_switch/item91_enerwave_relay_switch_zwn_rsm1s.rst
+	:maxdepth: 2
+
 .. toctree:: relay_switch/enerwave_relay_switch_zwn_rsm1s
 	:maxdepth: 2
 	
