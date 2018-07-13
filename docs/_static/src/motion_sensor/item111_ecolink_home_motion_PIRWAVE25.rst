@@ -20,6 +20,7 @@ Add Ecolink Motion Sensor to PhD's network
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. On the Zinno app, press Left Menu Bar, then select “Devices”
 	#. Select “+” button to put the PhD in inclusion mode, keep the sensor close to PhD within 10 feet (3 meters)
+	#. Press Program Button once
 	#. If detecting a new device successfully, PhD will announce “Found Device”, and Zinno app will display the dialog box, asking user to interact with device one more time
 	#. Repeat step #3, PhD will announce “The device is being added”
 	#. If adding the sensor successfully, PhD will announce “Adding Ecolink Motion Sensor success” and on Zinno app will display the dialog boxes that indicate user has added device successfully
