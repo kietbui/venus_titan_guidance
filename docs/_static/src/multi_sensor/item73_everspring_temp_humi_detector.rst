@@ -1,20 +1,44 @@
-Everspring Temperature Humidity detector
+EverSpring Z-Wave ST814-2 Multi Sensor
 --------------------------------
-Everspring Z-Wave Temperature & Humidity Sensor (ST814-2)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 	.. image:: ../../images/multi_sensor/everspring_temp_humi_detector.jpg
 	.. :align: left
 	
-Brief information
-~~~~~~~~~~~~~~~~~
-	- Compatible with any z-wave network.
-	- Is designed to monitor temperature and humidity of ambient environment.
-	- Device will send alerts to associated devices for further execution.
+Product Description
+~~~~~~~~~~~~~~~~~~~~~~~~~~	
+	#. Z-Wave compatible temperature / humidity sensor.
+	#. Includes LCD display with Fahrenheit and Celcius temps.
+	#. Give warnings when temperature or humidity reaches preset trigger values.
+	
+Working with PhD
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#. Monitor temperature or humidity from EverSpring Multi Sensor 	
+	
+Add EverSpring Multi Sensor to PhD's network
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#. On the Zinno app, press Left Menu Bar, then select “Devices”
+	#. Select “+” button to put the PhD in inclusion mode, keep the sensor close to PhD within 10 feet (3 meters)
+	#. Press Temperature unit button 3 times within 1.5 seconds
+	#. If detecting a new device successfully, PhD will announce “Found Device”, and Zinno app will display the dialog box, asking user to interact with device one more time
+	#. Repeat step #3, PhD will announce “The device is being added”
+	#. If adding the sensor successfully, PhD will announce “Adding Everspring Temperature Humidity Sensor success” and on Zinno app will display the dialog boxes that indicate user has added device successfully
+
+	.. image:: ../../images/multi_sensor/everspring_temp_humi_detector_d.jpg
+	.. :align: left	
 
 Specification
 ~~~~~~~~~~~~~~~~~~~~~~
+	- Model number: 				ST814-2
+	- Power source: 				USB DC 5V, Battery
+	- Battery type:					x3 AA batteries
+	- Protocol: 					Z-Wave
+	- Dimension:					3.8 x 3.5 x 2.8 inches
+	- Weight:						0.5 pounds
+	- Color: 						White
+
+	
+.. Specification
+.. ~~~~~~~~~~~~~~~~~~~~~~
 	- Operating freq: 868.42MHz (ST814-1) / 908.42MHz (ST814-2)
 	- Operating temp: -10℃ ~ 50℃
 	- Relative humidity range: 20% ~ 90% 
@@ -23,20 +47,20 @@ Specification
 	- Operating range: Up to 30m line of sign
 
 
-Inclusion/Exclusion to/from a network
-~~~~~~~~~~~~~~~~~~~~~~~
+.. Inclusion/Exclusion to/from a network
+.. ~~~~~~~~~~~~~~~~~~~~~~~
 	#. Put controller to Inclusion/Exclusion mode
 	#. Presses Temperature unit button 3 times within 1.5seconds. Device will be included/excluded to/from zwave network.
 	
 	.. image:: ../../images/multi_sensor/everspring_temp_humi_detector_d.jpg
 	.. :align: left
 	
-Link in Amazon
-~~~~~~~~~~~~~~~~~~~~~
+.. Link in Amazon
+.. ~~~~~~~~~~~~~~~~~~~~~
 	https://www.amazon.com/Everspring-Z-Wave-Temperature-Humidity-ST814-2/dp/B00RYWBBU0
 	
-Configuration description
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Configuration description
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. Basic set level: set level to associated devices
 		- Parameter: 1 (0x01)
 		- Size: 1 byte
