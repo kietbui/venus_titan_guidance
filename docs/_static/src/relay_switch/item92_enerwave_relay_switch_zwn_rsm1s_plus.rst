@@ -1,6 +1,6 @@
-Enerwave Z-Wave ZWN-RSM1S Single Relay Switch
+Enerwave Z-Wave Plus ZWN-RSM1-PLUS Single Relay Switch
 --------------------------------
-	.. image:: ../../images/relay_switch/enerwave_single_relay_zwn_rsm1s.jpg
+	.. image:: ../../images/relay_switch/enerwave_single_relay_zwn_rsm1s_plus.jpg
 	.. :align: left
 	
 Product Description
@@ -27,12 +27,12 @@ Add Enerwave Single Relay Switch to PhD's network
 	#. Repeat step #3, PhD will announce “The device is being added”
 	#. If adding the sensor successfully, PhD will announce “Adding Enerwave Relay Switch Module success” and on Zinno app will display the dialog boxes that indicate user has added device successfully	
 	
-	.. image:: ../../images/relay_switch/enerwave_single_relay_zwn_rsm1s_d.jpg
+	.. image:: ../../images/relay_switch/enerwave_single_relay_zwn_rsm1s_plus_d.jpg
 	.. :align: left
 
 Specification
 ~~~~~~~~~~~~~~~~~~~~~~
-	- Model number: 				ZWN-RSM1S
+	- Model number: 				ZWN-RSM1-PLUS
 	- Power source: 				Wall-Powered, 120-277VAC, 50/60Hz
 	- Maximum Load Requirement: 	10A
 	- Protocol: 					Z-Wave
