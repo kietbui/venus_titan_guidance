@@ -17,7 +17,7 @@ Working with PhD
 	#. Also, you can automate the Vision Dual Relay Switch with PhD Scence routes, like Good Morning, Goodnight...	
 	#. Control Vision Dual Relay Switch with voice commands using PhD and the Google Assistant or Amazon Alexa	
 
-Add Enerwave Dual Relay Switch to PhD's network
+Add Vision Dual Relay Switch to PhD's network
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. On the Zinno app, press Left Menu Bar, then select “Devices”
 	#. Select “+” button to put the PhD in inclusion mode, keep the switch close to PhD within 10 feet (3 meters)
