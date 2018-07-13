@@ -6,9 +6,9 @@ EverSpring Z-Wave ST814-2 Multi Sensor
 	
 Product Description
 ~~~~~~~~~~~~~~~~~~~~~~~~~~	
-	#. Z-Wave compatible temperature / humidity sensor.
-	#. Includes LCD display with Fahrenheit and Celcius temps.
-	#. Give warnings when temperature or humidity reaches preset trigger values.
+	#. Z-Wave compatible temperature / humidity sensor
+	#. Includes LCD display with Fahrenheit and Celcius temps
+	#. Give warnings when temperature or humidity reaches preset trigger values
 	
 Working with PhD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
