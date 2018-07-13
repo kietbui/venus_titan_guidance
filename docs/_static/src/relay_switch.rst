@@ -18,5 +18,5 @@ Relay switch devices
 .. toctree:: relay_switch/item95_vision_micro_single_relay_zl7431
 	:maxdepth: 2
 	
-.. toctree:: relay_switch/item96_Fibaro_FGD_212_Dimmable_Single_Relay.rst
+.. toctree:: relay_switch/item130_Fibaro_FGD_212_Dimmable_Single_Relay.rst
 	:maxdepth: 2
