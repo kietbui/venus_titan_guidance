@@ -12,11 +12,7 @@ Relay switch devices
 .. toctree:: relay_switch/item93_enerwave_relay_switch_zwn_rsm2s_plus.rst
 	:maxdepth: 2
 	
-.. toctree:: relay_switch/enerwave_relay_switch_zwn_rsm2s
-	:maxdepth: 2
-	
-	
-.. toctree:: relay_switch/vision_micro_dual_relay_zl7432
+.. toctree:: relay_switch/item94_vision_micro_dual_relay_zl7432
 	:maxdepth: 2
 	
 	
