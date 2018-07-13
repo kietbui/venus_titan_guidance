@@ -15,7 +15,6 @@ Relay switch devices
 .. toctree:: relay_switch/item94_vision_micro_dual_relay_zl7432
 	:maxdepth: 2
 	
-	
 .. toctree:: relay_switch/vision_micro_single_relay_zl7431
 	:maxdepth: 2
 	
