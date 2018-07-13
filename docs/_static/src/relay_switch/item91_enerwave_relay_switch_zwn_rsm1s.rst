@@ -36,7 +36,7 @@ Specification
 	- Power source: 				Wall-Powered, 120-277VAC, 50/60Hz
 	- Maximum Load Requirement: 	10A
 	- Protocol: 					Z-Wave
-	- Dimension:					2.02 ×1.71 ×0.82 inches
+	- Dimension:					1.65 x 1.65 x 0.72 inches
 ..	- Weight:						
 	- Color: 						Black
 	

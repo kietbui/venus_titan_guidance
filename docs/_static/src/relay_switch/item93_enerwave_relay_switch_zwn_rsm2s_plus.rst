@@ -1,40 +1,38 @@
-Enerwave Z-Wave Plus ZWN-RSM1-PLUS Single Relay Switch
+Enerwave Z-Wave Plus ZWN-RSM2-PLUS Dual Relay Switch
 --------------------------------
 	.. image:: ../../images/relay_switch/enerwave_single_relay_zwn_rsm1s_plus.jpg
 	.. :align: left
 	
 Product Description
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-	#. Work with existing light switches, required neutral wire
-	#. Slim size module with build in Z-Wave technology and Interoperable with other Z-Wave enabled devices
-	#. On/Off control via Z-Wave controller, manual wall switch
-	#. Acts as a Z-Wave repeater to extend the range
-	#. 3 way wiring compatible
+	#. "Next Gen" Z-wave PLUS Upgrades existing wall switch into a Z-Wave switch so you can still keep the original switch and wall plate
+	#. Utilizes 5th Generation 500 Series hardware platform, 67% improvement in range, Faster & Easier Install and Set up, Additional RF channels, fully backwards compatible with existing z-wave products
+	#. NEUTRAL WIRE REQUIRED
 
 Working with PhD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	#. Control your Enerwave Single Relay Switch and other connected devices with the Zinno app available on iOS&Android
-	#. With PhD, you could automatically turn Enerwave Relay Switch on or off in many scenarios, such as door opens/closes, motion detects, and much more
-	#. Also, you can automate the Enerwave Relay Switch with PhD Scence routes, like Good Morning, Goodnight...	
-	#. Control Enerwave Relay Switch with voice commands using PhD and the Google Assistant or Amazon Alexa
+	#. Control your Enerwave Dual Relay Switch and other connected devices with the Zinno app available on iOS&Android
+	#. With PhD, you could automatically turn Enerwave Dual Relay Switch on or off in many scenarios, such as door opens/closes, motion detects, and much more
+	#. Also, you can automate the Enerwave Dual Relay Switch with PhD Scence routes, like Good Morning, Goodnight...	
+	#. Control Enerwave Dual Relay Switch with voice commands using PhD and the Google Assistant or Amazon Alexa
 
-Add Enerwave Single Relay Switch to PhD's network
+Add Enerwave Dual Relay Switch to PhD's network
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. On the Zinno app, press Left Menu Bar, then select “Devices”
 	#. Select “+” button to put the PhD in inclusion mode, keep the switch close to PhD within 10 feet (3 meters)	
 	#. Press Program Button once
 	#. If detecting a new device successfully, PhD will announce “Found Device”, and Zinno app will display the dialog box, asking user to interact with device one more time
 	#. Repeat step #3, PhD will announce “The device is being added”
-	#. If adding the sensor successfully, PhD will announce “Adding Enerwave Relay Switch Module success” and on Zinno app will display the dialog boxes that indicate user has added device successfully	
+	#. If adding the sensor successfully, PhD will announce “Adding Enerwave Dual Relay Switch Module success” and on Zinno app will display the dialog boxes that indicate user has added device successfully	
 	
 	.. image:: ../../images/relay_switch/enerwave_single_relay_zwn_rsm1s_plus_d.jpg
 	.. :align: left
 
 Specification
 ~~~~~~~~~~~~~~~~~~~~~~
-	- Model number: 				ZWN-RSM1-PLUS
+	- Model number: 				ZWN-RSM2-PLUS
 	- Power source: 				Wall-Powered, 120-277VAC, 50/60Hz
-	- Maximum Load Requirement: 	10A
+	- Maximum Load Requirement: 	2x4A
 	- Protocol: 					Z-Wave
 	- Dimension:					1.65 x 1.65 x 0.72 inches
 ..	- Weight:						
