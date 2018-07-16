@@ -2,5 +2,5 @@
 
 Repeater devices
 -------------------------
-.. toctree:: repeater/aeotec_range_extender.rst
+.. toctree:: repeater/item59_aeotec_range_extender.rst
 	:maxdepth: 2

@@ -23,7 +23,7 @@ Add Enerwave Dual Relay Switch to PhD's network
 	#. Press Program Button once
 	#. If detecting a new device successfully, PhD will announce “Found Device”, and Zinno app will display the dialog box, asking user to interact with device one more time
 	#. Repeat step #3, PhD will announce “The device is being added”
-	#. If adding the sensor successfully, PhD will announce “Adding Enerwave Dual Relay Switch Module success” and on Zinno app will display the dialog boxes that indicate user has added device successfully	
+	#. If adding the relay successfully, PhD will announce “Adding Enerwave Dual Relay Switch Module success” and on Zinno app will display the dialog boxes that indicate user has added device successfully	
 	
 	.. image:: ../../images/relay_switch/enerwave_single_relay_zwn_rsm1s_plus_d.jpg
 	.. :align: left

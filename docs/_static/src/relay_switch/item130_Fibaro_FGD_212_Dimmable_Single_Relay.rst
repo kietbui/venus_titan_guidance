@@ -27,7 +27,7 @@ Add Fibaro Dimmable Single Relay to PhD's network
 	#. Quickly, three times press switch no. 1 or the B-button
 	#. If detecting a new device successfully, PhD will announce “Found Device”, and Zinno app will display the dialog box, asking user to interact with device one more time
 	#. Repeat step #3, PhD will announce “The device is being added”
-	#. If adding the sensor successfully, PhD will announce “Adding Fibaro Dimmer 2 success” and on Zinno app will display the dialog boxes that indicate user has added device successfully	
+	#. If adding the relay successfully, PhD will announce “Adding Fibaro Dimmer 2 success” and on Zinno app will display the dialog boxes that indicate user has added device successfully	
 
 	.. image:: ../../images/relay_switch/Fibaro_Dimmer_2_d.jpg
 	.. :align: left

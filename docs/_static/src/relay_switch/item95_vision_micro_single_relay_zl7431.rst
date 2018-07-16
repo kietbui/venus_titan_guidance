@@ -26,7 +26,7 @@ Add Vision Single Relay Switch to PhD's network
 	#. Turn on and turn off switch that connects with ZL7432 module 4 times
 	#. If detecting a new device successfully, PhD will announce “Found Device”, and Zinno app will display the dialog box, asking user to interact with device one more time
 	#. Repeat step #3, PhD will announce “The device is being added”
-	#. If adding the sensor successfully, PhD will announce “Adding Vision In-Wall Micro Single Relay Switch success” and on Zinno app will display the dialog boxes that indicate user has added device successfully	
+	#. If adding the relay successfully, PhD will announce “Adding Vision In-Wall Micro Single Relay Switch success” and on Zinno app will display the dialog boxes that indicate user has added device successfully	
 
 	.. image:: ../../images/relay_switch/vision_inwall_micro_2relay_zl7432_d.png
 	.. :align: left
