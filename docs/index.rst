@@ -33,6 +33,7 @@ Supported devices list
 	- :ref:`onoff_module_switch_devices`
 	- :ref:`relay_switch_devices`
 	- :ref:`repeater_devices`
+	- :ref:`scene_controller_devices`
 	- :ref:`smoke_co_sensor_devices`
 	- :ref:`thermostat_devices`
 	- :ref:`water_flood_devices`
