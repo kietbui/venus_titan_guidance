@@ -2,5 +2,5 @@
 
 Scene Controller devices
 -------------------------
-.. toctree:: repeater/item12_Leviton_VRCS4_scene_controller.rst
+.. toctree:: scene_controller/item12_Leviton_VRCS4_scene_controller.rst
 	:maxdepth: 2
