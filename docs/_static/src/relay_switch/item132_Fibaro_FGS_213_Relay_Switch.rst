@@ -20,7 +20,7 @@ Working with PhD
 	#. Also, you can automate the Fibaro Single Relay with PhD Scence routes, like Good Morning, Goodnight...	
 	#. Control Fibaro Single Relay with voice commands using PhD and the Google Assistant or Amazon Alexa	
 
-Add Fibaro Dimmable Single Relay to PhD's network
+Add Fibaro Single Relay to PhD's network
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. On the Zinno app, press Left Menu Bar, then select “Devices”
 	#. Select “+” button to put the PhD in inclusion mode, keep the switch close to PhD within 10 feet (3 meters)
