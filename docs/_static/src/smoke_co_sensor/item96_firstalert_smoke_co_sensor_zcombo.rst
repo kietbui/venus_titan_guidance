@@ -35,30 +35,30 @@ Specification
 	- Battery Type:					x2 AA Batteries
 	- Protocol: 					Z-Wave
 	- Dimension:					5.0 Dia. x 2.0 H inches
-..	- Weight:						0.525 pounds
+	- Weight:						0.525 pounds
 	- Color: 						White
 
 	
-Specification
-~~~~~~~~~~~~~~~~~~~~~~
+.. Specification
+.. ~~~~~~~~~~~~~~~~~~~~~~
 	- Battery: 2x1.5V 
 	- Operating temperature: 40 ~ 100 oF
 	- Operating humidity: 10 ~ 95%
 	- Audio alarm: 85dB at 100 feet
 
 
-Inclusion/Exclusion to/from a network
-~~~~~~~~~~~~~~~~~~~~~~~
+.. Inclusion/Exclusion to/from a network
+.. ~~~~~~~~~~~~~~~~~~~~~~~
 	#. Put controller to Inclusion/Exclusion mode
 	#. Press and hold Test/Silent buttin while removing then inserting battery once. Device will be included/excluded to/from zwave network.
 	
 	
-Link in Amazon
-~~~~~~~~~~~~~~~~~~~~
+.. Link in Amazon
+.. ~~~~~~~~~~~~~~~~~~~~
 	https://www.amazon.com/First-Alert-Z-Wave-Detector-Monoxide/dp/B00KMHXFAI
 	
-Configuration description
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Configuration description
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
 	There is no configuration in this device.
 	
 	
