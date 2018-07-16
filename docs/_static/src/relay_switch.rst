@@ -23,3 +23,6 @@ Relay switch devices
 	
 .. toctree:: relay_switch/item131_Fibaro_FGS_223_Dual_Relay.rst
 	:maxdepth: 2
+	
+.. toctree:: relay_switch/item132_Fibaro_FGS_213_Relay_Switch.rst
+	:maxdepth: 2

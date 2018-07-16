@@ -6,10 +6,10 @@ Fibaro Z-Wave Plus FGD-212 Dimmable Single Relay
 	
 Product Description
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-	#. Universal dimming module that recognizes the type of the light source and automatically calibrates itself.
-	#. Installation possible in buildings with either 2 or 3 wire systems.
-	#. Includes security features protect the device from overheating, overload or voltage drop.
-	#. Significantly extends the lifespan of the bulbs and reduces the electricity use.
+	#. Universal dimming module that recognizes the type of the light source and automatically calibrates itself
+	#. Installation possible in buildings with either 2 or 3 wire systems
+	#. Includes security features protect the device from overheating, overload or voltage drop
+	#. Significantly extends the lifespan of the bulbs and reduces the electricity use
 	#. Neutral required: yes 
 	#. May be used as a repeater or range extender
 
