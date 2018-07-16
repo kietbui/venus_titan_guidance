@@ -25,7 +25,7 @@ Add Leviton 4-Button Scene Controller to PhD's network
 	#. Repeat step #3, PhD will announce “The device is being added”
 	#. If adding the device successfully, PhD will announce “Adding First Alert Smoke and CO Detected Sensor success” and on Zinno app will display the dialog boxes that indicate user has added device successfully		
 
-	.. image:: ../../images/smoke_co_sensor/first_alert_smoke_zcombo.jpg
+	.. image:: ../../images/smoke_co_sensor/first_alert_smoke_zcombo_d.jpg
 	.. :align: left
 
 Specification
