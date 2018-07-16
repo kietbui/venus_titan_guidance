@@ -16,7 +16,7 @@ Working with PhD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. Control GE Fan Speed Controller and other connected devices with the Zinno app available on iOS&Android
 	#. With PhD, you can automate the GE Fan Speed Controller easily in many scenarios, such as turn the fan on of off when the door opened, or when the temperature rises the specific level, and much more
-	#. Also, you can automate the GE Fan Speed Controller with PhD Scence routes, like Good Morning, Goodnight...	
+	#. Also, you can automate the GE Fan Speed Controller with PhD Scene routes, like Good Morning, Goodnight...	
 	#. Control GE Fan Speed Controller with voice commands using PhD and the Google Assistant or Amazon Alexa
 
 Add GE Fan Speed Controller to PhD's network
