@@ -1,19 +1,23 @@
-Honeywell Thermostat
+Honeywell Z-Wave TH8320ZW1000 Thermostat
 -----------------------------
-Honeywell YTH8320ZW1007/U Z-Wave Enabled Programmable Thermostat
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	.. image:: ../../images/thermostat/honeywell_programmable.jpg
 	.. :align: left
 
-Brief information
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Product Description
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 	- One-touch temp control overrides program schedule at any time.
 	- Precise comfort control keeps temperature within 1°F of the level you set.
 	- Change/check reminders let you know when to service or replace filters and other critical components.
 	- Large touchscreen display with backlight is easy to read—even in the dark.
-	- Z-Wave wireless control lets you connect the thermostat to a Z-Wave network.
 
+Working with PhD
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+	#. Control your Honeywell Thermostat and other connected devices with the Zinno app available on iOS&Android
+	#. With PhD, you could automatically turn Honeywell Thermostat on or off in many scenarios, such as door opens/closes, human appearance detected, and much more
+	#. Also, you can automate the Honeywell Thermostat with PhD Scence routes, like Good Morning, Goodnight...	
+	#. Control Honeywell Thermostat with voice commands using PhD and the Google Assistant or Amazon Alexa	
+	
 How to add to VENUS app  
 ~~~~~~~~~~~~~~~~~~~~~~~
 

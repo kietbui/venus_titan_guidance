@@ -16,7 +16,7 @@ Working with PhD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. Control your Fibaro Dual Relay and other connected devices with the Zinno app available on iOS&Android
 	#. With PhD, you could automatically turn Fibaro Dual Relay on or off in many scenarios, such as door opens/closes, motion detects, and much more
-	#. Also, you can automate the Fibaro Dual Relay Relay with PhD Scence routes, like Good Morning, Goodnight...	
+	#. Also, you can automate the Fibaro Dual Relay with PhD Scence routes, like Good Morning, Goodnight...	
 	#. Control Fibaro Dual Relay with voice commands using PhD and the Google Assistant or Amazon Alexa	
 
 Add Fibaro Dual Relay to PhD's network
