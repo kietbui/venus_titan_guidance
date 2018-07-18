@@ -2,7 +2,7 @@
 
 Themostat devices
 -------------------------
-.. toctree:: thermostat/honeywell_th8320zw_themostat.rst
+.. toctree:: thermostat/item97_honeywell_th8320zw_themostat.rst
 	:maxdepth: 2
 
 .. toctree:: thermostat/rcs_thermostat.rst

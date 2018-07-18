@@ -20,31 +20,33 @@ Working with PhD
 	
 How to add to VENUS app  
 ~~~~~~~~~~~~~~~~~~~~~~~
-
-	#. Put controller to inclusion/exclusion mode
+	#. On the Zinno app, press Left Menu Bar, then select “Devices”
+	#. Select “+” button to put the PhD in inclusion mode, keep your thermostat close to PhD within 10 feet (3 meters)
 	#. Press and hold blank center key until the display changes
 		- Change the setting:
 			+ Function: RF10
 			+ Setting: 0 --> Exclude device from zwave network
 			+ Setting: 1 --> Include device to zwave network
 		- Press DONE to exit and save changes
+	#. PhD will announce “The device is being added”
+	#. If adding the device successfully, PhD will announce “Adding Honeywell Thermostat success” and on Zinno app will display the dialog boxes that indicate user has added device successfully		
 
 	.. image:: ../../images/thermostat/honeywell_programmable_adv_setting.png
 	.. :align: center
 	
-Reference to control
-~~~~~~~~~~~~~~~~~~~~~~~~
+.. Reference to control
+.. ~~~~~~~~~~~~~~~~~~~~~~~~
 	.. image:: ../../images/thermostat/honeywell_programmable_d1.png
 	.. :align: center
 
-Reference to status display
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Reference to status display
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	.. image:: ../../images/thermostat/honeywell_programmable_d2.png
 	.. :align: center
 
 
-Basic setting
-~~~~~~~~~~~~~~~~
+.. Basic setting
+.. ~~~~~~~~~~~~~~~~
 	#. Clock setting
 	
 		- Press CLOCK button
@@ -72,8 +74,8 @@ Basic setting
 		- Press DONE to save and exit
 	
 	
-Advance setting
-~~~~~~~~~~~~~~~~~~~
+.. Advance setting
+.. ~~~~~~~~~~~~~~~~~~~
 	#. Common setting steps
 		
 		- Press SYSTEM button
@@ -149,11 +151,11 @@ Advance setting
 		Share Z-Wave node information		Function: RF20			0/1 - Idle/Send node
 		================================	========================	======================================================
 
-Link in Amazon
-~~~~~~~~~~~~~~~~~~~~
+.. Link in Amazon
+.. ~~~~~~~~~~~~~~~~~~~~
 	https://www.amazon.com/Honeywell-YTH8320ZW1007-Enabled-Programmable-Thermostat/dp/B005EJ7YO2
 	
-Configuration description
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Configuration description
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
 	There is no configuration in this device.
 	
