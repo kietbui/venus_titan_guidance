@@ -17,4 +17,5 @@ Themostat devices
 .. toctree:: thermostat/item121_GoControl_Thermostat_GC-TBZ48.rst
 	:maxdepth: 2		
 
-		
+.. toctree:: thermostat/item137_Radio_Thermostat_CT100Plus.rst
+	:maxdepth: 2		
