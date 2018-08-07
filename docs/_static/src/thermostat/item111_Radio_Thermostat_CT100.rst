@@ -23,6 +23,7 @@ Add Radio Thermostat to PhD's network
 	#. On the Zinno app, press Left Menu Bar, then select “Devices”
 	#. Select “+” button to put the PhD in inclusion mode, keep your thermostat close to PhD within 10 feet (3 meters)
 	#. From the CT100’s Menu screen, touch MATE under the radio icon. The Network Include screen displays a large "r1", then touch MATE one more time
+	
 	.. image:: ../../images/thermostat/Radio_Thermostat_d1.jpg
 	.. :align: left
 	
