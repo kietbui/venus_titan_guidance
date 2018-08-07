@@ -42,6 +42,6 @@ Specification
 	- Battery Type:					x4 AA 
 	- Protocol: 					Z-Wave
 	- Dimension:					8 x 6 x 1 inches
-	- Weight:						0.65 pounds
+	- Weight:						0.8 pounds
 	- Color: 						White
 	
