@@ -7,3 +7,7 @@ Themostat devices
 
 .. toctree:: thermostat/item98_rcs_thermostat.rst
 	:maxdepth: 2
+
+	
+	
+	
