@@ -19,3 +19,6 @@ Themostat devices
 
 .. toctree:: thermostat/item137_Radio_Thermostat_CT100Plus.rst
 	:maxdepth: 2		
+	
+.. toctree:: thermostat/item139_Stelpro_Thermostat_ STZW402WB+.rst
+	:maxdepth: 2	

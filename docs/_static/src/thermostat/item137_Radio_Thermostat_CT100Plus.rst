@@ -40,7 +40,7 @@ Specification
 	- Model number: 				CT100 Plus
 	- Power source: 				24VAC from HVAC System, Battery
 	- Battery Type:					x4 AA 
-	- Protocol: 					Z-Wave
+	- Protocol: 					Z-Wave Plus
 	- Dimension:					8 x 6 x 1 inches
 	- Weight:						0.8 pounds
 	- Color: 						White
