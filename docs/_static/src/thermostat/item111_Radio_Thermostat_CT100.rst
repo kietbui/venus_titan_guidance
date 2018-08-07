@@ -27,7 +27,7 @@ Add Radio Thermostat to PhD's network
 	.. image:: ../../images/thermostat/Radio_Thermostat_d1.jpg
 	.. :align: left
 	
-	#. PhD will announce “The device is being added”
+	##. PhD will announce “The device is being added”
 	#. Repeat step #3, PhD will announce “The device is being added”
 	#. If adding the device successfully, PhD will announce “Adding Radio Thermostat success” and on Zinno app will display the dialog boxes that indicate user has added device successfully	
 	#. Also, when the CT100 has successfully joined to PhD Z-Wave network, the MATE icon is replaced by the LINK icon under the radio tower
