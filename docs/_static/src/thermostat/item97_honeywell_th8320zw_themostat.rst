@@ -28,7 +28,7 @@ Add Honeywell Thermostat to PhD's network
 	#. Change the setting:	
 		- Function: RF10
 		- Setting: 0
-	#. PhD will announce “The device is being added”
+	#. PhD will announce “Found Device”, and Zinno app will display the dialog box, asking user to interact with device one more time
 	#. Continue with the setting Function RF10, but change setting to 1
 	#. If adding the device successfully, PhD will announce “Adding Honeywell Thermostat success” and on Zinno app will display the dialog boxes that indicate user has added device successfully
 	

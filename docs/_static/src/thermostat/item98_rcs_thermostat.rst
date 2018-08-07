@@ -24,7 +24,7 @@ Add RCS Thermostat to PhD's network
 	#. On the Zinno app, press Left Menu Bar, then select “Devices”
 	#. Select “+” button to put the PhD in inclusion mode, keep your thermostat close to PhD within 10 feet (3 meters)
 	#. In the Thermostat’s Main Menu, scroll down to the ZWave Install item then press the Select button. After that, the Thermostat's sreen will display "Add Thermostat to Z-Wave network", press YES button
-	#. PhD will announce “The device is being added”
+	#. PhD will announce “Found Device”, and Zinno app will display the dialog box, asking user to interact with device one more time
 	#. Repeat step #3, PhD will announce “The device is being added”
 	#. If adding the device successfully, PhD will announce “Adding RCS Thermostat success” and on Zinno app will display the dialog boxes that indicate user has added device successfully	
 

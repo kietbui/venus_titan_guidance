@@ -12,17 +12,17 @@ Product Description
 	
 Working with PhD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
-	#. Control your Remote Thermostat and other connected devices with the Zinno app available on iOS&Android
-	#. With PhD, you could automatically turn Remote Thermostat on or off in many scenarios, such as door opens/closes, human appearance detected, and much more
-	#. Also, you can automate the Remote Thermostat with PhD Scence routes, like Good Morning, Goodnight...	
-	#. Control Remote Thermostat with voice commands using PhD and the Google Assistant or Amazon Alexa	
+	#. Control your Remotec Thermostat and other connected devices with the Zinno app available on iOS&Android
+	#. With PhD, you could automatically turn Remotec Thermostat on or off in many scenarios, such as door opens/closes, human appearance detected, and much more
+	#. Also, you can automate the Remotec Thermostat with PhD Scence routes, like Good Morning, Goodnight...	
+	#. Control Remotec Thermostat with voice commands using PhD and the Google Assistant or Amazon Alexa	
 	
-Add Remote Thermostat to PhD's network 
+Add Remotec Thermostat to PhD's network 
 ~~~~~~~~~~~~~~~~~~~~~~~
 	#. On the Zinno app, press Left Menu Bar, then select “Devices”
 	#. Select “+” button to put the PhD in inclusion mode, keep your thermostat close to PhD within 10 feet (3 meters)
 	#. From the ZTS-500’s Standby screen, press > or < to navigate to the Z-Wave screen and the Z-Wave LED will continuously flash "Tap to Bind", then tap "+"
-	#. PhD will announce “The device is being added”
+	#. PhD will announce “Found Device”, and Zinno app will display the dialog box, asking user to interact with device one more time
 	#. Repeat step #3, PhD will announce “The device is being added”
 	#. If adding the device successfully, PhD will announce “Adding Remote Thermostat success” and on Zinno app will display the dialog boxes that indicate user has added device successfully	
 	#. Also, The “✔” symbol will be displayed on screen once the ZTS-500 is added into the network, and the Z-Wave disconnect icon will also be removed from the standby screen

@@ -23,7 +23,7 @@ Add Radio Thermostat to PhD's network
 	#. On the Zinno app, press Left Menu Bar, then select “Devices”
 	#. Select “+” button to put the PhD in inclusion mode, keep your thermostat close to PhD within 10 feet (3 meters)
 	#. From the CT100’s Menu screen, touch MATE under the radio icon. The Network Include screen displays a large "r1", then touch MATE one more time
-	#. PhD will announce “The device is being added”
+	#. PhD will announce “Found Device”, and Zinno app will display the dialog box, asking user to interact with device one more time
 	#. Repeat step #3, PhD will announce “The device is being added”
 	#. If adding the device successfully, PhD will announce “Adding Radio Thermostat success” and on Zinno app will display the dialog boxes that indicate user has added device successfully	
 	#. Also, when the CT100 has successfully joined to PhD Z-Wave network, the MATE icon is replaced by the LINK icon under the radio tower

@@ -12,5 +12,9 @@ Themostat devices
 	:maxdepth: 2
 	
 .. toctree:: thermostat/item113_Remotec_Thermostat.rst
-	:maxdepth: 2	
+	:maxdepth: 2
 	
+.. toctree:: thermostat/item121_GoControl_Thermostat_GC-TBZ48.rst
+	:maxdepth: 2		
+
+		
