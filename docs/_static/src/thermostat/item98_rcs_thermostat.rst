@@ -49,25 +49,25 @@ Specification
 	- AUTO Mode: Heating or cooling will come on according to the heating and cooling setpoints. The system will automatically switch between heating and cooling modes as needed to maintain the setpoints.
 	
 
-Inclusion/Exclusion to/from a network
-~~~~~~~~~~~~~~~~~~~~~~~
+.. Inclusion/Exclusion to/from a network
+.. ~~~~~~~~~~~~~~~~~~~~~~~
 	#. Put controller to Inclusion/Exclusion mode
 	#. When prompted by your Z-Wave controller, Press the YES button in the ZWave Install screen.. Device will be included/excluded to/from zwave network.
 	
 	.. image:: ../../images/thermostat/rcs_thermostat_menu.jpg
 	.. :align: left
 	
-Link in Amazon
-~~~~~~~~~~~~~~~~~~~~
+.. Link in Amazon
+.. ~~~~~~~~~~~~~~~~~~~~
 	https://www.amazon.com/RCS-Technology-RCTZ45-Communicating-Thermostat/dp/B01LY5YXNH
 	
-Configuration description
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Configuration description
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
 	There is no configuration in this device.
 	
 	
-Brief information
-~~~~~~~~~~~~~~~~~
+.. Brief information
+.. ~~~~~~~~~~~~~~~~~
 	- 24VAC systems Note: requires both the 24R and 24C (common) wires
 	- Standard gas/oil/electric heating systems
 		+ 1 stage heating and cooling
