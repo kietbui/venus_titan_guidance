@@ -11,5 +11,6 @@ Themostat devices
 .. toctree:: thermostat/item111_Radio_Thermostat_CT100.rst
 	:maxdepth: 2
 	
-	
+.. toctree:: thermostat/item113_Remotec_Thermostat.rst
+	:maxdepth: 2	
 	
