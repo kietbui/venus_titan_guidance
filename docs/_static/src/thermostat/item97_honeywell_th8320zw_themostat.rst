@@ -6,10 +6,10 @@ Honeywell Z-Wave TH8320ZW1000 Thermostat
 
 Product Description
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-	- One-touch temp control overrides program schedule at any time.
-	- Precise comfort control keeps temperature within 1°F of the level you set.
-	- Change/check reminders let you know when to service or replace filters and other critical components.
-	- Large touchscreen display with backlight is easy to read—even in the dark.
+	#. One-touch temp control overrides program schedule at any time.
+	#. Precise comfort control keeps temperature within 1°F of the level you set.
+	#. Change/check reminders let you know when to service or replace filters and other critical components.
+	#. Large touchscreen display with backlight is easy to read—even in the dark.
 
 Working with PhD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
@@ -18,21 +18,32 @@ Working with PhD
 	#. Also, you can automate the Honeywell Thermostat with PhD Scence routes, like Good Morning, Goodnight...	
 	#. Control Honeywell Thermostat with voice commands using PhD and the Google Assistant or Amazon Alexa	
 	
-How to add to VENUS app  
+Add Honeywell Thermostat to PhD's network 
 ~~~~~~~~~~~~~~~~~~~~~~~
 	#. On the Zinno app, press Left Menu Bar, then select “Devices”
 	#. Select “+” button to put the PhD in inclusion mode, keep your thermostat close to PhD within 10 feet (3 meters)
-	#. Press and hold blank center key until the display changes
-		- Change the setting:
-			+ Function: RF10
-			+ Setting: 0 --> Exclude device from zwave network
-			+ Setting: 1 --> Include device to zwave network
-		- Press DONE to exit and save changes
+	#. Enter System Setup nn the thermostat
+		- Press SYSTEM
+		- Press and hold blank center key until the display changes (approximately 5 seconds)
+	#. Change the setting:	
+		- Function: RF10
+		- Setting: 0
 	#. PhD will announce “The device is being added”
-	#. If adding the device successfully, PhD will announce “Adding Honeywell Thermostat success” and on Zinno app will display the dialog boxes that indicate user has added device successfully		
-
-	.. image:: ../../images/thermostat/honeywell_programmable_adv_setting.png
+	#. Continue with the setting Function RF10, but change setting to 1
+	#. If adding the device successfully, PhD will announce “Adding Honeywell Thermostat success” and on Zinno app will display the dialog boxes that indicate user has added device successfully
+	
+	.. image:: ../../images/thermostat/honeywell_programmable_adv_setting1.png
 	.. :align: center
+
+Specification
+~~~~~~~~~~~~~~~~~~~~~~
+	- Model number: 				ZCOMBO
+	- Power source: 				24VAC from HVAC System
+	- Protocol: 					Z-Wave
+	- Dimension:					1.25 x 6 x 4.5 inches
+	- Weight:						1.5 pounds
+	- Color: 						White
+
 	
 .. Reference to control
 .. ~~~~~~~~~~~~~~~~~~~~~~~~
