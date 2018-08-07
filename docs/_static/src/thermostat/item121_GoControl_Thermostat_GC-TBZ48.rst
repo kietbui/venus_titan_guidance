@@ -28,10 +28,11 @@ Add GoControl Thermostat to PhD's network
 	#. Scroll to “Z-Wave” using ▲▼ buttons, press SELECT (MODE button) to enter Z-Wave inclusion/exclusion mode on thermostat
 	#. On the screen of thermostat flashes "INSTALL", press SELECT
 	#. PhD will announce “Found Device”, and Zinno app will display the dialog box, asking user to interact with device one more time
-	#. Repeat step #3, PhD will announce “The device is being added”
+	#. Press SELECT 2 more time
 	#. If adding the device successfully, PhD will announce “Adding Remote Thermostat success” and on Zinno app will display the dialog boxes that indicate user has added device successfully	
-	#. Also, The “✔” symbol will be displayed on screen once the ZTS-500 is added into the network, and the Z-Wave disconnect icon will also be removed from the standby screen
 	
+	.. image:: ../../images/thermostat/GoControl_Thermostat_GC-TBZ48_d1.jpg
+	.. :align: left
 	
 Specification
 ~~~~~~~~~~~~~~~~~~~~~~
