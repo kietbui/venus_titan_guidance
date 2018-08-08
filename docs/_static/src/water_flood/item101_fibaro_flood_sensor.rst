@@ -1,25 +1,43 @@
-FIBARO flood sensor
+Fibaro Z-Wave FGFS-101 Water/Flood Sensor
 -------------------------------
-Fibaro 857934005140 Flood Sensor, White
-~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	.. image:: ../../images/water_flood/fibaro_flood_sensor.jpg
 	.. :align: left
 	
 Brief information
 ~~~~~~~~~~~~~~~~~~~~~~~~
-	- Compatible with any Z-Wave or Z-Wave+ Controller
-	- Supports protected mode (Z-Wave network security mode) with AES-128 encryption
-	- May be connected to any alarm system (potential free output terminal)
-	- Extremely easy installation - simply put on a surface prone to flooding
-	- May be installed anywhere - flood sensor’s contacts extended with a wire
-	- Battery or VDC powered. When connected to an external, VDC power source, the battery serves as an emergency power source
-	- Theft protection - tilt is reported to the Z-Wave network or alarm system’s main controller
-	- Two operating modes - flood/temperature sensor or just a temperature sensor.
-	- Alarm is signalled by sound, visual indicator (LED diode) and Z-Wave
+	#. Has a futuristic design, compact size, and a wide variety of additional functions
+	#. Will alert you of a threatening flood, or a rapid temperature rise or drop
+	#. Up to 100 foot signal range indoors.
+	#. Mount to wall or place directly on floor.
 
+Working with PhD
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#. Monitor your Fibaro Water/Flood Sensor and other connected devices with the Zinno app available on iOS&Android
+	#. Receive alerts from PhD if the Fibaro Water/Flood Sensor detects detects water, or if the temperature changes
+	#. Associate Fibaro Water/Flood Sensor with other smart devices in Zinno App, and set them to turn on or off when sensor detects water	
+
+Add Everspring Water/Flood Sensor to PhD's network
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#. On the Zinno app, press Left Menu Bar, then select “Devices”
+	#. Select “+” button to put the PhD in inclusion mode, keep the sensor close to PhD within 3 feet (0.91 meter)
+	#. Quickly, three times press the TMP button on the sensor
+	#. If detecting a new device successfully, PhD will announce “Found Device”, and Zinno app will display the dialog box, asking user to interact with device one more time
+	#. Repeat step #3, PhD will announce “The device is being added”
+	#. If adding the sensor successfully, PhD will announce “Adding Fibaro Flood Detected Sensor success” and on Zinno app will display the dialog boxes that indicate user has added device successfully		
+	
 Specification
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+	- Model number: 				FGFS-101
+	- Power source: 				12-24VDC, Battery
+	- Battery type:					x1 CR123A Battery
+	- Protocol: 					Z-Wave
+	- Dimension:					2.83 (Dia) x 1.1(H) inches
+	- Weight:						0.2 pounds
+	- Color: 						White	
+	
+.. Specification
+.. ~~~~~~~~~~~~~~~~~~~~~~~~
 	- Power Supply: 12 - 24V DC
 	- Battery: CR123A
 	- RF range: 
@@ -31,8 +49,8 @@ Specification
 	- Operating temp: 0 - 40 oC
 	- Measure temp: -20 - 100°C
 	
-Inclusion/Exclusion to/from a network
-~~~~~~~~~~~~~~~~~~~~~~~
+.. Inclusion/Exclusion to/from a network
+.. ~~~~~~~~~~~~~~~~~~~~~~~
 	#. Put controller to Inclusion/Exclusion mode
 	#. Press TMP button 3 times. Device will be included/excluded to/from zwave network.
 		
@@ -40,14 +58,14 @@ Inclusion/Exclusion to/from a network
 	.. :align: left
 
 
-Button action and events
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Button action and events
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	- 1 press: select desired MENU option (in case MENU mode is active)
 	- 3 presses: add/remove or wake up
 	- Press and holding: enter the MENU mode (confirmed by visual indicator)
 	
-MENU mode & visual indicator
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. MENU mode & visual indicator
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	- Flood alarm is signalled: white and blue light
 	- In battery mode, periodically show temperature readouts via LED color
 	- In constant powering mode, continuously show temperature readouts via LED color
@@ -59,8 +77,8 @@ MENU mode & visual indicator
 	- VIOLET: z-wave network's range test
 	- YELLOW: sensor reset
 
-Factory reset
-~~~~~~~~~~~~~~~~~~~~~~
+.. Factory reset
+.. ~~~~~~~~~~~~~~~~~~~~~~
 	Resetting the Flood Sensor: Reset procedure deletes EEPROM’s memory, including all information on the Z-Wave network and the main controller.
 	
 	#. Make sure the Sensor is powered
@@ -71,12 +89,12 @@ Factory reset
 	#. After few seconds the device will be restarted, which is signalled with the red visual indicator colour and acoustic signal
 
 
-Link in Amazon
-~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Link in Amazon
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~
 	https://www.amazon.com/Fibaro-857934005140-Flood-Sensor-White/dp/B01N44GHEB
 
-Configuration description
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Configuration description
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. Alarm cancellation delay
 		- Parameter 1 (0x01)
 		- Size: 2 bytes
