@@ -1,7 +1,7 @@
 Stelpro Z-Wave STZW402WB+ Thermostat
 --------------------------------
 
-	.. image:: ../../images/thermostat/Stelpro_Thermostat_ STZW402WB.jpg
+	.. image:: ../../images/thermostat/Stelpro_Thermostat_STZW402WB.jpg
 	.. :align: left
 	
 Product Description
