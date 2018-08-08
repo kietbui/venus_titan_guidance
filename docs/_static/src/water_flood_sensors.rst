@@ -2,7 +2,7 @@
 
 Water/Flood sensor devices
 --------------------
-.. toctree:: water_flood/everspring_flood_sensor.rst
+.. toctree:: water_flood/item100_everspring_flood_sensor.rst
 	:maxdepth: 2
 	
 .. toctree:: water_flood/fibaro_flood_sensor.rst

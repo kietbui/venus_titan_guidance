@@ -18,7 +18,6 @@ Working with PhD
 	#. Receive alerts from PhD if the ZooZ Motion Sensor detects movement
 	#. Associate ZooZ Motion Sensor with other smart devices in Zinno App, and set them to turn on or off when sensor detects movement
 
-	
 Add ZooZ Motion Sensor to PhD's network
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. On the Zinno app, press Left Menu Bar, then select “Devices”
