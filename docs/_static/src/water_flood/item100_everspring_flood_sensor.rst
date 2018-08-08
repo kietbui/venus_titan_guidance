@@ -8,8 +8,7 @@ Product Description
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. IP44 water proof
 	#. Built-in 60dB beep tone
-	#. Special water sensor probe design to prevent
-	#. false trigger
+	#. Special water sensor probe design to prevent false trigger
 	#. Beep sound and LED indication
 	#. Reports status to the gateway every hour
 	#. Low battery indication
