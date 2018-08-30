@@ -4,8 +4,8 @@ Fibaro Z-Wave FGFS-101 Water/Flood Sensor
 	.. image:: ../../images/water_flood/fibaro_flood_sensor.jpg
 	.. :align: left
 	
-Brief information
-~~~~~~~~~~~~~~~~~~~~~~~~
+Product Description
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. Has a futuristic design, compact size, and a wide variety of additional functions
 	#. Will alert you of a threatening flood, or a rapid temperature rise or drop
 	#. Up to 100 foot signal range indoors.

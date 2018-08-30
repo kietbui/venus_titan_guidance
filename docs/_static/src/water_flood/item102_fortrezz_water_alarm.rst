@@ -4,8 +4,8 @@ Fortrezz Z-Wave WWA02AA Water/Temperature Sensor
 	.. image:: ../../images/water_flood/fortrezz_water_alarm.jpg
 	.. :align: left
 	
-Brief information
-~~~~~~~~~~~~~~~~~~~~~~~~	
+Product Description
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 	#. The WWA-02AA Z-Wave Water & Temperature Sensor with LED indicator will detect water loss and help prevent water damage caused by leaking pipes, corroded water heaters, water storage tanks, leaky faucets, refrigerator drip pans etc
 	#. Visual alerts via LED (non-audible)
 
