@@ -27,6 +27,17 @@ Add Fortrezz Water/Temperature Sensor to PhD's network
 
 	.. image:: ../../images/water_flood/fortrezz_water_alarm_d.jpg
 	.. :align: left		
+
+Specification
+~~~~~~~~~~~~~~~~~~~~~~
+	- Model number: 				WWA02AA
+	- Power source: 				Battery
+	- Battery type:					x2 AA Battery
+	- Protocol: 					Z-Wave
+	- Dimension:					3 x 2.1 x 1.1 inches
+	- Weight:						0.24 pounds
+	- Color: 						White	
+		
 	
 .. Inclusion/Exclusion to/from a network
 .. ~~~~~~~~~~~~~~~~~~~~~~~

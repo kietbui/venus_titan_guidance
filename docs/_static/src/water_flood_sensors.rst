@@ -11,6 +11,6 @@ Water/Flood sensor devices
 .. toctree:: water_flood/item102_fortrezz_water_alarm.rst
 	:maxdepth: 2
 
-.. toctree:: water_flood/smartsense_moisture_sensor.rst
+.. toctree:: water_flood/item103_smartsense_moisture_sensor.rst
 	:maxdepth: 2
 	
