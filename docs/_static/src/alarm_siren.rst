@@ -2,11 +2,11 @@
 
 Alarms & Sirens devices
 --------------------
-.. toctree:: alarm_siren/item1_aeotec_siren_alarm_gen5.rst
+.. toctree:: alarm_siren/aeotec_siren_alarm_gen5.rst
 	:maxdepth: 2
 	
-.. toctree:: alarm_siren/item2_gocontrol_siren.rst
+.. toctree:: alarm_siren/gocontrol_siren.rst
 	:maxdepth: 2
 	
-.. toctree:: alarm_siren/Item138_ZooZ_Siren.rst
+.. toctree:: alarm_siren/ZooZ_Siren.rst
 	:maxdepth: 2
